@@ -6,7 +6,7 @@ ___
 ## Table of Contents
 [Introduction](#introduction)
 
-[Open Initiatives](#open-initiatives-for-open-source-compliance)
+[Open Compliance Initiatives](#open-compliance-initiatives)
 * [ClearlyDefined](#clearlydefined)
 * [Eclipse Oscano](#eclipse-oscano)
 * [Automated Compliance Tooling ACT](#automated-compliance-tooling-act)
@@ -74,11 +74,11 @@ In the following report some of these tools are listed with information of their
 
 This report will be complemented on basis of an ecosystem survey; and based on practical testing of the most popular (based on the survey) open source tools.
 
-This report is part of the fist work package in the Double Open project. See doubleopen.org for more details.
+This report is part of the fist work package in the Double Open project. See [doubleopen.org](https://doubleopen.org) for more details.
 
 ---
 
-## Open Initiatives for open source compliance
+## Open Compliance Initiatives
 
 ### ClearlyDefined
 #### Website
