@@ -33,7 +33,7 @@ ___
 * [Apache Whisker](#apache-whisker)
 * [Cregit](#cregit)
 * [OSS Attribution Builder](#oss-attribution-builder)
-* [OSSSanitizer / OSSPolice](#osssanitizer-osspolice)
+* [OSSSanitizer and OSSPolice](#osssanitizer-and-osspolice)
 * [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol-)
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
@@ -54,12 +54,12 @@ ___
 * [Rogue Wave Software](#rogue-wave-software)
 
 [Development Environments](#development-environments)
-* [Req /Incident Management](#req-incident-management)
-* [IDE (Integrated Development Environment)](#req-incident-management)
-* [SCM / SCM services (Source Code Management)](#scm-scm-services-source-code-management-)
-* [CI / CD tool (Continuous Integration)](#ci-cd-tool-continuous-integration-)
-* [Build tools and frameworks / dependency management](#build-tools-and-frameworks-dependency-management)
-* [Package indexes/repositories](#package-indexes-repositories)
+* [Req and Incident Management](#req-and-incident-management)
+* [IDE (Integrated Development Environment)](#ide-integrated-development-environment-)
+* [SCM and SCM services (Source Code Management)](#scm-and-scm-services-source-code-management-)
+* [CI and CD tool (Continuous Integration)](#ci-and-cd-tool-continuous-integration-)
+* [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
+* [Package indexes and repositories](#package-indexes-and-repositories)
 * [Document management](#document-management)
 * [Testing frameworks](#testing-frameworks)
 * [Container technologies](#container-technologies)
@@ -86,7 +86,7 @@ ClearlyDefined on [GitHub](https://github.com/clearlydefined/clearlydefined)
 #### Summary
 
 ClearlyDefined is a community / contributor powered project in which the goals are: 
-1. Raise awareness about this challenge within FOSS project teams
+1. Raise awareness about lack of clarity around licenses and security vulnerabilities within FOSS project teams
 2. Automatically harvest data from projects
 3. Make it easy for anyone to contribute missing information
 4. Crowd-source the curation of these contributions
@@ -96,9 +96,11 @@ ClearlyDefined provides a mechanism for harvesting available data using tools su
 
 ### Eclipse Oscano
 #### Website
+
 [Eclipse Oscano](https://projects.eclipse.org/proposals/eclipse-oscano)
 
 #### Summary
+
 The mission of the Oscano project is to solve the problem of scaling SCA to modern needs with Open Source approach. The Eclipse Oscano project provides a complete software composition analysis solution, focused on compliance and security, that can be installed on cloud, local server, or workstation environment. To achieve this, existing OSS components will be reviewed by the project team for possible integration into the Oscano stack and capabilities not existing will be built and integrated. Main use cases of Oscano include Open Source license compliance management, open source inventory management, vulnerability remediation automation and software analysis reporting. 
 
 The solution is designed to meet the challenge of massively increasing scale and continuous nature of build and releasing of modern software systems. It addresses the scaling problem through four principal means: 
@@ -113,7 +115,7 @@ The solution is designed to meet the challenge of massively increasing scale and
 [ACT](https://www.linuxfoundation.org/press-release/2018/12/the-linux-foundation-to-launch-new-tooling-project-to-improve-open-source-compliance/)
 
 #### Summary
-ACT is a Linux Foundation project. The goal is to consolidate investment in, and increase interoperability and usability of, open source compliance tooling, which helps organizations manage compliance obligations.ACT also welcomes two new projects to be hosted at The Linux Foundation as part of the initiative, in addition to two existing Linux Foundation projects that will become part of the new project. The new projects are complementary to existing Linux Foundation compliance projects such as OpenChain, which identifies key recommended processes to make open source license compliance simpler and more consistent, and the Open Compliance Program, which educates and helps developers and companies understand their license requirements and how to build efficient, frictionless and often automated processes to support compliance.
+ACT is a Linux Foundation project. The goal is to consolidate investment in, and increase interoperability and usability of, open source compliance tooling, which helps organizations manage compliance obligations. ACT also welcomes two new projects to be hosted at The Linux Foundation as part of the initiative, in addition to two existing Linux Foundation projects that will become part of the new project. The new projects are complementary to existing Linux Foundation compliance projects such as OpenChain, which identifies key recommended processes to make open source license compliance simpler and more consistent, and the Open Compliance Program, which educates and helps developers and companies understand their license requirements and how to build efficient, frictionless and often automated processes to support compliance.
 
 The four projects that will be part of ACT are:
 * FOSSology
@@ -133,11 +135,11 @@ OpenChain is a project hosted by the Linux Foundation. It answers a question: "H
 [Sharing-creates-value](https://github.com/Open-Source-Compliance/Sharing-creates-value)
 
 #### Summary
-This is GitHub repository hosted by Siemes. Sharing creates value strives for the goal to lower the required effort in license compliance work for all who want to make use of OSS in a license compliant way. To achieve this Sharing creates value will develop, share and improve the artifacts needed to fulfill the requirements of the different Free and Open Source Software licenses by applying the Open Source Software development principles.
+This is GitHub repository hosted by Siemens. Sharing creates value strives for the goal to lower the required effort in license compliance work for all who want to make use of OSS in a license compliant way. To achieve this Sharing creates value will develop, share and improve the artifacts needed to fulfill the requirements of the different Free and Open Source Software licenses by applying the Open Source Software development principles.
 
 Another objective of Sharing creates value is a very close collaboration with the OSS community in order to fix detected "bugs" in licensing as well as introducing the information needed for license compliance activities in the Open Source projects, i.e. provide our analysis work to the OSS projects.
 
-Last but not least Sharing creates value support tools which will help automate and reduce effort in component management, license identification, OSS license compliance activities.
+Last but not least Sharing creates value support tools which will help automate and reduce effort in component management, license identification and OSS license compliance activities.
 
 Sharing creates value wants to be the platform, which provides all information and artifacts for OSS license compliance.
 
@@ -237,7 +239,7 @@ A software catalogue application designed to provide a central place for sharing
 #### Main License
 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 #### Summary
-Verifies free and open source software license compliance by checking source code and dependencies. it works by analyzing the source code for dependencies, downloading the source code of the dependencies, scanning all source code for license information, and summarizing the results. The different tools that make up ORT are designed as libraries (for programmatic use) with a minimal command line interface (for scripted use). Currently the report formats are Excel sheet, NOTICE file, static HTML and Web App. 
+Verifies free and open source software license compliance by checking source code and dependencies. It works by analyzing the source code for dependencies, downloading the source code of the dependencies, scanning all source code for license information, and summarizing the results. The different tools that make up ORT are designed as libraries (for programmatic use) with a minimal command line interface (for scripted use). Currently the report formats are Excel sheet, NOTICE file, static HTML and Web App. 
 
 ### license-compatibility-checker
 #### Website
@@ -315,14 +317,14 @@ Cregit identifies the contributors of source code. The cregit version of a sourc
 #### Summary
 OSS Attribution Builder is a website that helps teams create attribution documents for software products. 
 
-### OSSSanitizer / OSSPolice
+### OSSSanitizer and OSSPolice
 #### Website
 [OSSSanitizer](http://osspolice.com/)
 #### Main License
 #### Summary
 OSSSanitizer is a suite of web services for automating open-source software risk management. It has three components:
 1. OSSPolice
-    * a risk assessment service for developers that can quickly identify potential free software license violations and known nday security vulnerabilties in their apps.
+    * a risk assessment service for developers that can quickly identify potential free software license violations and known n-day security vulnerabilities in their apps.
 2. AppSanitizer
     * a service for developers to automatically mitigate reported n-day known security risks in their apps.
 3. AppOptimizer
@@ -662,7 +664,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 
 ## Development Environments
 
-### Req /Incident Management
+### Req and Incident Management
 * Polarion
 * Team Foundation Server
 * JIRA
@@ -684,7 +686,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * JetBrains WebStorm
 * Android Studio
 
-### SCM /SCM services (Source Code Management)
+### SCM and SCM services (Source Code Management)
 
 * SVN
 * Git
@@ -692,7 +694,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Bitbucket
 * GitHub
 
-### CI /CD tool (Continuous Integration)
+### CI and CD tool (Continuous Integration)
 
 * Jenkins
 * Team Foundation Server
@@ -712,7 +714,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Appveyor
 * Buildkite
 
-### Build tools and frameworks  /dependency management
+### Build tools, frameworks and dependency management
 
 * Cmake
 * Yocto / OpenEmbedded
@@ -730,7 +732,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Apache Ant
 * Webpack
 
-### Package indexes/repositories
+### Package indexes and repositories
 
 * Go Search
 * npm registry
