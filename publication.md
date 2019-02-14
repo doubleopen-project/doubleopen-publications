@@ -1,5 +1,5 @@
 # Double Open Landscape Survey
-Version 1 2019-02-14
+Version 1.dev 2019-02-14
 
 ___
 
@@ -60,15 +60,9 @@ ___
 
 ## Introduction
 
-Open source software has eaten the world, but organizations are still struggling with effective compliance. Open source software is scattered and third party softwares and contributions make it even more incoherent. Therefore open source software compliance is hard. Compliance requires multiple tools. In the following report some of these tools are listed with information of their main license, website and a summary of their features. The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments. 
+Open source software has eaten the world, but organizations are still struggling with effective compliance. Open source software is heterogenous and re-used, which, while positive for software development, create a challenge for compliance. Compliance requires multiple tools and these should be ideally combined into a work-flow that supports a number of (business and developer) requirements. One of the requirements is ease of use in a modern development environment where code development cycles are getting ever shorter and new development results are pushed to operations ever faster. For this to work, open source compliance tools likely need to integrate with development toolings.
 
-At this point, objectives of an OSS License Compliance process or the OSS governance process, may be summarized as follows:
-
-1. To identify OSS licenses in the source code by scanning it.
-2. To comply with the obligations of such licenses found in the scans.
-3. To uncover any third party components/code snippets that may violate the OSS license terms and to take appropriate remedial actions.
-
-Along with FOSS tools to help achieve above goals, many commercial tools are also available in the market. Along with FOSS license identification these tools often help find associated dependencies and security vulnerabilities of the software.
+In the following report some of these tools are listed with information of their main license, website and a summary of their features. The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments, as these are  also important on a way towards automated open compliance with open tooling and open data. 
 
 ---
 
