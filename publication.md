@@ -53,28 +53,28 @@ ___
 * [CAST Software Intelligence](#cast-software-intelligence)
 * [Rogue Wave Software](#rogue-wave-software)
 
-[Development Environments](#development-environments)
-* [Req and Incident Management](#req-and-incident-management)
-* [IDE Integrated Development Environment](#ide-integrated-development-environment)
-* [SCM and SCM services Source Code Management](#scm-and-scm-services-source-code-management)
-* [CI and CD tool Continuous Integration](#ci-and-cd-tool-continuous-integration)
-* [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
-* [Package indexes and repositories](#package-indexes-and-repositories)
-* [Document management](#document-management)
-* [Testing frameworks](#testing-frameworks)
-* [Container technologies](#container-technologies)
+[Development Tooling and Technologies](#development-tooling-and-technologies)
+* [Request and Incident Management](#request-and-incident-management)
+* [Integrated Development Environments](#integrated-development-environments)
+* [SCM and SCM Services Source Code Management](#scm-and-scm-services-source-code-management)
+* [Continuous Integration and Deployment](#continuous-integration-and-deployment)
+* [Build Tools, Frameworks and Dependency Management](#build-tools-frameworks-and-dependency-management)
+* [Package Indexes and Repositories](#package-indexes-and-repositories)
+* [Document Management](#document-management)
+* [Testing Frameworks](#testing-frameworks)
+* [Container Technologies](#container-technologies)
 
 ---
 
 ## Introduction
 
-Open source software has eaten the world, but organizations are still struggling with effective compliance. Open source software is heterogenous and re-used, which, while positive for software development, create a challenge for compliance. Compliance requires multiple tools and these should be ideally combined into a work-flow that supports a number of (business and developer) requirements. One of the requirements is ease of use in a modern development environment where code development cycles are getting ever shorter and new development results are pushed to operations ever faster. For this to work, open source compliance tools likely need to integrate with development toolings.
+Open source software has eaten the world, but organizations are still struggling with effective compliance. Open source software is heterogenous and re-used, which, while positive for software development, creates a challenge for compliance. Compliance requires multiple tools and these should be ideally combined into a workflow that supports a number of business and developer requirements. One of the requirements is ease of use in a modern development environment where code development cycles are getting ever shorter and new development results are pushed to operations ever faster. For this to work, open source compliance tools likely need to integrate with development tooling.
 
-In the following report some of these tools are listed with information of their main license, website and a summary of their features (based on accounts by the projects). The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments, as these are  also important on a way towards automated open compliance with open tooling and open data. 
+In the following report some of these tools are listed with information of their main license, website and a summary of their features, based on accounts by the projects. The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments, as these are  also important on a way towards automated open compliance with open tooling and open data. 
 
-This report will be complemented on basis of an ecosystem survey; and based on practical testing of the most popular (based on the survey) open source tools.
+This report will be complemented based on an ecosystem survey and on practical testing of the most popular open source tools.
 
-This report is part of the fist work package in the Double Open project. See [doubleopen.org](https://doubleopen.org) for more details.
+This report is part of the first work package in the Double Open project. See [doubleopen.org](https://doubleopen.org) for more details.
 
 ---
 
@@ -321,18 +321,13 @@ Cregit identifies the contributors of source code. The cregit version of a sourc
 #### Summary
 OSS Attribution Builder is a website that helps teams create attribution documents for software products. 
 
-### OSSSanitizer and OSSPolice
+### OSSPolice
 #### Website
-[OSSSanitizer](http://osspolice.com/)
+[OSSPolice](https://github.com/osssanitizer/osspolice)
 #### Main License
+[GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 #### Summary
-OSSSanitizer is a suite of web services for automating open-source software risk management. It has three components:
-1. OSSPolice
-    * a risk assessment service for developers that can quickly identify potential free software license violations and known n-day security vulnerabilities in their apps.
-2. AppSanitizer
-    * a service for developers to automatically mitigate reported n-day known security risks in their apps.
-3. AppOptimizer
-    * optimize apps for performance and reduce their memory footprint to minimize security risks.
+OSSPolice is a risk assessment service for developers that can quickly identify potential free software license violations and known n-day security vulnerabilities in their apps. 
 
 ### CIPPIC Licensing Information Project for Open Licences CLIPol
 #### Website
@@ -666,15 +661,15 @@ OpenLogic provides everything you need to build and manage your open source solu
 
 ---
 
-## Development Environments
+## Development Tooling and Technologies
 
-### Req and Incident Management
+### Request and Incident Management
 * Polarion
 * Team Foundation Server
 * JIRA
 * Github/Gitlab/other Git service
 
-### IDE Integrated Development Environment
+### Integrated Development Environments
 
 * Eclipse
 * Visual Studio
@@ -698,7 +693,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Bitbucket
 * GitHub
 
-### CI and CD tool Continuous Integration
+### Continuous Integration and Deployment
 
 * Jenkins
 * Team Foundation Server
