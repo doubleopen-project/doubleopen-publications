@@ -20,21 +20,21 @@ ___
 * [Deltacode](#deltacode)
 * [AboutCode Manager](#aboutcode-manager-scancode-workbench)
 * [TraceCode toolkit](#tracecode-toolkit)
-* [OSS Discovery (OpenLogic)](#oss-discovery-openlogic-)
+* [OSS Discovery by OpenLogic](#oss-discovery-by-openlogic)
 * [Licensee.js](#licensee-js)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
-* [OSS Review Toolkit (ORT)](#oss-review-toolkit-ort-)
+* [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
 * [license-compatibility-checker](#license-compatibility-checker)
-* [The Quartermaster (QMSTR) Project](#the-quartermaster-qmstr-project)
-* [Open Source License Checklists (by OSADL)](#open-source-license-checklists-by-osadl-)
+* [The Quartermaster Project QMSTR](#the-quartermaster-project-qmstr)
+* [Open Source License Checklists (by OSADL)](#open-source-license-checklists-by-osadl)
 * [Apache Rat](#apache-rat)
 * [Apache Tentacles](#apache-tentacles)
 * [Apache Whisker](#apache-whisker)
 * [Cregit](#cregit)
 * [OSS Attribution Builder](#oss-attribution-builder)
 * [OSSSanitizer and OSSPolice](#osssanitizer-and-osspolice)
-* [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol-)
+* [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol)
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
@@ -46,7 +46,7 @@ ___
 * [FOSSID](#fossid)
 * [TripleCheck](#triplecheck)
 * [WhiteSource](#whitesource)
-* [NexB/DejaCode](#nexb-dejacode)
+* [NexB](#nexb)
 * [Insigniary](#insigniary)
 * [Sonatype](#sonatype)
 * [Anchore](#anchore)
@@ -55,9 +55,9 @@ ___
 
 [Development Environments](#development-environments)
 * [Req and Incident Management](#req-and-incident-management)
-* [IDE (Integrated Development Environment)](#ide-integrated-development-environment-)
-* [SCM and SCM services (Source Code Management)](#scm-and-scm-services-source-code-management-)
-* [CI and CD tool (Continuous Integration)](#ci-and-cd-tool-continuous-integration-)
+* [IDE Integrated Development Environment](#ide-integrated-development-environment)
+* [SCM and SCM services Source Code Management](#scm-and-scm-services-source-code-management)
+* [CI and CD tool Continuous Integration](#ci-and-cd-tool-continuous-integration)
 * [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
 * [Package indexes and repositories](#package-indexes-and-repositories)
 * [Document management](#document-management)
@@ -201,7 +201,7 @@ TraceCode Toolkit helps you determine which components are actually distributed 
 
 TraceCode Toolkit is a tool to analyze the traced execution of a build, so you can learn which files are built into binaries and ultimately deployed in your distributed software.
 
-### OSS Discovery (OpenLogic)
+### OSS Discovery by OpenLogic
 #### Website
 [OSS Discovery](http://ossdiscovery.sourceforge.net/)
 #### Main License
@@ -233,7 +233,7 @@ Ninka is a lightweight license identification tool for source code. It is senten
 #### Summary
 A software catalogue application designed to provide a central place for sharing information about software components used by an organization. It is designed to neatly integrate into existing infrastructures related to the management of software artifacts and projects by providing separate backend services for distinct tasks and a set of portlets to access these services. It has connectors to interact with external systems such as code scan tools. Thus far the project has not provided download information.
 
-### OSS Review Toolkit (ORT)
+### OSS Review Toolkit ORT
 #### Website
 [ORT](https://github.com/heremaps/oss-review-toolkit)
 #### Main License
@@ -249,7 +249,7 @@ Verifies free and open source software license compliance by checking source cod
 #### Summary
 Check npm dependencies' package.json for license compatibility based on SPDX standards. Claimed to be a work in progress, but gives a simple comparison of the licenses in the package with an explanation to how permissive the license is (Permissive > Weakly Protective > Strongly Protective > Network Protective). Shows potential incompatibilities with a colorful scheme.
 
-### The Quartermaster (QMSTR) Project
+### The Quartermaster Project QMSTR
 #### Website
 [QMSTR](https://qmstr.org/)
 #### Main License
@@ -257,7 +257,7 @@ Check npm dependencies' package.json for license compatibility based on SPDX sta
 #### Summary
 Quartermaster is a suite of command line tools and build system extensions that instruments software builds to create FOSS compliance documentation and support compliance decisions. Quartermaster runs adjacent to a software build process. A master process collects information about the software that is build. Once the build is complete, the master executes a number of analysis tools, and finally a number of reporters. All modules are executed in the context of the master, not the build machine. The master ships all dependencies of the modules without affecting the build clients file system (it runs in a container).
 
-### Open Source License Checklists (by OSADL)
+### Open Source License Checklists by OSADL
 #### Website
 [Open Source License Checklists](https://www.osadl.org/Open-Source-License-Checklists.oss-compliance-lists.0.html)
 #### Main License
@@ -330,7 +330,7 @@ OSSSanitizer is a suite of web services for automating open-source software risk
 3. AppOptimizer
     * optimize apps for performance and reduce their memory footprint to minimize security risks.
 
-### CIPPIC Licensing Information Project for Open Licences (CLIPol)
+### CIPPIC Licensing Information Project for Open Licences CLIPol
 #### Website
 [CLIPol](http://www.clipol.org/)
 #### Main License
@@ -512,7 +512,7 @@ Features
 
 All [integrations](https://www.whitesourcesoftware.com/whitesource-integrations/). 
 
-### NexB/DejaCode
+### NexB
 
 #### Website
 [NexB](https://www.nexb.com/index.html)
@@ -670,7 +670,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * JIRA
 * Github/Gitlab/other Git service
 
-### IDE (Integrated Development Environment)
+### IDE Integrated Development Environment
 
 * Eclipse
 * Visual Studio
@@ -686,7 +686,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * JetBrains WebStorm
 * Android Studio
 
-### SCM and SCM services (Source Code Management)
+### SCM and SCM services Source Code Management
 
 * SVN
 * Git
@@ -694,7 +694,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Bitbucket
 * GitHub
 
-### CI and CD tool (Continuous Integration)
+### CI and CD tool Continuous Integration
 
 * Jenkins
 * Team Foundation Server
