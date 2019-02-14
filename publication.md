@@ -52,9 +52,17 @@ ___
 * [Anchore](#anchore)
 * [CAST Software Intelligence](#cast-software-intelligence)
 * [Rogue Wave Software](#rogue-wave-software)
-* [Verifa](#verifa)
 
 [Development Environments](#development-environments)
+* [Req /Incident Management](#req-incident-management)
+* [IDE (Integrated Development Environment)](#req-incident-management)
+* [SCM / SCM services (Source Code Management)](#scm-scm-services-source-code-management-)
+* [CI / CD tool (Continuous Integration)](#ci-cd-tool-continuous-integration-)
+* [Build tools and frameworks / dependency management](#build-tools-and-frameworks-dependency-management)
+* [Package indexes/repositories](#package-indexes-repositories)
+* [Document management](#document-management)
+* [Testing frameworks](#testing-frameworks)
+* [Container technologies](#container-technologies)
 
 ---
 
@@ -650,21 +658,119 @@ OpenLogic provides everything you need to build and manage your open source solu
 * No vendor lock-in
 * Free assessment workshop
 
-### Verifa
-
-#### Website
-[Verifa](https://verifa.io/)
-
-#### Products for Open Source Software
-* Verifa DevOps Platform is a Pipeline as a Service
-    A Continuous Delivery Pipeline is made up of a collection of processes and tools that Verifa interacts with.
-
-#### Summary
-Verifa helps, advises, implements and maintains Continuous Delivery pipelines for their customers.The Verifa DevOps Platform can be deployed using existing infrastructure within your premises, or on scalable and self-managed cloud solutions, such as Google Cloud, AWS, Azure, or a provider of your choice. The platform is encapsulated within orchestration technology and can therefore be easily transferred and scaled across your organization.
-
 ---
 
 ## Development Environments
+
+### Req /Incident Management
+* Polarion
+* Team Foundation Server
+* JIRA
+* Github/Gitlab/other Git service
+
+### IDE (Integrated Development Environment)
+
+* Eclipse
+* Visual Studio
+* Qt Creator
+* Netbeans IDE
+* JetBrains CLion
+* JetBrains GoLand
+* JetBrains IntelliJ IDEA
+* JetBrains PhpStorm
+* JetBrains PyCharm
+* JetBrains Rider
+* JetBrains RubyMine
+* JetBrains WebStorm
+* Android Studio
+
+### SCM /SCM services (Source Code Management)
+
+* SVN
+* Git
+* GitLab
+* Bitbucket
+* GitHub
+
+### CI /CD tool (Continuous Integration)
+
+* Jenkins
+* Team Foundation Server
+* Bamboo
+* TeamCity
+* CircleCI
+* Azure DevOps (ent. Team Services)
+* Travis CI
+* Gitlab CI
+* Concourse
+* AWS CodeBuild
+* Codeship
+* Drone.io
+* wercker
+* Go.CD
+* Semaphore
+* Appveyor
+* Buildkite
+
+### Build tools and frameworks  /dependency management
+
+* Cmake
+* Yocto / OpenEmbedded
+* BitBake
+* Visual Studio
+* Apache Maven
+* Gradle
+* npm
+* yarn
+* pip / pipenv
+* Conda
+* Composer
+* sbt
+* Make
+* Apache Ant
+* Webpack
+
+### Package indexes/repositories
+
+* Go Search
+* npm registry
+* Packagist (the PHP Package Repository)
+* Maven repositories
+* PyPI (Python Package Index)
+* RubyGems.org
+* NuGet
+* Bower
+* CPAN
+* Cargo (crates.io)
+* "PEAR (PHP Extension and Application 
+* Repository)"
+* PlatformIO registry
+* Nexus Repository
+* JFrog Artifactory
+
+### Document management
+
+* Flowdock
+* Confluence
+
+### Testing frameworks
+
+* Robot Framework
+* Cypress
+* RedwoodHQ
+* Selenium
+* Serenity
+* Citrus Framework
+* TestRail
+* qTest
+
+### Container technologies
+
+* Docker
+* Cloud Foundry
+* Atomic
+* OpenShift
+* Kubernetes
 
 ---
 
