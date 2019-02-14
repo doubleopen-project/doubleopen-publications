@@ -56,7 +56,7 @@ ___
 [Development Tooling and Technologies](#development-tooling-and-technologies)
 * [Request and Incident Management](#request-and-incident-management)
 * [Integrated Development Environments](#integrated-development-environments)
-* [SCM and SCM Services Source Code Management](#scm-and-scm-services-source-code-management)
+* [Source Code Management and SCM Services](#source-code-management-and-scm-services-)
 * [Continuous Integration and Deployment](#continuous-integration-and-deployment)
 * [Build Tools, Frameworks and Dependency Management](#build-tools-frameworks-and-dependency-management)
 * [Package Indexes and Repositories](#package-indexes-and-repositories)
@@ -685,7 +685,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * JetBrains WebStorm
 * Android Studio
 
-### SCM and SCM services Source Code Management
+### Source Code Management and SCM services 
 
 * SVN
 * Git
@@ -702,7 +702,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * CircleCI
 * Azure DevOps (ent. Team Services)
 * Travis CI
-* Gitlab CI
+* GitLab CI
 * Concourse
 * AWS CodeBuild
 * Codeship
@@ -713,7 +713,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Appveyor
 * Buildkite
 
-### Build tools, frameworks and dependency management
+### Build Tools, Frameworks and Dependency Management
 
 * Cmake
 * Yocto / OpenEmbedded
@@ -731,7 +731,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Apache Ant
 * Webpack
 
-### Package indexes and repositories
+### Package Indexes and Repositories
 
 * Go Search
 * npm registry
@@ -749,12 +749,12 @@ OpenLogic provides everything you need to build and manage your open source solu
 * Nexus Repository
 * JFrog Artifactory
 
-### Document management
+### Document Management
 
 * Flowdock
 * Confluence
 
-### Testing frameworks
+### Testing Frameworks
 
 * Robot Framework
 * Cypress
@@ -765,7 +765,7 @@ OpenLogic provides everything you need to build and manage your open source solu
 * TestRail
 * qTest
 
-### Container technologies
+### Container Technologies
 
 * Docker
 * Cloud Foundry
