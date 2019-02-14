@@ -9,7 +9,7 @@ ___
 [Open Initiatives](#open-initiatives-for-open-source-compliance)
 * [ClearlyDefined](#clearlydefined)
 * [Eclipse Oscano](#eclipse-oscano)
-* [Automated Compliance Tooling (ACT)](#automated-compliance-tooling-act-)
+* [Automated Compliance Tooling ACT](#automated-compliance-tooling-act)
 * [OpenChain](#openchain)
 * [Sharing-creates-value](#sharing-creates-value)
 
@@ -20,21 +20,21 @@ ___
 * [Deltacode](#deltacode)
 * [AboutCode Manager](#aboutcode-manager-scancode-workbench)
 * [TraceCode toolkit](#tracecode-toolkit)
-* [OSS Discovery (OpenLogic)](#oss-discovery-openlogic-)
+* [OSS Discovery by OpenLogic](#oss-discovery-by-openlogic)
 * [Licensee.js](#licensee-js)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
-* [OSS Review Toolkit (ORT)](#oss-review-toolkit-ort-)
+* [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
 * [license-compatibility-checker](#license-compatibility-checker)
-* [The Quartermaster (QMSTR) Project](#the-quartermaster-qmstr-project)
-* [Open Source License Checklists (by OSADL)](#open-source-license-checklists-by-osadl-)
+* [The Quartermaster Project QMSTR](#the-quartermaster-project-qmstr)
+* [Open Source License Checklists by OSADL](#open-source-license-checklists-by-osadl)
 * [Apache Rat](#apache-rat)
 * [Apache Tentacles](#apache-tentacles)
 * [Apache Whisker](#apache-whisker)
 * [Cregit](#cregit)
 * [OSS Attribution Builder](#oss-attribution-builder)
-* [OSSSanitizer / OSSPolice](#osssanitizer-osspolice)
-* [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol-)
+* [OSSSanitizer and OSSPolice](#osssanitizer-and-osspolice)
+* [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol)
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
@@ -46,15 +46,23 @@ ___
 * [FOSSID](#fossid)
 * [TripleCheck](#triplecheck)
 * [WhiteSource](#whitesource)
-* [NexB/DejaCode](#nexb-dejacode)
+* [NexB](#nexb)
 * [Insigniary](#insigniary)
 * [Sonatype](#sonatype)
 * [Anchore](#anchore)
 * [CAST Software Intelligence](#cast-software-intelligence)
 * [Rogue Wave Software](#rogue-wave-software)
-* [Verifa](#verifa)
 
 [Development Environments](#development-environments)
+* [Req and Incident Management](#req-and-incident-management)
+* [IDE Integrated Development Environment](#ide-integrated-development-environment)
+* [SCM and SCM services Source Code Management](#scm-and-scm-services-source-code-management)
+* [CI and CD tool Continuous Integration](#ci-and-cd-tool-continuous-integration)
+* [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
+* [Package indexes and repositories](#package-indexes-and-repositories)
+* [Document management](#document-management)
+* [Testing frameworks](#testing-frameworks)
+* [Container technologies](#container-technologies)
 
 ---
 
@@ -82,7 +90,7 @@ ClearlyDefined on [GitHub](https://github.com/clearlydefined/clearlydefined)
 #### Summary
 
 ClearlyDefined is a community / contributor powered project in which the goals are: 
-1. Raise awareness about this challenge within FOSS project teams
+1. Raise awareness about lack of clarity around licenses and security vulnerabilities within FOSS project teams
 2. Automatically harvest data from projects
 3. Make it easy for anyone to contribute missing information
 4. Crowd-source the curation of these contributions
@@ -92,9 +100,11 @@ ClearlyDefined provides a mechanism for harvesting available data using tools su
 
 ### Eclipse Oscano
 #### Website
+
 [Eclipse Oscano](https://projects.eclipse.org/proposals/eclipse-oscano)
 
 #### Summary
+
 The mission of the Oscano project is to solve the problem of scaling SCA to modern needs with Open Source approach. The Eclipse Oscano project provides a complete software composition analysis solution, focused on compliance and security, that can be installed on cloud, local server, or workstation environment. To achieve this, existing OSS components will be reviewed by the project team for possible integration into the Oscano stack and capabilities not existing will be built and integrated. Main use cases of Oscano include Open Source license compliance management, open source inventory management, vulnerability remediation automation and software analysis reporting. 
 
 The solution is designed to meet the challenge of massively increasing scale and continuous nature of build and releasing of modern software systems. It addresses the scaling problem through four principal means: 
@@ -104,12 +114,12 @@ The solution is designed to meet the challenge of massively increasing scale and
 3. Risk-based smart analysis of compliance and vulnerability issues 
 4. Maximum re-use of pre-scanned open source software data.
 
-### Automated Compliance Tooling (ACT)
+### Automated Compliance Tooling ACT
 #### Website
 [ACT](https://www.linuxfoundation.org/press-release/2018/12/the-linux-foundation-to-launch-new-tooling-project-to-improve-open-source-compliance/)
 
 #### Summary
-ACT is a Linux Foundation project. The goal is to consolidate investment in, and increase interoperability and usability of, open source compliance tooling, which helps organizations manage compliance obligations.ACT also welcomes two new projects to be hosted at The Linux Foundation as part of the initiative, in addition to two existing Linux Foundation projects that will become part of the new project. The new projects are complementary to existing Linux Foundation compliance projects such as OpenChain, which identifies key recommended processes to make open source license compliance simpler and more consistent, and the Open Compliance Program, which educates and helps developers and companies understand their license requirements and how to build efficient, frictionless and often automated processes to support compliance.
+ACT is a Linux Foundation project. The goal is to consolidate investment in, and increase interoperability and usability of, open source compliance tooling, which helps organizations manage compliance obligations. ACT also welcomes two new projects to be hosted at The Linux Foundation as part of the initiative, in addition to two existing Linux Foundation projects that will become part of the new project. The new projects are complementary to existing Linux Foundation compliance projects such as OpenChain, which identifies key recommended processes to make open source license compliance simpler and more consistent, and the Open Compliance Program, which educates and helps developers and companies understand their license requirements and how to build efficient, frictionless and often automated processes to support compliance.
 
 The four projects that will be part of ACT are:
 * FOSSology
@@ -133,7 +143,7 @@ This is GitHub repository hosted by Siemens. Sharing creates value strives for t
 
 Another objective of Sharing creates value is a very close collaboration with the OSS community in order to fix detected "bugs" in licensing as well as introducing the information needed for license compliance activities in the Open Source projects, i.e. provide our analysis work to the OSS projects.
 
-Last but not least Sharing creates value support tools which will help automate and reduce effort in component management, license identification, OSS license compliance activities.
+Last but not least Sharing creates value support tools which will help automate and reduce effort in component management, license identification and OSS license compliance activities.
 
 Sharing creates value wants to be the platform, which provides all information and artifacts for OSS license compliance.
 
@@ -195,7 +205,7 @@ TraceCode Toolkit helps you determine which components are actually distributed 
 
 TraceCode Toolkit is a tool to analyze the traced execution of a build, so you can learn which files are built into binaries and ultimately deployed in your distributed software.
 
-### OSS Discovery (OpenLogic)
+### OSS Discovery by OpenLogic
 #### Website
 [OSS Discovery](http://ossdiscovery.sourceforge.net/)
 #### Main License
@@ -227,13 +237,13 @@ Ninka is a lightweight license identification tool for source code. It is senten
 #### Summary
 A software catalogue application designed to provide a central place for sharing information about software components used by an organization. It is designed to neatly integrate into existing infrastructures related to the management of software artifacts and projects by providing separate backend services for distinct tasks and a set of portlets to access these services. It has connectors to interact with external systems such as code scan tools. Thus far the project has not provided download information.
 
-### OSS Review Toolkit (ORT)
+### OSS Review Toolkit ORT
 #### Website
 [ORT](https://github.com/heremaps/oss-review-toolkit)
 #### Main License
 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 #### Summary
-Verifies free and open source software license compliance by checking source code and dependencies. it works by analyzing the source code for dependencies, downloading the source code of the dependencies, scanning all source code for license information, and summarizing the results. The different tools that make up ORT are designed as libraries (for programmatic use) with a minimal command line interface (for scripted use). Currently the report formats are Excel sheet, NOTICE file, static HTML and Web App. 
+Verifies free and open source software license compliance by checking source code and dependencies. It works by analyzing the source code for dependencies, downloading the source code of the dependencies, scanning all source code for license information, and summarizing the results. The different tools that make up ORT are designed as libraries (for programmatic use) with a minimal command line interface (for scripted use). Currently the report formats are Excel sheet, NOTICE file, static HTML and Web App. 
 
 ### license-compatibility-checker
 #### Website
@@ -243,7 +253,7 @@ Verifies free and open source software license compliance by checking source cod
 #### Summary
 Check npm dependencies' package.json for license compatibility based on SPDX standards. Claimed to be a work in progress, but gives a simple comparison of the licenses in the package with an explanation to how permissive the license is (Permissive > Weakly Protective > Strongly Protective > Network Protective). Shows potential incompatibilities with a colorful scheme.
 
-### The Quartermaster (QMSTR) Project
+### The Quartermaster Project QMSTR
 #### Website
 [QMSTR](https://qmstr.org/)
 #### Main License
@@ -251,7 +261,7 @@ Check npm dependencies' package.json for license compatibility based on SPDX sta
 #### Summary
 Quartermaster is a suite of command line tools and build system extensions that instruments software builds to create FOSS compliance documentation and support compliance decisions. Quartermaster runs adjacent to a software build process. A master process collects information about the software that is build. Once the build is complete, the master executes a number of analysis tools, and finally a number of reporters. All modules are executed in the context of the master, not the build machine. The master ships all dependencies of the modules without affecting the build clients file system (it runs in a container).
 
-### Open Source License Checklists (by OSADL)
+### Open Source License Checklists by OSADL
 #### Website
 [Open Source License Checklists](https://www.osadl.org/Open-Source-License-Checklists.oss-compliance-lists.0.html)
 #### Main License
@@ -311,20 +321,20 @@ Cregit identifies the contributors of source code. The cregit version of a sourc
 #### Summary
 OSS Attribution Builder is a website that helps teams create attribution documents for software products. 
 
-### OSSSanitizer / OSSPolice
+### OSSSanitizer and OSSPolice
 #### Website
 [OSSSanitizer](http://osspolice.com/)
 #### Main License
 #### Summary
 OSSSanitizer is a suite of web services for automating open-source software risk management. It has three components:
 1. OSSPolice
-    * a risk assessment service for developers that can quickly identify potential free software license violations and known nday security vulnerabilties in their apps.
+    * a risk assessment service for developers that can quickly identify potential free software license violations and known n-day security vulnerabilities in their apps.
 2. AppSanitizer
     * a service for developers to automatically mitigate reported n-day known security risks in their apps.
 3. AppOptimizer
     * optimize apps for performance and reduce their memory footprint to minimize security risks.
 
-### CIPPIC Licensing Information Project for Open Licences (CLIPol)
+### CIPPIC Licensing Information Project for Open Licences CLIPol
 #### Website
 [CLIPol](http://www.clipol.org/)
 #### Main License
@@ -506,7 +516,7 @@ Features
 
 All [integrations](https://www.whitesourcesoftware.com/whitesource-integrations/). 
 
-### NexB/DejaCode
+### NexB
 
 #### Website
 [NexB](https://www.nexb.com/index.html)
@@ -654,21 +664,119 @@ OpenLogic provides everything you need to build and manage your open source solu
 * No vendor lock-in
 * Free assessment workshop
 
-### Verifa
-
-#### Website
-[Verifa](https://verifa.io/)
-
-#### Products for Open Source Software
-* Verifa DevOps Platform is a Pipeline as a Service
-    A Continuous Delivery Pipeline is made up of a collection of processes and tools that Verifa interacts with.
-
-#### Summary
-Verifa helps, advises, implements and maintains Continuous Delivery pipelines for their customers.The Verifa DevOps Platform can be deployed using existing infrastructure within your premises, or on scalable and self-managed cloud solutions, such as Google Cloud, AWS, Azure, or a provider of your choice. The platform is encapsulated within orchestration technology and can therefore be easily transferred and scaled across your organization.
-
 ---
 
 ## Development Environments
+
+### Req and Incident Management
+* Polarion
+* Team Foundation Server
+* JIRA
+* Github/Gitlab/other Git service
+
+### IDE Integrated Development Environment
+
+* Eclipse
+* Visual Studio
+* Qt Creator
+* Netbeans IDE
+* JetBrains CLion
+* JetBrains GoLand
+* JetBrains IntelliJ IDEA
+* JetBrains PhpStorm
+* JetBrains PyCharm
+* JetBrains Rider
+* JetBrains RubyMine
+* JetBrains WebStorm
+* Android Studio
+
+### SCM and SCM services Source Code Management
+
+* SVN
+* Git
+* GitLab
+* Bitbucket
+* GitHub
+
+### CI and CD tool Continuous Integration
+
+* Jenkins
+* Team Foundation Server
+* Bamboo
+* TeamCity
+* CircleCI
+* Azure DevOps (ent. Team Services)
+* Travis CI
+* Gitlab CI
+* Concourse
+* AWS CodeBuild
+* Codeship
+* Drone.io
+* wercker
+* Go.CD
+* Semaphore
+* Appveyor
+* Buildkite
+
+### Build tools, frameworks and dependency management
+
+* Cmake
+* Yocto / OpenEmbedded
+* BitBake
+* Visual Studio
+* Apache Maven
+* Gradle
+* npm
+* yarn
+* pip / pipenv
+* Conda
+* Composer
+* sbt
+* Make
+* Apache Ant
+* Webpack
+
+### Package indexes and repositories
+
+* Go Search
+* npm registry
+* Packagist (the PHP Package Repository)
+* Maven repositories
+* PyPI (Python Package Index)
+* RubyGems.org
+* NuGet
+* Bower
+* CPAN
+* Cargo (crates.io)
+* "PEAR (PHP Extension and Application 
+* Repository)"
+* PlatformIO registry
+* Nexus Repository
+* JFrog Artifactory
+
+### Document management
+
+* Flowdock
+* Confluence
+
+### Testing frameworks
+
+* Robot Framework
+* Cypress
+* RedwoodHQ
+* Selenium
+* Serenity
+* Citrus Framework
+* TestRail
+* qTest
+
+### Container technologies
+
+* Docker
+* Cloud Foundry
+* Atomic
+* OpenShift
+* Kubernetes
 
 ---
 
