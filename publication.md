@@ -56,7 +56,7 @@ ___
 [Development Tooling and Technologies](#development-tooling-and-technologies)
 * [Request and Incident Management](#request-and-incident-management)
 * [Integrated Development Environments](#integrated-development-environments)
-* [Source Code Management and SCM Services](#source-code-management-and-scm-services-)
+* [Source Code Management and SCM Services](#source-code-management-and-scm-services)
 * [Continuous Integration and Deployment](#continuous-integration-and-deployment)
 * [Build Tools, Frameworks and Dependency Management](#build-tools-frameworks-and-dependency-management)
 * [Package Indexes and Repositories](#package-indexes-and-repositories)
