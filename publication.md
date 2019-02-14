@@ -9,7 +9,7 @@ ___
 [Open Initiatives](#open-initiatives-for-open-source-compliance)
 * [ClearlyDefined](#clearlydefined)
 * [Eclipse Oscano](#eclipse-oscano)
-* [Automated Compliance Tooling (ACT)](#automated-compliance-tooling-act-)
+* [Automated Compliance Tooling ACT](#automated-compliance-tooling-act)
 * [OpenChain](#openchain)
 * [Sharing-creates-value](#sharing-creates-value)
 
@@ -27,7 +27,7 @@ ___
 * [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
 * [license-compatibility-checker](#license-compatibility-checker)
 * [The Quartermaster Project QMSTR](#the-quartermaster-project-qmstr)
-* [Open Source License Checklists (by OSADL)](#open-source-license-checklists-by-osadl)
+* [Open Source License Checklists by OSADL](#open-source-license-checklists-by-osadl)
 * [Apache Rat](#apache-rat)
 * [Apache Tentacles](#apache-tentacles)
 * [Apache Whisker](#apache-whisker)
@@ -110,7 +110,7 @@ The solution is designed to meet the challenge of massively increasing scale and
 3. Risk-based smart analysis of compliance and vulnerability issues 
 4. Maximum re-use of pre-scanned open source software data.
 
-### Automated Compliance Tooling (ACT)
+### Automated Compliance Tooling ACT
 #### Website
 [ACT](https://www.linuxfoundation.org/press-release/2018/12/the-linux-foundation-to-launch-new-tooling-project-to-improve-open-source-compliance/)
 
