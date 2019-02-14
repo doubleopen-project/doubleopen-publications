@@ -62,7 +62,11 @@ ___
 
 Open source software has eaten the world, but organizations are still struggling with effective compliance. Open source software is heterogenous and re-used, which, while positive for software development, create a challenge for compliance. Compliance requires multiple tools and these should be ideally combined into a work-flow that supports a number of (business and developer) requirements. One of the requirements is ease of use in a modern development environment where code development cycles are getting ever shorter and new development results are pushed to operations ever faster. For this to work, open source compliance tools likely need to integrate with development toolings.
 
-In the following report some of these tools are listed with information of their main license, website and a summary of their features. The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments, as these are  also important on a way towards automated open compliance with open tooling and open data. 
+In the following report some of these tools are listed with information of their main license, website and a summary of their features (based on accounts by the projects). The report has been crafted to map out the wide range of open source tools that one might use to help keep their open source software compliant. However, this report, ever so comprehensive, is not exhaustive. The report includes FOSS tools as well as a few commercial tools. It also has a section for Open Source Initiatives and Development Environments, as these are  also important on a way towards automated open compliance with open tooling and open data. 
+
+This report will be complemented on basis of an ecosystem survey; and based on practical testing of the most popular (based on the survey) open source tools.
+
+This report is part of the fist work package in the Double Open project. See doubleopen.org for more details.
 
 ---
 
@@ -125,7 +129,7 @@ OpenChain is a project hosted by the Linux Foundation. It answers a question: "H
 [Sharing-creates-value](https://github.com/Open-Source-Compliance/Sharing-creates-value)
 
 #### Summary
-This is GitHub repository hosted by Siemes. Sharing creates value strives for the goal to lower the required effort in license compliance work for all who want to make use of OSS in a license compliant way. To achieve this Sharing creates value will develop, share and improve the artifacts needed to fulfill the requirements of the different Free and Open Source Software licenses by applying the Open Source Software development principles.
+This is GitHub repository hosted by Siemens. Sharing creates value strives for the goal to lower the required effort in license compliance work for all who want to make use of OSS in a license compliant way. To achieve this Sharing creates value will develop, share and improve the artifacts needed to fulfill the requirements of the different Free and Open Source Software licenses by applying the Open Source Software development principles.
 
 Another objective of Sharing creates value is a very close collaboration with the OSS community in order to fix detected "bugs" in licensing as well as introducing the information needed for license compliance activities in the Open Source projects, i.e. provide our analysis work to the OSS projects.
 
@@ -151,7 +155,7 @@ Fossology is a scanning tool for license, copyright and export control scans. In
 #### Main License
 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 #### Summary
-ScanCode is a suite of command line utilities to reliably scan a codebase for license, copyright, package manifests and direct dependencies and other interesting origin and licensing information discovered in source and binary code files. ScanCode provides comprehensive scan results that you can save as JSON, HTML, CSV or SPDX. As a command line application returning JSON, ScanCode is easy to integrate in a code analysis pipeline and Ci/CD.
+ScanCode is a suite of command line utilities to reliably scan a codebase for license, copyright, package manifests and direct dependencies and other interesting origin and licensing information discovered in source and binary code files. ScanCode provides comprehensive scan results that you can save as JSON, HTML, CSV or SPDX. As a command line application returning JSON, ScanCode is easy to integrate in a code analysis pipeline and CI/CD.
 
 ### AboutCode toolkit
 #### Website
