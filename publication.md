@@ -1,5 +1,5 @@
 # Double Open Landscape Survey
-Version 1.dev 2019-02-14
+Version 1 2019-02-15
 
 ___
 
@@ -18,10 +18,10 @@ ___
 * [ScanCode toolkit](#scancode-toolkit)
 * [AboutCode toolkit](#aboutcode-toolkit)
 * [Deltacode](#deltacode)
-* [AboutCode Manager](#aboutcode-manager-scancode-workbench)
+* [AboutCode Manager](#aboutcode-manager)
 * [TraceCode toolkit](#tracecode-toolkit)
 * [OSS Discovery by OpenLogic](#oss-discovery-by-openlogic)
-* [Licensee.js](#licensee-js)
+* [Licensee.js](#licensee.js)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
 * [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
@@ -33,7 +33,7 @@ ___
 * [Apache Whisker](#apache-whisker)
 * [Cregit](#cregit)
 * [OSS Attribution Builder](#oss-attribution-builder)
-* [OSSSanitizer and OSSPolice](#osssanitizer-and-osspolice)
+* [OSSPolice](#osspolice)
 * [CLIPol](#cippic-licensing-information-project-for-open-licences-clipol)
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
@@ -173,7 +173,7 @@ DeltaCode allows you to easily compare ScanCode scans for two versions of a pack
 
 You can use DeltaCode with ScanCode to identify and track license and related changes in open source or third party software packages or components from release to release. 
 
-### AboutCode Manager / ScanCode Workbench
+### AboutCode Manager
 #### Website
 [AboutCode](https://www.aboutcode.org/ )
 #### Main License
@@ -374,9 +374,9 @@ SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exch
 ------------------------------------------------------
 
 ## Commercial Tools for Open Source Compliance
-In our research, it has been seen, that practically all commercial tools give some types of solutions for security scannings. The difference in them is seen in their integration capabilities between other development tools. Evaluation made on commercial tool providers for open source compliance was made in categories depending on how extensively their products integrate with other development tools. Integrations have been evaluated on the basis of information given on the providers website. This perspective has been taken, because we saw, that FOSS tools for open source compliance are lacking in integration capabilities. Open tools also lack in the security vulnerabilities check. 
+For the purposes of the project and this survey, evaluation made on commercial tools has been based on what provisions are mainly lacking in FOSS tools. Primarily these features are integration with development tools and security vulnarability scanning. Practically all commercial tools provide some type of security vulnarability scanning therefore the integration of the tool has been taken under surveillance. The information has been gathered from the respective websites of every commercial tool provider.
 
-**Extensive integrations (over 15 verified integrations)**  
+**Extensive integrations (over 15 advertised integrations)**  
 
 [Flexera](https://www.flexera.com/)  
 [BlackDuck by Synopsys](https://www.blackducksoftware.com/black-duck-home)  
@@ -385,15 +385,15 @@ In our research, it has been seen, that practically all commercial tools give so
 [Nexus by Sonatype](https://www.sonatype.com/)  
 [OpenLogic by Rogue Wave Software](https://www.roguewave.com/)  
 
-**Some integrations (5-15 verified integrations)**  
+**Some integrations (5-15 advertised integrations)**  
 
 [CAST Software Intelligence](https://www.castsoftware.com/)
 
-**Few integrations (1-5 verified integrations)** 
+**Few integrations (1-5 advertised integrations)** 
 
 [Anchore](https://anchore.com/)
 
-**No integrations**
+**No integrations advertised**
 
 [TripleCheck](http://triplecheck.tech/)  
 [DejaCode by NexB](https://www.nexb.com/index.html)  
