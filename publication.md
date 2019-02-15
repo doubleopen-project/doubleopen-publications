@@ -374,7 +374,7 @@ SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exch
 ------------------------------------------------------
 
 ## Commercial Tools for Open Source Compliance
-For the purposes of the project and this survey, evaluation made on commercial tools has been based on what features are mainly lacking in FOSS tools. Primarily these features are integration with development tools and security vulnarability scanning. Practically all commercial tools provide some type of security vulnarability scanning therefore the integration of the tool has been taken under surveillance. The information has been gathered from the respective websites of every commercial tool provider.
+For the purposes of the project and this survey, evaluation made on commercial open source tools is largely based on listing known tools. Some evaluation and grouping has been made regarding the advertised amount of specified integrations. All seem to offer a REST API to be used for further integrations. In addition to integrations, security vulnerability scanning seems to be a part of these offerings, either as a product feature or a sister product. The information has been gathered from the respective websites of every commercial tool provider.
 
 **Extensive integrations (over 15 advertised integrations)**  
 
@@ -393,7 +393,7 @@ For the purposes of the project and this survey, evaluation made on commercial t
 
 [Anchore](https://anchore.com/)
 
-**No integrations advertised**
+**Integrations not specified**
 
 [TripleCheck](http://triplecheck.tech/)  
 [DejaCode by NexB](https://www.nexb.com/index.html)  
