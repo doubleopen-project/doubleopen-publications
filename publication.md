@@ -21,7 +21,7 @@ ___
 * [AboutCode Manager](#aboutcode-manager)
 * [TraceCode toolkit](#tracecode-toolkit)
 * [OSS Discovery by OpenLogic](#oss-discovery-by-openlogic)
-* [Licensee.js](#licensee.js)
+* [Licensee.js](#licenseejs)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
 * [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
