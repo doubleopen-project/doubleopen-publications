@@ -9,3 +9,4 @@ All contributors are expected to add their GitHub user account names and real na
 
 willebra - Martin von Willebrand  
 henritns - Henri Tanskanen
+Toniprni - Toni Päärni
