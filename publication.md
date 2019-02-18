@@ -39,6 +39,11 @@ ___
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
 
+[Uncategorized FOSS resources](#Uncategorized-FOSS-resources)
+* [Software Heritage](#software-heritage)
+* [Debian Sources](#debian-sources)
+* [mgmtconfig](#mgmtconfig)
+
 [Commercial Tools](#commercial-tools-for-open-source-compliance)
 
 [Development Tooling and Technologies](#development-tooling-and-technologies)
