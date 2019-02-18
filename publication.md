@@ -371,6 +371,25 @@ The following functions are available:
 #### Summary
 SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exchange (SPDX) documents for artifacts described in the POM file. 
 
+## Uncategorized FOSS resources
+### Software Heritage
+#### Website
+[Software Heritage](https://www.softwareheritage.org/)
+#### Summary
+Software Heritage collects and preserves software in source code form. "Software embodies our technical and scientific knowledge and humanity cannot afford the risk of losing it." They currently have (18 Feb 2019) some 88 Million projects archived.
+
+### Debian Sources
+#### Website
+[Debian Sources](https://sources.debian.org/)
+#### Summary
+A source code package repository for debian sources. They also provide an API delivering JSON objects.
+
+### mgmtconfig
+#### Website
+[mgmtconfig](https://github.com/purpleidea/mgmt/)
+####Summary
+From GitHub pages: Next generation distributed, event-driven, parallel config management.
+
 ------------------------------------------------------
 
 ## Commercial Tools for Open Source Compliance
@@ -451,6 +470,8 @@ For the purposes of the project and this survey, evaluation made on commercial o
 * Semaphore
 * Appveyor
 * Buildkite
+* Ansible
+* Puppet
 
 ### Build Tools, Frameworks and Dependency Management
 
