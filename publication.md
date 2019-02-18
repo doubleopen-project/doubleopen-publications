@@ -377,6 +377,7 @@ The following functions are available:
 SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exchange (SPDX) documents for artifacts described in the POM file. 
 
 ## Uncategorized FOSS resources
+To be possibly categorized elsewhere.
 ### Software Heritage
 #### Website
 [Software Heritage](https://www.softwareheritage.org/)
