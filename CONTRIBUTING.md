@@ -8,5 +8,5 @@ Entry on 15-02-2019: We are looking to publish an updated version (v2) of our la
 All contributors are expected to add their GitHub user account names and real names to this list. Adding the name equals confirming acceptance of the project license (CC-BY-4.0 in file LICENSE) and the contributor's right to submit the contribution he or she makes.
 
 willebra - Martin von Willebrand  
-henritns - Henri Tanskanen
-Toniprni - Toni Päärni
+henritns - Henri Tanskanen  
+Toniprni - Toni Päärni   
