@@ -409,6 +409,7 @@ For the purposes of the project and this survey, evaluation made on commercial o
 [WhiteSource](https://www.whitesourcesoftware.com/)  
 [Nexus by Sonatype](https://www.sonatype.com/)  
 [OpenLogic by Rogue Wave Software](https://www.roguewave.com/)  
+[TrustSource](https://www.trustsource.io/)  
 
 **Some integrations (5-15 advertised integrations)**  
 
