@@ -38,8 +38,9 @@ ___
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
+* [Reuse Software](#reuse-software)
 
-[Uncategorized FOSS resources](#Uncategorized-FOSS-resources)
+[Uncategorized FOSS resources](#uncategorized-foss-resources)
 * [Software Heritage](#software-heritage)
 * [Debian Sources](#debian-sources)
 * [mgmtconfig](#mgmtconfig)
@@ -376,6 +377,16 @@ The following functions are available:
 #### Summary
 SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exchange (SPDX) documents for artifacts described in the POM file. 
 
+### REUSE Software
+#### Website
+[REUSE SOFTWARE](https://reuse.software/)
+#### Main License
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+#### Summary
+REUSE initiative is an initiative to provide a set of recommendations to make licensing your free software projects easier. REUSE has tools that facilitate the developer in complying with the said recommendations. REUSE is an initiative of the FSFE and uses SPDX as their standard practice. It requires user to add 1) the exact text of the license, 2) a copyright notice and license header to every file 3) an inventory for included software.  
+
+---
+
 ## Uncategorized FOSS resources
 To be possibly categorized elsewhere.
 ### Software Heritage
@@ -541,4 +552,3 @@ For the purposes of the project and this survey, evaluation made on commercial o
 * Kubernetes
 
 ---
-
