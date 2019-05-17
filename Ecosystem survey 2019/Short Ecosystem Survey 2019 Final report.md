@@ -6,6 +6,14 @@
 - [Participation and use of open compliance initiatives](#participation-and-use-of-open-compliance-initiatives)
 - [Open tools in open source compliance](#open-tools-in-open-source-compliance)
 - [Commercial tools in open source compliance](#commercial-tools-in-open-source-compliance)
+- [Request and incident management tools](#request-and-incident-management-tools)
+- [IDEs, Integrated Development Environments](#ides-integrated-development-environments)
+- [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
+- [Package indexes and repositories](#package-indexes-and-repositories)
+- [Document management](#document-management)
+- [Testing frameworks](#testing-frameworks)
+- [Container technologies](#container-technologies)
+- [What is the size of your organization?](#what-is-the-size-of-your-organization)
 
 ## Introduction
 
@@ -112,3 +120,199 @@ Either way, this shows in such clarity the 3 main FOSS tools used in open source
 ### Analysis <!-- omit in toc -->
 
 Regarding the commercial tool question, commercial tools are not in the center of attention for the Double Open project. However, it is interesting to see what tools people working in open source compliance want to work with. These might direct us to find features, which are lacking in the FOSS tools. Either way, many use commercial tools not just for the tools, but for the service they include with such tools. This can be seen from the top three of these tools. The service relation is something that a FOSS tool rarely can provide as they are only tools and usually there is no helpdesk or other service for them. Initially must be asked though, are FOSS tools too complicated or scattered so that one would wonder to commercial providers. The answer here is probably yes and this issue should be acknowledged by the community. 
+
+---
+
+## Request and incident management tools
+
+### Results <!-- omit in toc -->
+
+| Tool                                                                | Number of users |
+| :------------------------------------------------------------------ | :-------------: |
+| Polarion                                                            |        2        |
+| Team Foundation Server                                              |        6        |
+| JIRA                                                                |       21        |
+| Github/Gitlab/other Git service                                     |       23        |
+| Visual Studio DevOps (former TFS)                                   |        1        |
+| Perforce                                                            |        1        |
+| RT                                                                  |        1        |
+| Azure DevOps (the new name for VSTS which was the new name for TFS) |        1        |
+
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+--- 
+
+## IDEs, Integrated Development Environments
+
+### Results <!-- omit in toc -->
+
+| Tool                   | Number of users |
+| :--------------------- | :-------------: |
+| Jenkins                |       23        |
+| Team Foundation Server |        7        |
+| Bamboo                 |        2        |
+| TeamCity               |        5        |
+| CircleCI               |        6        |
+| Azure DevOps           |        6        |
+| Travis CI              |       10        |
+| GitLab CI              |        5        |
+| Concourse              |        1        |
+| AWS CodeBuild          |        1        |
+| Codeship               |        2        |
+| Appveyor               |        4        |
+| Puppet                 |        3        |
+| Ansible                |        7        |
+| Octopus                |        2        |
+| GitHub Actions         |        1        |
+ 
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## Build tools, frameworks and dependency management
+
+### Results <!-- omit in toc -->
+
+| Tool                 | Number of users |
+| :------------------- | :-------------: |
+| Cmake                |       10        |
+| Yocto / OpenEmbedded |       12        |
+| BitBake              |        4        |
+| Visual Studio        |       14        |
+| Apache Maven         |       19        |
+| Gradle               |       16        |
+| npm                  |       19        |
+| yarn                 |        9        |
+| pip / pipenv         |       15        |
+| Conda                |        3        |
+| Composer             |        6        |
+| sbt                  |        5        |
+| Make                 |       13        |
+| Apache Ant           |        8        |
+| Webpack              |        7        |
+| Godep, Bundler       |        1        |
+
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## Package indexes and repositories
+
+### Results <!-- omit in toc -->
+
+| Tool                                            | Number of users |
+| :---------------------------------------------- | :-------------: |
+| Go Search                                       |        7        |
+| npm registry                                    |       19        |
+| Packagist (the PHP package repository)          |        6        |
+| Maven repositories                              |       17        |
+| RubyGems.org                                    |        8        |
+| NuGet                                           |       13        |
+| Bower                                           |       11        |
+| CPAN                                            |        4        |
+| Cargo (crates.io)                               |        3        |
+| PEAR (PHP extension and application repository) |        3        |
+| PlatformIO registry                             |        0        |
+| Nexus Repository                                |        8        |
+| JFrog Artifactory                               |        9        |
+| CocoaPods                                       |        4        |
+| RPM and Debian/Ubuntu repos                     |        1        |
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## Document management
+
+### Results <!-- omit in toc -->
+
+| Tool         | Number of users |
+| :----------- | :-------------: |
+| Flowdock     |        0        |
+| Confluence   |       18        |
+| Polarion     |        1        |
+| GitHub       |        1        |
+| Liferay Sync |        1        |
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## Testing frameworks
+
+### Results <!-- omit in toc -->
+
+| Tool             | Number of users |
+| :--------------- | :-------------: |
+| Robot Framework  |        7        |
+| Cypress          |        0        |
+| RedwoodHQ        |        0        |
+| Selenium         |       10        |
+| Serenity         |        0        |
+| Citrus Framework |        0        |
+| TestRail         |        1        |
+| qTest            |        4        |
+| JUnit            |        7        |
+| AndroidTest      |        5        |
+| Roboelectric     |        1        |
+| mochito          |        3        |
+| py.test          |        1        |
+| Nunit googletest |        1        |
+| Cunit            |        1        |
+| Robolectric      |        1        |
+| Unity            |        1        |
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## Container technologies
+
+### Results <!-- omit in toc -->
+
+| Tool          | Number of users |
+| :------------ | :-------------: |
+| Docker        |       23        |
+| Cloud Foundry |        4        |
+| Atomic        |        0        |
+| OpenShift     |        5        |
+| Kubernetes    |       14        |
+| VirtualBox    |        1        |
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---
+
+## What is the size of your organization?
+
+### Results <!-- omit in toc -->
+
+| Tool                    | Number of users |
+| :---------------------- | :-------------: |
+| 10000 employees or more |       10        |
+| 1000 - 9999 employees   |        7        |
+| 100 - 999 employees     |        5        |
+| 10 - 99 employees       |        3        |
+| Less than 10 employees  |        3        |
+
+### Analysis <!-- omit in toc -->
+
+TBD
+
+---

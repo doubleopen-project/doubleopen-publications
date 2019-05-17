@@ -58,6 +58,10 @@ ___
 * [Testing Frameworks](#testing-frameworks)
 * [Container Technologies](#container-technologies)
 
+[SPDX Implementation](#spdx-implementation)
+* [Fossology process](#fossology-process)
+* [ClearlyDefined process](#clearlydefined-process)
+
 ---
 
 ## Introduction
@@ -552,3 +556,48 @@ For the purposes of the project and this survey, evaluation made on commercial o
 * Kubernetes
 
 ---
+
+## SPDX Implementation
+
+Through our research at Double Open, we have seen, that the international community of open source and specifically open source compliance do seem to lean on a standard language when identifying licenses. This standard that **most** are using at the moment is the Software Package Data Exchange or SPDX. This is an open standard for communicating software bill of material information (including components, licenses, copyrights and security references). It is crucial for the Double Open project to have some data exchange standards to achieve the goals we have set. For this reason we have researched, how some of the [Open Compliance Initiatives](#open-compliance-initiatives) and [FOSS tools](#foss-tools-for-open-source-compliance) implement these SPDX standards.
+
+Most of the tools either already have existing, or have started on building, Rest API:s for their tools. The Rest API implementation does make the tool more versitile and easier to integrate to CI/CD environments.
+
+### Fossology process
+
+The process of Fossology goes all the way from uploading your file to generating a desired output. It uses scanners like Monk and Nomos to identify licenses and shows results in an SPDX format for the user to start the review. 
+
+**Nomos** does license identification using regular expressions and heuristics, e.g. a phrase must be found in (or out of) proximity to another phrase or phrases. This helps to eliminate false positives. License identification happens in two stages: First it uses keywords to identify license relevant statements. Then, it uses a hierarchical structure of regular expressions in order to identify particular licenses. If the recognition is not complete, Nomos will either return ‘UnclassifedLicense’ or a category of licenses, such as ‘BSD’ or ‘GPL’ – not enough to identify unambiguously a license, but as much as possible to support the user to determine the license situation. What happened in this case is that in the hierarchy of matching phrases, the found text “cannot do deep enough” to determine a particular license. Note that ‘BSD’ or ‘GPL’ require to determine the exact license, such as ‘BSD 3 Clause’ or ‘GPL 2.0’.
+Nomos identifies a “style” type of license if it has similarities with a known license type enables Nomos to recognize also new or unknown licenses.
+
+**"Style" type license issue.** We have seen, that at least the "style" types of licenses become an issue when implementing SPDX, as these are mostly common licenses with minor alterations. This begs to question, should SPDX have also "style" specifications meaning, that a license is broken into pieces and if the pieces match, a license with small variance could be called a "style" license (e.g. MIT-style, BSD-style, etc.). SPDX has a LicenseRef identifier, which could be used for situations such as this. According to SPDX, if the license is not included in the SPDX license list, or the license is a modified version of a license included in that list, you should create a custom identifier for it in the form LicenseRef-unique_code (e.g. LicenseRef-MyLicense). However, that does not specify the license to a greater extent than a reference with just MIT-style written. Even in this situation a better distinction should be made. However, it does give license scanners as well as to reviewers an easier indication of what is happening in the result of a scan.
+
+**The Fossology REST API** allows integration into CI/CD environments, package uploads and scan triggers can be done from other applications and SPDX files can be gotten just by using tools from the command line.
+
+### ClearlyDefined process
+
+* Is ClearlyDefined required to actually implement SPDX in a long haul? 
+* With what kind of precision does it have to have with SPDX for curated data? What does the implementation of SPDX mean for a curator? 
+* Does it have to take a stand on for example copyright issues, which might be different in different countries (e.g. fair use in United States of America).
+* Should it be required for the curator, for a curation to be valid, to go through all the files, which don't have a license text, in a subfolder, which has a LICENSE-file in the root of the subfolder? 
+
+**SPDX Specifications 2.0.** According to the [SPDX Specifications 2.0](https://spdx.org/spdx_specification_2_0_html) the SPDX concluded license field should contain the license the SPDX file creator has concluded as governing the package or alternative values, if the governing license cannot be determined.  The options to populate this field are limited to:
+
+A valid SPDX License Expression as defined in Appendix IV.
+NONE should be used if there is no licensing information from which to conclude a license for the package.
+NOASSERTION  should be used if:
+(i) the SPDX file creator has attempted to but cannot reach a reasonable objective determination of the Concluded License;
+
+(ii) the SPDX file creator is uncomfortable concluding a license, despite some license information being available;
+
+(iii) the SPDX file creator has made no attempt to determine a Concluded License;
+
+(iv) the SPDX file creator has intentionally provided no information (no meaning should be implied by doing so).  
+
+If the Concluded License is not the same as the Declared License, a written explanation should be provided in the Comments on License field (section 3.15).  With respect to NOASSERTION, a written explanation in the Comments on License field (section 3.15) is preferred.
+
+It is questionable, that to what extent the curator of data should do for example legal interpretation. As a public repository for harvested and curated data, it should be as easy as possible to produce outcomes that can be said to be concluded. In my view, if other type of interpretation (e.g. interpretation of the copyright laws and exent of such laws as e.g. the fair use doctrine of United State of America) is required, it should not be the work done in public repositories, but should be undertaken by the compliance (/legal) teams of companies. 
+
+For automated data to ever become relevant and usable requires for it to be accurate. This means, that these NOASSERTION hits should be miniscule in the whole of data given. NOASSERTION hits should not be over 1-2 % of the total. At this point ClearlyDefined does not hit that mark and therefore is not yet a realistic option for automation, but through curations and time, we, the project team see, that this, together with source code repositories like Software Heritage, could be a viable base for automating open source compliance. 
+
+SPDX does give some requirements of what has to be said about a license for it to be concluded in their standard. 
