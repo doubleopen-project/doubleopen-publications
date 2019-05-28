@@ -557,11 +557,33 @@ For the purposes of the project and this survey, evaluation made on commercial o
 
 ---
 
-## SPDX Implementation
+## SPDX Implementation (SECTION UNDER WORK)
 
-Through our research at Double Open, we have seen, that the international community of open source and specifically open source compliance do seem to lean on a standard language when identifying licenses. This standard that **most** are using at the moment is the Software Package Data Exchange or SPDX. This is an open standard for communicating software bill of material information (including components, licenses, copyrights and security references). It is crucial for the Double Open project to have some data exchange standards to achieve the goals we have set. For this reason we have researched, how some of the [Open Compliance Initiatives](#open-compliance-initiatives) and [FOSS tools](#foss-tools-for-open-source-compliance) implement these SPDX standards.
+One of the Double Open project's concerns for prospective concepts is the way data management is conducted. The question is, in what form should data be stored and distributed? In this section we reasearch the possibility of SPDX being the common data format. This format has not been challenged and has been widely accepted as the common format by the ecosystem. 
+
+Establishing a common data format for the whole ecosystem allows resources to be allocated on license compliance. Therefore the data format should accurately communicate licensing information and it should make such information available in a consistent, understandable and re-usable way. When information is uniform with information disseminated by other actors in the field, this will reduce redundant work in determining software license information. 
+
+Standard formats allow for tooling to be created for OSS compliance. The more accurate and less prone to interpretation the data format is the more meticulous, efficient and complex tools can be made around such formats. When researching for possible automation of OSS compliance, the requirements for tools advance in all respects especially when the precision of results presented by tools is under scrutiny. The only way to deduce the amount of false positives given by scanning tools e.g. Fossology, is to have a machine and human readable standard data format that has substantal adoption and acknowledgement of the ecosystem.
+
+**What is SPDX?** SPDX or the Software Package Data Exchange, is an open standard for communicating software bill of material information (including components, licenses, copyrights and security references). It is an initiative hosted by Linux Foundation whose goal is to develop an open standrard format and supporting tools for communicating licenses and copyrights associated with software packages.
+
+SPDX has developed several pieces of collateral to help solve compliance issues. They have issued the [SPDX License List](https://spdx.org/licenses/), [SPDX Specification](https://spdx.org/spdx-specification-21-web-version) and [Source Identifiers](https://spdx.org/ids) for code. 
+
+
+
+
+
+
+
+
+
+
 
 Most of the tools either already have existing, or have started on building, Rest API:s for their tools. The Rest API implementation does make the tool more versitile and easier to integrate to CI/CD environments.
+
+
+
+
 
 ### Fossology process
 
