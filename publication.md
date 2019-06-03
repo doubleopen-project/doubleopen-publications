@@ -329,7 +329,8 @@ OSSPolice is a risk assessment service for developers that can quickly identify 
 
 ### CIPPIC Licensing Information Project for Open Licences CLIPol
 #### Website
-[CLIPol](http://www.clipol.org/)
+[CLIPol](http://www.clipol.org/)   
+As of 03.06.2019 the website is down. An inqury has been made on whether the project is maintained or not.   
 #### Main License
 [BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)
 #### Summary
