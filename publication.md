@@ -569,3 +569,10 @@ Standard formats allow for tooling to be created for OSS compliance. The more ac
 **What is SPDX?** SPDX or the Software Package Data Exchange, is an open standard for communicating software bill of material information (including components, licenses, copyrights and security references). It is an initiative hosted by Linux Foundation whose goal is to develop an open standrard format and supporting tools for communicating licenses and copyrights associated with software packages.
 
 SPDX has developed several pieces of collateral to help solve compliance issues. They have issued the [SPDX License List](https://spdx.org/licenses/), [SPDX Specification](https://spdx.org/spdx-specification-21-web-version) and [Source Identifiers](https://spdx.org/ids) for code. 
+
+**Implementation.** Based on the results of the Short Ecosystem Survey 2019, we have taken three tools/initiatives under scrutiny for this section. These three are: 
+1. Fossology; 
+2. ScanCode; and 
+3. ClearlyDefined. 
+
+**ScanCode** is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX. ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
