@@ -576,3 +576,7 @@ SPDX has developed several pieces of collateral to help solve compliance issues.
 3. ClearlyDefined. 
 
 **ScanCode** is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX. ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
+
+ScanCode is a widely integrated tool that can be found as a scanner, for example from OSS Review Toolkit ORT and ClearlyDefined. The use of the tool is normal for the general public and the reports it produces are familiar to many. However, unlike others, ScanCode does not extract files from packed files. This means, that a separate extractions process has to be made with the bundled utility extractcode. 
+
+Regarding licenses, the output file has the URLs for the homepage of the license, the text URL for the license and SPDX license URL with the SPDX short identifer (shown as the spdx_license_key). ScanCode also reads the copyrights more accurately and produces a cleaner outcome than e.g. Fossology, which usually distributes plenty of unnecessary information in connection with the copyright texts.
