@@ -582,3 +582,14 @@ ScanCode is a widely integrated tool that can be found as a scanner, for example
 The output file has an URL address to the home page, text, and the SPDX page of the license. In addition, the output displays the SPDX short identifier (described as spdx_license_key). ScanCode reads the copyrights more accurately and produces a cleaner outcome than e.g. Fossology, which usually distributes plenty of unnecessary information in connection with the copyright texts.
 
 Unlike Fossology, ScanCode does not have an UI. This makes data curation errandous and slow. However the AboutCode Manager i.e. ScanCode Workbench is a great utility to assess the findings of a scancode scan in a .json format. 
+
+**How does ScanCode work**
+
+Below you can see print screens of ScanCodes initial results when doing a full scan with .json output. 
+
+![Scancode-fullscan](/Images/ScanCode/spin.js-2.3.2-scancodefullscan.png)
+
+Next a print screen of how the ScanCode-Workbench i.e. AboutCode Manager shows the results in a clear form. Shown is a list of all details that can be shown by the ScanCode-Workbench. 
+
+![Scancode-workbench-list](/Images/ScanCode/scancode-shownresults-workbench-spin.js-2.3.png)
+
