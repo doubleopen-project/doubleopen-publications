@@ -575,8 +575,10 @@ SPDX has developed several pieces of collateral to help solve compliance issues.
 2. ScanCode; and 
 3. ClearlyDefined. 
 
-**ScanCode** is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX. ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
+**ScanCode** is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX (tag/value and rdf). ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
 
-ScanCode is a widely integrated tool that can be found as a scanner, for example from OSS Review Toolkit ORT and ClearlyDefined. The use of the tool is normal for the general public and the reports it produces are familiar to many. However, unlike others, ScanCode does not extract files from packed files. This means, that a separate extractions process has to be made with the bundled utility extractcode. 
+ScanCode is a widely integrated tool that can be found as a scanner, for example from OSS Review Toolkit ORT and ClearlyDefined. The use of the tool is normal for the general public and the reports it produces are familiar to many. However, unlike others, ScanCode does not extract files from packed files. This means, that a separate extractions process has to be made with the bundled utility extractcode or other (like unzip). 
 
 The output file has an URL address to the home page, text, and the SPDX page of the license. In addition, the output displays the SPDX short identifier (described as spdx_license_key). ScanCode reads the copyrights more accurately and produces a cleaner outcome than e.g. Fossology, which usually distributes plenty of unnecessary information in connection with the copyright texts.
+
+Unlike Fossology, ScanCode does not have an UI. This makes data curation errandous and slow. However the AboutCode Manager i.e. ScanCode Workbench is a great utility to assess the findings of a scancode scan in a .json format. 
