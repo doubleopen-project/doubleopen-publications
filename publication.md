@@ -583,6 +583,16 @@ The output file has an URL address to the home page, text, and the SPDX page of 
 
 Unlike Fossology, ScanCode does not have an UI. This makes data curation errandous and slow. However the AboutCode Manager i.e. ScanCode Workbench is a great utility to assess the findings of a scancode scan in a .json format. 
 
+**Fossology** is an open source license compliance software system and toolkit. In the making of this report, we ran fossology as a system through its database and web UI (workflow). It can also be run as a toolkit from command line to perfore license, copyright and export contol scans. This toolkit is also part of its workflow. 
+
+Fossology generates SPDX files or a ReadMe file. It has a version control integrated named deduplication, in which you can scan an entire distro and rescan a newer version and only the changed files will go through rescanning. If scanning is done continuously e.g. when building software, this is a time saving feature. 
+
+Fossology does have issues. For example it gives out -style license flags when licenses are similar but not 100 % equivalent with the original license text. This is not alined with the SPDX spexifications. With Monk (text scanner) and Nomos (regex scanner) scanning tools there is often two license hits within one file of which the other one is a -style license and the other one the original intended license. Fossology also gives imprecise copyright information. It is rather the abundance of information than the lack of, which is an issue in Fossology. This brings up false flags in copyrights and need elaborous cleaning if the curator wants to aggregate a clear endreport. From the perspective of legality regarding a notice file, this is a nonissue. As long as given information is valid and they are at their right spots, the notice creation is successful even though the end result is sloppy.
+
+Where Fossology stands out compared to the competition is the capability to curate data straight on the web UI with ease. With every scanner there are definitely going to be red flags and otherwise false license findings. In Fossology the curator can conculde license findings straight on the UI and the UI informs the curator, which files are not yet curated. It gives curator an ability to bulk scan the curation curator has confirmed in other files to expedite the curation process. 
+
+Fossologys value is in the easiness of curation process. There will always be issues that where the scanner itself cannot be trusted 100 % and it requires a human to go through them. At these moments the Fossology web UI curation workflow is invaluable. 
+
 **How does ScanCode work**
 
 Below you can see print screens of ScanCodes initial results when doing a full scan with .json output. 
