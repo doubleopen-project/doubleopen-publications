@@ -602,11 +602,20 @@ Fossologys value is in the easiness of curation process. There will always be is
 
 ### Material on how the tools work
 
-Below you can see print screens of ScanCodes initial results when doing a full scan with .json output. 
+Package used: spin.js-2.3.2
+
+ScanCode full scan with an output file of .json. 
 
 ![Scancode-fullscan](/Images/ScanCode/spin.js-2.3.2-scancodefullscan.png)
 
-Next a print screen of how the ScanCode-Workbench i.e. AboutCode Manager shows the results in a clear form. Shown is a list of all details that can be shown by the ScanCode-Workbench. 
+Picture showing what possible results does the ScanCode-Workbench i.e. AboutCode Manager show. 
 
 ![Scancode-workbench-list](/Images/ScanCode/scancode-shownresults-workbench-spin.js-2.3.png)
 
+List of jobs Fossology goes through in the scanning process (Web UI)
+
+![Fossology-jobs](/Images/Fossology/spin.js-2.3.2-fossologyscan.png)
+
+The initial results of a Fossology scan
+
+![Fossology-scan-results](Images/Fossology/spin.js-2.3.2-fossologyscanresults.png)
