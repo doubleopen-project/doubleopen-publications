@@ -58,9 +58,10 @@ ___
 * [Testing Frameworks](#testing-frameworks)
 * [Container Technologies](#container-technologies)
 
-[SPDX Implementation](#spdx-implementation)
-* [Fossology process](#fossology-process)
-* [ClearlyDefined process](#clearlydefined-process)
+[SPDX Implementation](#spdx-Implementation)
+* [ScanCode-process](#scancode-process)
+* [Fossology-process](#fossology-process)
+* [Material on how the tools work](#material-on-how-the-tools-work)
 
 ---
 
@@ -558,7 +559,9 @@ For the purposes of the project and this survey, evaluation made on commercial o
 
 ---
 
-## SPDX Implementation (SECTION UNDER WORK)
+## SPDX Implementation 
+
+(SECTION UNDER WORK)
 
 One of the Double Open project's concerns for prospective concepts is the way data management is conducted. The question is, in what form should data be stored and distributed? In this section we reasearch the possibility of SPDX being the common data format. This format has not been challenged and has been widely accepted as the common format by the ecosystem. 
 
@@ -575,7 +578,9 @@ SPDX has developed several pieces of collateral to help solve compliance issues.
 2. ScanCode; and 
 3. ClearlyDefined. 
 
-**ScanCode** is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX (tag/value and rdf). ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
+### ScanCode-process
+
+Scancode is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX (tag/value and rdf). ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
 
 ScanCode is a widely integrated tool that can be found as a scanner, for example from OSS Review Toolkit ORT and ClearlyDefined. The use of the tool is normal for the general public and the reports it produces are familiar to many. However, unlike others, ScanCode does not extract files from packed files. This means, that a separate extractions process has to be made with the bundled utility extractcode or other (like unzip). 
 
@@ -583,7 +588,9 @@ The output file has an URL address to the home page, text, and the SPDX page of 
 
 Unlike Fossology, ScanCode does not have an UI. This makes data curation errandous and slow. However the AboutCode Manager i.e. ScanCode Workbench is a great utility to assess the findings of a scancode scan in a .json format. 
 
-**Fossology** is an open source license compliance software system and toolkit. In the making of this report, we ran fossology as a system through its database and web UI (workflow). It can also be run as a toolkit from command line to perfore license, copyright and export contol scans. This toolkit is also part of its workflow. 
+### Fossology-process
+
+Fossology is an open source license compliance software system and toolkit. In the making of this report, we ran fossology as a system through its database and web UI (workflow). It can also be run as a toolkit from command line to perfore license, copyright and export contol scans. This toolkit is also part of its workflow. 
 
 Fossology generates SPDX files or a ReadMe file. It has a version control integrated named deduplication, in which you can scan an entire distro and rescan a newer version and only the changed files will go through rescanning. If scanning is done continuously e.g. when building software, this is a time saving feature. 
 
@@ -593,7 +600,7 @@ Where Fossology stands out compared to the competition is the capability to cura
 
 Fossologys value is in the easiness of curation process. There will always be issues that where the scanner itself cannot be trusted 100 % and it requires a human to go through them. At these moments the Fossology web UI curation workflow is invaluable. 
 
-**How does ScanCode work**
+### Material on how the tools work
 
 Below you can see print screens of ScanCodes initial results when doing a full scan with .json output. 
 
