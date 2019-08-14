@@ -14,6 +14,7 @@ ___
 * [Sharing-creates-value](#sharing-creates-value)
 
 [FOSS tools](#foss-tools-for-open-source-compliance)
++ [Bang](#bang)
 * [Fossology](#fossology)
 * [ScanCode toolkit](#scancode-toolkit)
 * [AboutCode toolkit](#aboutcode-toolkit)
@@ -24,6 +25,7 @@ ___
 * [Licensee.js](#licenseejs)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
+* [Eclipse SW360antenna](#eclipse-sw360antenna)
 * [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
 * [license-compatibility-checker](#license-compatibility-checker)
 * [The Quartermaster Project QMSTR](#the-quartermaster-project-qmstr)
@@ -150,6 +152,14 @@ Sharing creates value wants to be the platform, which provides all information a
 
 ## FOSS tools for open source compliance
 
+### Bang
+#### Website
+[Bang](https://github.com/armijnhemel/binaryanalysis-ng)
+#### Main License
+[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
+#### Summary
+Binary Analysis Next Generation, or BANG, is a tool for analyzing binary files. Currently its main goal is to very quickly find out the contents of binary files, such as firmware updates, and making information extracted from the contents available for further analysis, such as license compliance, security research or composition analysis. It has support for around 130 different file formats, which can be detected, unpacked and labeled.
+
 ### Fossology
 #### Website
 [Fossology](https://www.fossology.org/ )
@@ -235,6 +245,19 @@ Ninka is a lightweight license identification tool for source code. It is senten
 [EPL-1.0](https://www.eclipse.org/org/documents/epl-v10.php)
 #### Summary
 A software catalogue application designed to provide a central place for sharing information about software components used by an organization. It is designed to neatly integrate into existing infrastructures related to the management of software artifacts and projects by providing separate backend services for distinct tasks and a set of portlets to access these services. It has connectors to interact with external systems such as code scan tools. Thus far the project has not provided download information.
+
+### Eclipse SW360antenna
+#### Website
+[Eclipse SW360](https://projects.eclipse.org/projects/technology.sw360.antenna)
+#### Main License
+[EPL-2.0](https://www.eclipse.org/legal/epl-2.0/)
+#### Summary
+Eclipse SW360antenna is a tool to automate your open source license compliance processes as much as possible. In the end that is
+* collecting all compliance relevant data,
+* process that data and warn if there might be any license compliance related issues, and
+* generating a set of compliance artifacts (source code bundle, disclosure document, report)
+
+for your project.
 
 ### OSS Review Toolkit ORT
 #### Website
