@@ -3,29 +3,29 @@
 **UNDER DEVELOPMENT** <!-- omit in toc -->
 ---
 
-- [Introduction](#introduction)
-- [Participation and use of open compliance initiatives](#participation-and-use-of-open-compliance-initiatives)
-- [Open tools in open source compliance](#open-tools-in-open-source-compliance)
-- [Commercial tools in open source compliance](#commercial-tools-in-open-source-compliance)
-- [Request and incident management tools](#request-and-incident-management-tools)
-- [IDEs, Integrated Development Environments](#ides-integrated-development-environments)
-- [Source code management (SCM) tools and services](#source-code-management-scm-tools-and-services)
-- [Continuous integration (CI) and continuous deployment (CD) tools](#continuous-integration-ci-and-continuous-deployment-cd-tools)
-- [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
-- [Package indexes and repositories](#package-indexes-and-repositories)
-- [Document management](#document-management)
-- [Testing frameworks](#testing-frameworks)
-- [Container technologies](#container-technologies)
-- [What is the size of your organization?](#what-is-the-size-of-your-organization)
-- [Conclusion](#conclusion)
+- [Introduction](#Introduction)
+- [Participation and use of open compliance initiatives](#Participation-and-use-of-open-compliance-initiatives)
+- [Open tools in open source compliance](#Open-tools-in-open-source-compliance)
+- [Commercial tools in open source compliance](#Commercial-tools-in-open-source-compliance)
+- [Request and incident management tools](#Request-and-incident-management-tools)
+- [IDEs, Integrated Development Environments](#IDEs-Integrated-Development-Environments)
+- [Source code management (SCM) tools and services](#Source-code-management-SCM-tools-and-services)
+- [Continuous integration (CI) and continuous deployment (CD) tools](#Continuous-integration-CI-and-continuous-deployment-CD-tools)
+- [Build tools, frameworks and dependency management](#Build-tools-frameworks-and-dependency-management)
+- [Package indexes and repositories](#Package-indexes-and-repositories)
+- [Document management](#Document-management)
+- [Testing frameworks](#Testing-frameworks)
+- [Container technologies](#Container-technologies)
+- [What is the size of your organization?](#What-is-the-size-of-your-organization)
+- [Conclusion](#Conclusion)
 
 ## Introduction
 
 Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate real life factual information from members of the open source ecosystem to investigate the existing landscape, and popularity of open source compliance tools and development tools/technologies as well as open source initiatives.
 
-This report is copyrighted to HH Partners, Attorneys-at-law Ltd. and published under CC-BY-4.0 license. 
+This report is copyrighted to HH Partners, Attorneys-at-law Ltd. and published under CC-BY-4.0 license.
 
-A total of 28 responses were given from a diverse sample of different sized companies. This report includes anonymised data from the survey with analysis of the process and the results. We feel confident that the data shows the general behavious of the field. 
+A total of 28 responses were given from a diverse sample of different sized companies. The survey was open during February, March and early April of 2019. This report includes anonymised data from the survey with analysis of the process and the results. The anonymised data is also available as raw data for further analysis. [LINK] 
 
 Some of the data has been affected by who the survey has been shared with. The survey has been publicly available on our website. In addition, we have sent a link to our survey to specific mailing lists. This may have some impact on the results of the survey, but these have been taken into consideration in the analysis.
 
@@ -50,9 +50,10 @@ In this report we are going to analyse the results section by section. Afterward
 
 ### Analysis <!-- omit in toc -->
 
-- Link was sent to sharing-creates-value initiative mailing list (and ClearlyDefined and OpenChain mailing lists?)
-  - Fluctuation due to this? The end result is so clear that we can conclude that the effect of possible external influences are insignificant.
-- It should be noted that some of the initiatives were launched just prior to the survey. Therefore, e.g. the ACT initiative maintained by the Linux Foundation may become a valid tool in the future. ClearlyDefined and OpenChain are already working and ongoing initiatives.
+ A request to fill the survey was sharing-creates-value initiatives mailing list, as well as to ClearlyDefined's slack and OpenChain mailing lists. Therefore the top three results represents the activity of those lists quite well. Also, please note that the sharing-creates-value initiative has been used under the as OSS based compliance tooling -group which is now (since early August 2019) working under OpenChain.
+ Also, worth of note is that OpenChain is likely the oldest iniative of these (at the time issuing the survey) and Automated Compliance Tooling ACT is the youngest.
+ With the ~merging of OpenChain and Sharing-creates-value, it seems that the currently strongest initiative/working group is the OSS based compliance tooling -group, although their respective areas of work (quality based process improvement in OpenChain and tooling work under the OSS based compliance tooling -group) are distinct, but complementary. That observation is also supported by our own experience in participating in the work of the three topmost initiatives. 
+ ClearlyDefined has a significant amount of mentions too, and it's approach is different, an API based actual service. The approach has clear value in the sense of ease of integration. 
 
 ---
 
@@ -91,11 +92,12 @@ In this report we are going to analyse the results section by section. Afterward
 
 ### Analysis <!-- omit in toc -->
 
-- Fossology, ScanCode and SPDX Tools are clear leaders. 
+- Fossology, ScanCode and SPDX Tools are clear leaders. All of these have existed quite some time already.
 - Both Fossology and ScanCode produce SPDX. 
 - ScanCode is already integrated into e.g. OSS Review Toolkit and ClearlyDefined. 
-- Fossology is already integrated to e.g. ACT initiative and ClearlyDefined 
-- However, when responses given by companies with less than 1,000 employees are removed, we find that the 3 biggest tools are Fossology, ScanCode, and ORT. 
+- Fossology is already integrated to e.g. ACT initiative and ClearlyDefined
+- OSS Review Toolkit ORT has not been officially publicised and is very young; and had regardless gathered several replies. 
+- Also, when responses given by companies with less than 1,000 employees are removed, we find that the 3 tools with most answers are Fossology, ScanCode, and ORT. 
 
 ---
 
@@ -122,7 +124,7 @@ In this report we are going to analyse the results section by section. Afterward
 
 ### Analysis <!-- omit in toc -->
 
-Regarding the commercial tool question, commercial tools are not in the center of attention for the Double Open project. However, it is interesting to see what tools people working in open source compliance want to work with. These might direct us to find features, which are lacking in the FOSS tools. Either way, many use commercial tools not just for the tools, but for the service they include with such tools. This can be seen from the top three of these tools. The service relation is something that a FOSS tool rarely can provide as they are only tools and usually there is no helpdesk or other service for them. Initially must be asked though, are FOSS tools too complicated or scattered so that one would wonder to commercial providers. The answer here is probably yes and this issue should be acknowledged by the community. 
+Commercial tools are not in the center of attention for the Double Open project, hence the above result is not analysed more.
 
 ---
 
@@ -143,7 +145,7 @@ Regarding the commercial tool question, commercial tools are not in the center o
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Based on the results it seems clear that an open toolchain should likely produce reports into Git services and JIRA. A proof of concept should choose either of these.
 
 --- 
 
@@ -171,7 +173,7 @@ TBD
  
 ### Analysis <!-- omit in toc -->
 
-TBD
+Based on the results it seems clear that any possible integration into IDEs should consider Visual Studio and Eclipse.
 
 ---
 
@@ -193,7 +195,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Based on the results it seems clear that integration into SCMs should first focus on GIT based services/tools. 
 
 ---
 
@@ -227,7 +229,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Based on the results the natural first choice for CI/CD integartion in a proof of concept would be Jenkins. 
 
 ---
 
@@ -256,7 +258,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Java based technologies are clearly on top of the build tools list. Python technologies follow. Gradle as a framework is less dependent on development language.  Also an important number of Linux embedded technologies are mentioned, e.g. Make, Yocto and Cmake each getting at least 10 mentions. A proof of concept for automated compliance should likely integrate into one, or several of these. 
 
 ---
 
@@ -284,7 +286,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Package indexes are popularly used in Java & Javascript, which can be seen in the answers for this question. Any proof of concept in these technologies should likely use the information available from the topmost registries here.
 
 ---
 
@@ -302,7 +304,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Document management integration should be Confluence, based on these replies.
 
 ---
 
@@ -332,7 +334,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+The testing framework answers are more divided with no clear top result, considering 28 answers in general.
 
 ---
 
@@ -351,7 +353,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+Container related integration should likely start with Docker and followed with Kubernetes.
 
 ---
 
@@ -369,7 +371,7 @@ TBD
 
 ### Analysis <!-- omit in toc -->
 
-TBD
+The above gives a view on the type of responents to this questionnaire. At the same time it reflects the type of organizations who are interested in open source compliance, i.e. large enterprises.
 
 ---
 
