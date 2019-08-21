@@ -3,21 +3,21 @@
 **UNDER DEVELOPMENT** <!-- omit in toc -->
 ---
 
-- [Introduction](#Introduction)
-- [Participation and use of open compliance initiatives](#Participation-and-use-of-open-compliance-initiatives)
-- [Open tools in open source compliance](#Open-tools-in-open-source-compliance)
-- [Commercial tools in open source compliance](#Commercial-tools-in-open-source-compliance)
-- [Request and incident management tools](#Request-and-incident-management-tools)
-- [IDEs, Integrated Development Environments](#IDEs-Integrated-Development-Environments)
-- [Source code management (SCM) tools and services](#Source-code-management-SCM-tools-and-services)
-- [Continuous integration (CI) and continuous deployment (CD) tools](#Continuous-integration-CI-and-continuous-deployment-CD-tools)
-- [Build tools, frameworks and dependency management](#Build-tools-frameworks-and-dependency-management)
-- [Package indexes and repositories](#Package-indexes-and-repositories)
-- [Document management](#Document-management)
-- [Testing frameworks](#Testing-frameworks)
-- [Container technologies](#Container-technologies)
-- [What is the size of your organization?](#What-is-the-size-of-your-organization)
-- [Conclusion](#Conclusion)
+- [Introduction](#introduction)
+- [Participation and use of open compliance initiatives](#participation-and-use-of-open-compliance-initiatives)
+- [Open tools in open source compliance](#open-tools-in-open-source-compliance)
+- [Commercial tools in open source compliance](#commercial-tools-in-open-source-compliance)
+- [Request and incident management tools](#request-and-incident-management-tools)
+- [IDEs, Integrated Development Environments](#ides-integrated-development-environments)
+- [Source code management (SCM) tools and services](#source-code-management-scm-tools-and-services)
+- [Continuous integration (CI) and continuous deployment (CD) tools](#continuous-integration-ci-and-continuous-deployment-cd-tools)
+- [Build tools, frameworks and dependency management](#build-tools-frameworks-and-dependency-management)
+- [Package indexes and repositories](#package-indexes-and-repositories)
+- [Document management](#document-management)
+- [Testing frameworks](#testing-frameworks)
+- [Container technologies](#container-technologies)
+- [What is the size of your organization?](#what-is-the-size-of-your-organization)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -50,10 +50,10 @@ In this report we are going to analyse the results section by section. Afterward
 
 ### Analysis <!-- omit in toc -->
 
- A request to fill the survey was sharing-creates-value initiatives mailing list, as well as to ClearlyDefined's slack and OpenChain mailing lists. Therefore the top three results represents the activity of those lists quite well. Also, please note that the sharing-creates-value initiative has been used under the as OSS based compliance tooling -group which is now (since early August 2019) working under OpenChain.
- Also, worth of note is that OpenChain is likely the oldest iniative of these (at the time issuing the survey) and Automated Compliance Tooling ACT is the youngest.
- With the ~merging of OpenChain and Sharing-creates-value, it seems that the currently strongest initiative/working group is the OSS based compliance tooling -group, although their respective areas of work (quality based process improvement in OpenChain and tooling work under the OSS based compliance tooling -group) are distinct, but complementary. That observation is also supported by our own experience in participating in the work of the three topmost initiatives. 
- ClearlyDefined has a significant amount of mentions too, and it's approach is different, an API based actual service. The approach has clear value in the sense of ease of integration. 
+ A request to fill the survey was introduced to the sharing-creates-value initiatives mailing list, as well as to ClearlyDefined's Slack and OpenChain's mailing lists. Therefore the top three results represent the activity of those lists quite well. Also, please note that the sharing-creates-value initiative has been used under the OSS Based Compliance Tooling group which is now (since early August 2019) working under OpenChain.
+ Also, worthy of note is that OpenChain is likely the oldest initiative of these (at the time issuing the survey) and Automated Compliance Tooling ACT is the youngest.
+ With the merging of OpenChain and Sharing-creates-value, it seems that the currently strongest initiative/working group is the OSS Based Compliance Tooling group, although their respective areas of work (quality based process improvement in OpenChain and tooling work under the OSS Based Compliance Tooling group) are distinct but complementary. That observation is also supported by our own experience in participating in the work of the three topmost initiatives. 
+ ClearlyDefined has a significant amount of mentions too and its approach is different; an API based actual service. The approach has clear value in the sense of ease of integration. 
 
 ---
 
@@ -258,7 +258,7 @@ Based on the results the natural first choice for CI/CD integartion in a proof o
 
 ### Analysis <!-- omit in toc -->
 
-Java based technologies are clearly on top of the build tools list. Python technologies follow. Gradle as a framework is less dependent on development language.  Also an important number of Linux embedded technologies are mentioned, e.g. Make, Yocto and Cmake each getting at least 10 mentions. A proof of concept for automated compliance should likely integrate into one, or several of these. 
+Java based technologies are clearly on top of the build tools list. Python technologies follow. Gradle as a framework is less dependent on development language.  Also an important number of Linux embedded technologies are mentioned, e.g. Make, Yocto and Cmake each getting at least 10 mentions. A proof of concept for automated compliance should likely integrate into one or several of these. 
 
 ---
 
@@ -378,5 +378,6 @@ The above gives a view on the type of responents to this questionnaire. At the s
 ## Conclusion
 
 
-
 ---
+
+---END OF DOCUMENT---
