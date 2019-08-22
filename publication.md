@@ -65,6 +65,10 @@ ___
 * [Fossology-process](#fossology-process)
 * [Material on how the tools work](#material-on-how-the-tools-work)
 
+[Double Open Short Ecosystem Survey 2019](#double-open-short-ecosystem-survey-2019)
+
+[Voice-of-Customer Workshops 2019](#voice-of-customer-workshops-2019)
+
 ---
 
 ## Introduction
@@ -584,7 +588,7 @@ For the purposes of the project and this survey, evaluation made on commercial o
 
 ## SPDX Implementation 
 
-(SECTION UNDER WORK)
+**(SECTION UNDER WORK)**
 
 One of the Double Open project's concerns for prospective concepts is the way data management is conducted. The question is, in what form should data be stored and distributed? In this section we reasearch the possibility of SPDX being the common data format. This format has not been challenged and has been widely accepted as the common format by the ecosystem. 
 
@@ -642,3 +646,21 @@ Package used: spin.js-2.3.2
 **The initial results of a Fossology scan.**
 
 ![Fossology-scan-results](Images/Fossology/spin.js-2.3.2-fossologyscanresults.png)
+
+---
+
+## Double Open Short Ecosystem Survey 2019
+
+Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate real life factual information from members of the open source ecosystem to investigate the existing landscape, and popularity of open source compliance tools and development tools/technologies as well as open source initiatives.
+
+The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to a number of compliance related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. 
+
+For the full results and statistics on the Survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
+
+## Voice-of-Customer Workshops 2019
+
+The Voice-of-Customer workshops were carried out to understand the open source compliance operations of Validos members within their software development and maintenance processes. 
+
+Workshops set out to define the current state and the dream state of the organizations. The results are to complement the development of the Double Open Concept. 
+
+For the full report please go to [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops)
