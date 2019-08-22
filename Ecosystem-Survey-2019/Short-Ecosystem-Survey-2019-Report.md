@@ -26,7 +26,7 @@ Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate r
 
 This report is copyrighted to HH Partners, Attorneys-at-law Ltd. and published under CC-BY-4.0 license.
 
-A total of 28 responses were given from a diverse sample of different sized companies. The survey was open during February, March and early April of 2019. This report includes anonymised data from the survey with analysis of the process and the results. The anonymised data is also available as raw data for further analysis. [LINK] 
+A total of 28 responses were given from a diverse sample of different sized companies. The survey was open during February, March and early April of 2019. This report includes anonymised data from the survey with analysis of the process and the results. The anonymised data is also available as raw data for further analysis.
 
 Some of the data has been affected by who the survey has been shared with. The survey has been publicly available on our website. In addition, we have sent a link to our survey to specific mailing lists. This may have some impact on the results of the survey, but these have been taken into consideration in the analysis.
 
@@ -378,6 +378,8 @@ Container related integration should likely start with Docker and followed with 
 | 10 - 99             | 3         |
 | < 10                | 3         |
 
+We did separately analyse the replies of the respondents from organizations above 1000 employees. However, there were quite little significant differences. We have noted the differences in the analysis, in case we found that the differences had some significance. To view the survey results with only 1000 employees or more, please check the section [Links to Results](#links-to-results).
+
 ### Analysis <!-- omit in toc -->
 
 The above gives a view on the type of responents to this questionnaire. At the same time it reflects the type of organizations who are interested in open source compliance, i.e. large enterprises.
@@ -386,7 +388,7 @@ The above gives a view on the type of responents to this questionnaire. At the s
 
 ## Conclusion
 
-The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to a number of compliance related communities, we achieved in getting answers from a  group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source compliance. We are planning to follow this short survey with a more substantial survey to support the conceptualising of a possible automated tool chain for open source compliance.
+The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to a number of compliance related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source compliance. We are planning to follow this short survey with a more substantial survey to support the conceptualising of a possible automated tool chain for open source compliance.
 
 ---
 
