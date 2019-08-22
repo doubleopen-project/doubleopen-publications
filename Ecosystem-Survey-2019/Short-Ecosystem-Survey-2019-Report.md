@@ -384,9 +384,9 @@ The response quantity to the survey was small to medium. However, the purpose of
 
 ## Links to Results
 
-* The final results of the Double Open Short Ecosystem Survey 2019 can be found (here)[/Ecosystem-Survey-2019/Final-Results-Double-Open-Short-Ecosystem-Survey-2019.pdf]
-* The final results of only companies with over 1000 employees can be found (here)[/Ecosystem-Survey-2019/Results-Companies-With-Over-1000-Employees.pdf]
-* The raw data of the final results can be found (here)[/Ecosystem-Survey-2019/Raw-Data-Double-Open-Short-Ecosystem-Survey-2019.xlsx]
+* The final results of the Double Open Short Ecosystem Survey 2019 can be found [here](/Ecosystem-Survey-2019/Final-Results-Double-Open-Short-Ecosystem-Survey-2019.pdf)
+* The final results of only companies with over 1000 employees can be found [here](/Ecosystem-Survey-2019/Results-Companies-With-Over-1000-Employees.pdf)
+* The raw data of the final results can be found [here](/Ecosystem-Survey-2019/Raw-Data-Double-Open-Short-Ecosystem-Survey-2019.xlsx)
 
 ---
 
