@@ -377,6 +377,7 @@ The above gives a view on the type of responents to this questionnaire. At the s
 
 ## Conclusion
 
+The response quantity to the survey was small to medium. However, the purpose of the survey was to explore the potential direction and development of the open source software industry and practices. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. A more substantial survey will be held to support in the conceptualising endeavours of Double Open project concerning the creation of an automated open source toolchain.
 
 ---
 
