@@ -1,5 +1,8 @@
 # Double Open Landscape Survey
-Version 1 2019-02-15
+| Version | Date |
+|-------------|------------|
+| Version 1 | 2019-02-15 |
+| Version 1.5 | 2019-08-23 |
 
 ___
 
@@ -14,6 +17,7 @@ ___
 * [Sharing-creates-value](#sharing-creates-value)
 
 [FOSS tools](#foss-tools-for-open-source-compliance)
++ [Bang](#bang)
 * [Fossology](#fossology)
 * [ScanCode toolkit](#scancode-toolkit)
 * [AboutCode toolkit](#aboutcode-toolkit)
@@ -24,6 +28,7 @@ ___
 * [Licensee.js](#licenseejs)
 * [Ninka](#ninka)
 * [Eclipse SW360](#eclipse-sw360)
+* [Eclipse SW360antenna](#eclipse-sw360antenna)
 * [OSS Review Toolkit ORT](#oss-review-toolkit-ort)
 * [license-compatibility-checker](#license-compatibility-checker)
 * [The Quartermaster Project QMSTR](#the-quartermaster-project-qmstr)
@@ -38,6 +43,12 @@ ___
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
+* [Reuse Software](#reuse-software)
+
+[Uncategorized FOSS resources](#uncategorized-foss-resources)
+* [Software Heritage](#software-heritage)
+* [Debian Sources](#debian-sources)
+* [mgmtconfig](#mgmtconfig)
 
 [Commercial Tools](#commercial-tools-for-open-source-compliance)
 
@@ -51,6 +62,15 @@ ___
 * [Document Management](#document-management)
 * [Testing Frameworks](#testing-frameworks)
 * [Container Technologies](#container-technologies)
+
+[SPDX Implementation](#spdx-Implementation)
+* [ScanCode-process](#scancode-process)
+* [Fossology-process](#fossology-process)
+* [Material on how the tools work](#material-on-how-the-tools-work)
+
+[Double Open Short Ecosystem Survey 2019](#double-open-short-ecosystem-survey-2019)
+
+[Voice-of-Customer Workshops 2019](#voice-of-customer-workshops-2019)
 
 ---
 
@@ -139,6 +159,14 @@ Sharing creates value wants to be the platform, which provides all information a
 
 ## FOSS tools for open source compliance
 
+### Bang
+#### Website
+[Bang](https://github.com/armijnhemel/binaryanalysis-ng)
+#### Main License
+[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
+#### Summary
+Binary Analysis Next Generation, or BANG, is a tool for analyzing binary files. Currently its main goal is to very quickly find out the contents of binary files, such as firmware updates, and making information extracted from the contents available for further analysis, such as license compliance, security research or composition analysis. It has support for around 130 different file formats, which can be detected, unpacked and labeled.
+
 ### Fossology
 #### Website
 [Fossology](https://www.fossology.org/ )
@@ -224,6 +252,19 @@ Ninka is a lightweight license identification tool for source code. It is senten
 [EPL-1.0](https://www.eclipse.org/org/documents/epl-v10.php)
 #### Summary
 A software catalogue application designed to provide a central place for sharing information about software components used by an organization. It is designed to neatly integrate into existing infrastructures related to the management of software artifacts and projects by providing separate backend services for distinct tasks and a set of portlets to access these services. It has connectors to interact with external systems such as code scan tools. Thus far the project has not provided download information.
+
+### Eclipse SW360antenna
+#### Website
+[Eclipse SW360](https://projects.eclipse.org/projects/technology.sw360.antenna)
+#### Main License
+[EPL-2.0](https://www.eclipse.org/legal/epl-2.0/)
+#### Summary
+Eclipse SW360antenna is a tool to automate your open source license compliance processes as much as possible. In the end that is
+* collecting all compliance relevant data,
+* process that data and warn if there might be any license compliance related issues, and
+* generating a set of compliance artifacts (source code bundle, disclosure document, report)
+
+for your project.
 
 ### OSS Review Toolkit ORT
 #### Website
@@ -319,7 +360,8 @@ OSSPolice is a risk assessment service for developers that can quickly identify 
 
 ### CIPPIC Licensing Information Project for Open Licences CLIPol
 #### Website
-[CLIPol](http://www.clipol.org/)
+[CLIPol](http://www.clipol.org/)   
+As of 03.06.2019 the website is down. An inqury has been made on whether the project is maintained or not.   
 #### Main License
 [BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)
 #### Summary
@@ -371,6 +413,36 @@ The following functions are available:
 #### Summary
 SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exchange (SPDX) documents for artifacts described in the POM file. 
 
+### REUSE Software
+#### Website
+[REUSE SOFTWARE](https://reuse.software/)
+#### Main License
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+#### Summary
+REUSE initiative is an initiative to provide a set of recommendations to make licensing your free software projects easier. REUSE has tools that facilitate the developer in complying with the said recommendations. REUSE is an initiative of the FSFE and uses SPDX as their standard practice. It requires user to add 1) the exact text of the license, 2) a copyright notice and license header to every file 3) an inventory for included software.  
+
+---
+
+## Uncategorized FOSS resources
+To be possibly categorized elsewhere.
+### Software Heritage
+#### Website
+[Software Heritage](https://www.softwareheritage.org/)
+#### Summary
+Software Heritage collects and preserves software in source code form. "Software embodies our technical and scientific knowledge and humanity cannot afford the risk of losing it." They currently have (18 Feb 2019) some 88 Million projects archived.
+
+### Debian Sources
+#### Website
+[Debian Sources](https://sources.debian.org/)
+#### Summary
+A source code package repository for debian sources. They also provide an API delivering JSON objects.
+
+### mgmtconfig
+#### Website
+[mgmtconfig](https://github.com/purpleidea/mgmt/)
+#### Summary
+From GitHub pages: Next generation distributed, event-driven, parallel config management.
+
 ------------------------------------------------------
 
 ## Commercial Tools for Open Source Compliance
@@ -384,6 +456,7 @@ For the purposes of the project and this survey, evaluation made on commercial o
 [WhiteSource](https://www.whitesourcesoftware.com/)  
 [Nexus by Sonatype](https://www.sonatype.com/)  
 [OpenLogic by Rogue Wave Software](https://www.roguewave.com/)  
+[TrustSource](https://www.trustsource.io/)  
 
 **Some integrations (5-15 advertised integrations)**  
 
@@ -451,6 +524,8 @@ For the purposes of the project and this survey, evaluation made on commercial o
 * Semaphore
 * Appveyor
 * Buildkite
+* Ansible
+* Puppet
 
 ### Build Tools, Frameworks and Dependency Management
 
@@ -514,3 +589,91 @@ For the purposes of the project and this survey, evaluation made on commercial o
 
 ---
 
+## SPDX Implementation 
+
+**(SECTION UNDER WORK)**
+
+One of the Double Open project's concerns for prospective concepts is the way data management is conducted. The question is, in what form should data be stored and distributed? In this section we reasearch the possibility of SPDX being the common data format. This format has not been challenged and has been widely accepted as the common format by the ecosystem. 
+
+Establishing a common data format for the whole ecosystem allows resources to be allocated on license compliance. Therefore the data format should accurately communicate licensing information and it should make such information available in a consistent, understandable and re-usable way. When information is uniform with information disseminated by other actors in the field, this will reduce redundant work in determining software license information. 
+
+Standard formats allow for tooling to be created for OSS compliance. The more accurate and less prone to interpretation the data format is the more meticulous, efficient and complex tools can be made around such formats. When researching for possible automation of OSS compliance, the requirements for tools advance in all respects especially when the precision of results presented by tools is under scrutiny. The only way to deduce the amount of false positives given by scanning tools e.g. Fossology, is to have a machine and human readable standard data format that has substantal adoption and acknowledgement of the ecosystem.
+
+**What is SPDX?** SPDX or the Software Package Data Exchange, is an open standard for communicating software bill of material information (including components, licenses, copyrights and security references). It is an initiative hosted by Linux Foundation whose goal is to develop an open standrard format and supporting tools for communicating licenses and copyrights associated with software packages.
+
+SPDX has developed several pieces of collateral to help solve compliance issues. They have issued the [SPDX License List](https://spdx.org/licenses/), [SPDX Specification](https://spdx.org/spdx-specification-21-web-version) and [Source Identifiers](https://spdx.org/ids) for code. 
+
+**Implementation.** Based on the results of the Short Ecosystem Survey 2019, we have taken three tools/initiatives under scrutiny for this section. These three are: 
+1. Fossology; 
+2. ScanCode; and 
+3. ClearlyDefined. 
+
+### ScanCode-process
+
+Scancode is a standalone command line tool written in Python to scan components for licensing information. It does a comparison between a database of license texts and the scanned component. The output of the results can be chosen between JSON, HTML, CSV or SPDX (tag/value and rdf). ScanCode can run on Linux, Mac and Windows. It has a plug in to make license policys. 
+
+ScanCode is a widely integrated tool that can be found as a scanner, for example from OSS Review Toolkit ORT and ClearlyDefined. The use of the tool is normal for the general public and the reports it produces are familiar to many. However, unlike others, ScanCode does not extract files from packed files. This means, that a separate extractions process has to be made with the bundled utility extractcode or other (like unzip). 
+
+The output file has an URL address to the home page, text, and the SPDX page of the license. In addition, the output displays the SPDX short identifier (described as spdx_license_key). ScanCode reads the copyrights more accurately and produces a cleaner outcome than e.g. Fossology, which usually distributes plenty of unnecessary information in connection with the copyright texts.
+
+Unlike Fossology, ScanCode does not have an UI. This makes data curation errandous and slow. However the AboutCode Manager i.e. ScanCode Workbench is a great utility to assess the findings of a scancode scan in a .json format. 
+
+### Fossology-process
+
+Fossology is an open source license compliance software system and toolkit. In the making of this report, we ran fossology as a system through its database and web UI (workflow). It can also be run as a toolkit from command line to perfore license, copyright and export contol scans. This toolkit is also part of its workflow. 
+
+Fossology generates SPDX files or a ReadMe file. It has a version control integrated named deduplication, in which you can scan an entire distro and rescan a newer version and only the changed files will go through rescanning. If scanning is done continuously e.g. when building software, this is a time saving feature. 
+
+Fossology does have issues. For example it gives out -style license flags when licenses are similar but not 100 % equivalent with the original license text. This is not alined with the SPDX spexifications. With Monk (text scanner) and Nomos (regex scanner) scanning tools there is often two license hits within one file of which the other one is a -style license and the other one the original intended license. Fossology also gives imprecise copyright information. It is rather the abundance of information than the lack of, which is an issue in Fossology. This brings up false flags in copyrights and need elaborous cleaning if the curator wants to aggregate a clear endreport. From the perspective of legality regarding a notice file, this is a nonissue. As long as given information is valid and they are at their right spots, the notice creation is successful even though the end result is sloppy.
+
+Where Fossology stands out compared to the competition is the capability to curate data straight on the web UI with ease. With every scanner there are definitely going to be red flags and otherwise false license findings. In Fossology the curator can conculde license findings straight on the UI and the UI informs the curator, which files are not yet curated. It gives curator an ability to bulk scan the curation curator has confirmed in other files to expedite the curation process. 
+
+Fossologys value is in the easiness of curation process. There will always be issues that where the scanner itself cannot be trusted 100 % and it requires a human to go through them. At these moments the Fossology web UI curation workflow is invaluable. 
+
+### Material on how the tools work
+
+Package used: spin.js-2.3.2
+
+**ScanCode full scan with an output file of .json.** 
+
+![Scancode-fullscan](/Images/ScanCode/spin.js-2.3.2-scancodefullscan.png)
+
+**Picture showing what possible results does the ScanCode-Workbench i.e. AboutCode Manager show.**
+
+![Scancode-workbench-list](/Images/ScanCode/scancode-shownresults-workbench-spin.js-2.3.png)
+
+**List of jobs Fossology goes through in the scanning process (Web UI).**
+
+![Fossology-jobs](/Images/Fossology/spin.js-2.3.2-fossologyscan.png)
+
+**The initial results of a Fossology scan.**
+
+![Fossology-scan-results](Images/Fossology/spin.js-2.3.2-fossologyscanresults.png)
+
+---
+
+## Double Open Short Ecosystem Survey 2019
+
+Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate real-life factual information from members of the open source ecosystem to investigate the existing landscape, and popularity of open source compliance tools and development tools/technologies as well as open source initiatives.
+
+The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to several compliance-related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with the most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. 
+
+Results show that the FOSS tools that received high amounts of mentions from the whole ecosystem are Fossology, ScanCode and SPDX toolkit. These have existed for a long time and have established themselves as primary tools in OSS compliance. Besides, the tools have had the possibility to improve over time to better serve the people and organizations who use them. Also, OSS Review Toolkit (ORT) got several replies even though it has not officially been published. ORT is one of the most automated compliance tools at the moment and will be interesting for the Double Open project.
+
+The tools that are mentioned above will be in our focus when we accrue information in our concept. 
+
+For the full results and statistics of the survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
+
+## Voice-of-Customer Workshops 2019
+
+The Voice-of-Customer workshops were carried out to understand the open source compliance operations of Validos members within their software development and maintenance processes. 
+
+Workshops set out to define the current state and the dream state of the organizations. The results are to complement the development of the Double Open Concept. 
+
+The outcome was two-fold. On one side there was a requirement for enterprises to get an efficient toolchain which automates OSS compliance during the build pipeline of the software. On the other side, there was a requirement for enterprises to efficiently develop the OSS compliance competence of their personnel. Both of the views should be addressed when researching issues and remedies regarding OSS compliance.
+
+To sum up, we can see that the problems of OSS compliance within organizations fall into two categories. Firstly, compliance is considered difficult, laborious and time-consuming for the lack of a toolchain that could manage everything required for the software release to be compliant. Secondly, compliance is disregarded due to lack of motivation (i.e. not understanding the importance) or the lack of competence to assess compliance information.
+
+Double Open project will research ways to amend the said issues. The research will be accrued into the concept design of Double Open. The project aims to complete a proof of concept of both issues separately.
+
+For the underlying report of the work package regarding Voice-of-Customer workshops, please see [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
