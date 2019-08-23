@@ -677,5 +677,3 @@ To sum up, we can see that the problems of OSS compliance within organizations f
 Double Open project will research ways to amend the said issues. The research will be accrued into the concept design of Double Open. The project aims to complete a proof of concept of both issues separately.
 
 For the underlying report of the work package regarding Voice-of-Customer workshops, please see [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
-
-[Workshop process](/Images/Voice-of-Customer-Workshops/Working-photo.png)
