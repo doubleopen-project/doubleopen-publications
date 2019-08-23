@@ -1,5 +1,8 @@
 # Double Open Landscape Survey
-Version 1 2019-02-15
+| Version | Date |
+|-------------|------------|
+| Version 1 | 2019-02-15 |
+| Version 1.5 | 2019-08-23 |
 
 ___
 
