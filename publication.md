@@ -658,9 +658,11 @@ Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate r
 
 The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to several compliance-related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with the most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. 
 
-Results show, that the FOSS tools that are preferred by the whole ecosystem are Fossology, ScanCode and SPDX toolkit. These have existed for a long time and have established themselves as primary tools in OSS compliance. Besides, the tools have had the possibility to improve over time to better serve the people and organizations who use them. 
+Results show that the FOSS tools that received high amounts of mentions from the whole ecosystem are Fossology, ScanCode and SPDX toolkit. These have existed for a long time and have established themselves as primary tools in OSS compliance. Besides, the tools have had the possibility to improve over time to better serve the people and organizations who use them. Also, OSS Review Toolkit (ORT) got several replies even though it has not officially been published. ORT is one of the most automated compliance tools at the moment and will be interesting for the Double Open project.
 
-The tools that are mentioned above as the preferred tools of the ecosystem will be in our focus when we accrue information in our concept. For the full results and statistics of the Survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
+The tools that are mentioned above will be in our focus when we accrue information in our concept. 
+
+For the full results and statistics of the survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
 
 ## Voice-of-Customer Workshops 2019
 
@@ -670,8 +672,10 @@ Workshops set out to define the current state and the dream state of the organiz
 
 The outcome was two-fold. On one side there was a requirement for enterprises to get an efficient toolchain which automates OSS compliance during the build pipeline of the software. On the other side, there was a requirement for enterprises to efficiently develop the OSS compliance competence of their personnel. Both of the views should be addressed when researching issues and remedies regarding OSS compliance.
 
-To sum up, we can see that the problems of OSS compliance within organizations fall into two categories. Firstly, compliance is overlooked for either the lack of a toolchain that could manage everything required for the software release to be compliant. At this point, compliance requires laborious and time-consuming manual work, which for many might seem as redundant compared to the risk involved. Secondly, compliance is overlooked due to lack of motivation (i.e. understanding the importance) or the lack of competence to assess compliance information.
+To sum up, we can see that the problems of OSS compliance within organizations fall into two categories. Firstly, compliance is considered difficult, laborious and time-consuming for the lack of a toolchain that could manage everything required for the software release to be compliant. Secondly, compliance is disregarded due to lack of motivation (i.e. not understanding the importance) or the lack of competence to assess compliance information.
 
-Double Open project will research ways to amend the said issues. The research will be accrued into the concept design of Double Open. The envisioned final object would be to initiate a Proof of Concept of both issues separately.
+Double Open project will research ways to amend the said issues. The research will be accrued into the concept design of Double Open. The project aims to complete a proof of concept of both issues separately.
 
-For the full report please go to [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
+For the underlying report of the work package regarding Voice-of-Customer workshops, please see [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
+
+[Workshop process](/Images/Voice-of-Customer-Workshops/Working-photo.jpg)
