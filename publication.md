@@ -651,11 +651,13 @@ Package used: spin.js-2.3.2
 
 ## Double Open Short Ecosystem Survey 2019
 
-Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate real life factual information from members of the open source ecosystem to investigate the existing landscape, and popularity of open source compliance tools and development tools/technologies as well as open source initiatives.
+Double Open launched the Double Open Short Ecosystem Survey 2019 to accumulate real-life factual information from members of the open source ecosystem to investigate the existing landscape, and popularity of open source compliance tools and development tools/technologies as well as open source initiatives.
 
-The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to a number of compliance related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. 
+The response quantity (28) to the survey was small to medium. However, the purpose of the survey was to explore the potential direction of the software industry and open source compliance. By reaching out to several compliance-related communities, we achieved in getting answers from a group of persons within the industry who represent an interesting insight into the tooling used in and in relation to open source compliance. 61 per cent of the sample group was companies with over 1000 employees. Large companies are de facto influential in the OSS industry and also the ones with the most need for open source compliance. Therefore we deem the Survey to be an overall success and it does give valid information of e.g. integrations to all who wish to develop and contribute in open source. 
 
-For the full results and statistics on the Survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
+Results show, that the FOSS tools that are preferred by the whole ecosystem are Fossology, ScanCode and SPDX toolkit. These have existed for a long time and have established themselves as primary tools in OSS compliance. Besides, the tools have had the possibility to improve over time to better serve the people and organizations who use them. 
+
+The tools that are mentioned above as the preferred tools of the ecosystem will be in our focus when we accrue information in our concept. For the full results and statistics of the Survey please go to [Ecosystem Survey 2019](/Ecosystem-Survey-2019).
 
 ## Voice-of-Customer Workshops 2019
 
@@ -663,4 +665,10 @@ The Voice-of-Customer workshops were carried out to understand the open source c
 
 Workshops set out to define the current state and the dream state of the organizations. The results are to complement the development of the Double Open Concept. 
 
-For the full report please go to [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops)
+The outcome was two-fold. On one side there was a requirement for enterprises to get an efficient toolchain which automates OSS compliance during the build pipeline of the software. On the other side, there was a requirement for enterprises to efficiently develop the OSS compliance competence of their personnel. Both of the views should be addressed when researching issues and remedies regarding OSS compliance.
+
+To sum up, we can see that the problems of OSS compliance within organizations fall into two categories. Firstly, compliance is overlooked for either the lack of a toolchain that could manage everything required for the software release to be compliant. At this point, compliance requires laborious and time-consuming manual work, which for many might seem as redundant compared to the risk involved. Secondly, compliance is overlooked due to lack of motivation (i.e. understanding the importance) or the lack of competence to assess compliance information.
+
+Double Open project will research ways to amend the said issues. The research will be accrued into the concept design of Double Open. The envisioned final object would be to initiate a Proof of Concept of both issues separately.
+
+For the full report please go to [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
