@@ -678,4 +678,4 @@ Double Open project will research ways to amend the said issues. The research wi
 
 For the underlying report of the work package regarding Voice-of-Customer workshops, please see [Voice-of-Customer Workshops](/Voice-of-Customer-Workshops).
 
-[Workshop process](/Images/Voice-of-Customer-Workshops/Working-photo.jpg)
+[Workshop process](/Images/Voice-of-Customer-Workshops/Working-photo.png)
