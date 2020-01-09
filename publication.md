@@ -17,7 +17,7 @@ ___
 * [Sharing-creates-value](#sharing-creates-value)
 
 [FOSS tools](#foss-tools-for-open-source-compliance)
-+ [Bang](#bang)
+* [Bang](#bang)
 * [Fossology](#fossology)
 * [ScanCode toolkit](#scancode-toolkit)
 * [AboutCode toolkit](#aboutcode-toolkit)
@@ -43,7 +43,7 @@ ___
 * [Tern](#tern)
 * [SPDX Tools](#spdx-tools)
 * [SPDX Maven Plugin](#spdx-maven-plugin)
-* [Reuse Software](#reuse-software)
+* [REUSE](#reuse-software)
 
 [Uncategorized FOSS resources](#uncategorized-foss-resources)
 * [Software Heritage](#software-heritage)
@@ -413,13 +413,17 @@ The following functions are available:
 #### Summary
 SPDX Maven Plugin is a plugin to Maven which produces Software Package Data Exchange (SPDX) documents for artifacts described in the POM file. 
 
-### REUSE Software
+### REUSE
 #### Website
-[REUSE SOFTWARE](https://reuse.software/)
+[REUSE](https://reuse.software/)
 #### Main License
 [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 #### Summary
-REUSE initiative is an initiative to provide a set of recommendations to make licensing your free software projects easier. REUSE has tools that facilitate the developer in complying with the said recommendations. REUSE is an initiative of the FSFE and uses SPDX as their standard practice. It requires user to add 1) the exact text of the license, 2) a copyright notice and license header to every file 3) an inventory for included software.  
+REUSE is an initiative to provide a set of recommendations to make licensing your free software projects easier. REUSE provides [tools](https://reuse.software/dev/) that facilitate the developer in adopting the said recommendations. REUSE is an initiative of the [FSFE](https://fsfe.org) and uses SPDX as their standard practice. It asks adopters to
+
+1. choose and provide licenses,
+2. add copyright and licensing information to every file,
+3. confirm REUSE compliance with a single tool command or the [REUSE API](https://api.reuse.software).  
 
 ---
 
