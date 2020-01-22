@@ -45,7 +45,31 @@ Our method for getting all of the source files in the build is to loop over all 
 
 This step of the process can be included in the build process by modifying the patches previously mentioned. For the Proof of Concept, we've decided to utilize standalone Python scripting for the benefit of development time.
 
-The end result of this step is a list of all source files in all packages of the build output.
+The end result of this step is a list of all source files in all packages of the build output in json format. An example of our current format is found below.
+
+```json
+{
+    "acl.srclist": {
+        "/home/yocto/poky/build/tmp/work/core2-64-poky-linux/acl/2.2.52-r0/package/lib/libacl.so.1.1.0": {
+            "/usr/include/attr/error_context.h": "73aed837d2440b941266c854844a1d834dd2ee9bd8545de24d5aa322f48a319e",
+            "/usr/include/attr/xattr.h": "0da8f0b3bedb511e3a3fb0cfd5562c22abde9f12f81c42e6b4d1e0d21ecdb501",
+            "/usr/include/bits/dirent.h": "e73c3c2488d14685339bbc68d3d39660423ffd4aa6468157cbdabf2b0de822b6",
+        },
+        "/home/yocto/poky/build/tmp/work/core2-64-poky-linux/acl/2.2.52-r0/package/usr/bin/chacl": {
+            "/usr/include/bits/dirent.h": "e73c3c2488d14685339bbc68d3d39660423ffd4aa6468157cbdabf2b0de822b6",
+            "/usr/include/bits/getopt_core.h": "1923be731ac79fb7449c431ddf45f2ca3b2f7ad82eeacc9e8101e8fe7c2ffd6e",
+            "/usr/include/bits/stdio2.h": "da7ee4876646a5f056ebe3f4cfbd62f2feaf6c01acc9346772c749df03d7dcd7",
+        }
+    },
+    "alsa-lib.srclist": {
+        "/home/yocto/poky/build/tmp/work/core2-64-poky-linux/alsa-lib/1.1.9-r0/package/usr/bin/aserver": {
+            "/usr/include/asm-generic/int-ll64.h": "eb8b891e775ebb50af0353fdcbc625854fd98780399b3a57a404d36af6c29749",
+            "/usr/include/asm-generic/posix_types.h": "0b94eebdf4488407d32fa199136f302653ab51a2843bd68dee24c38c9f0ce82e",
+            "/usr/include/assert.h": "10d935dbd217e52c0bcddd5a8301b4d4d7536296c8e4c7162a01c1e9c4329807",
+        }
+    }
+}
+```
 
 #### SHA-256
 
