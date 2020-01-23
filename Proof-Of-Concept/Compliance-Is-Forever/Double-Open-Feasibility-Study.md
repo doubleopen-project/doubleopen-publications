@@ -6,9 +6,9 @@ The Double Open proof of concept is approaching the compliance issues of Embedde
 
 ## Basic statistics of the used build environment
 
-* Yocto Project version x.x
-* BitBake version x.x
-* Linux distribution version x.x
+* Yocto Project version 3.0
+* BitBake Build Tool Core version 1.44.0
+* Ubuntu 18.04.3 LTS
 
 ## File level approach
 
