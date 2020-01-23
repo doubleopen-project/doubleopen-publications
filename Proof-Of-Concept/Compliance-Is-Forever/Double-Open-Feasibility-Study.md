@@ -84,4 +84,4 @@ An example of the output format can be found below.
 
 ### Extracting file level data from Fossology via REST query
 
-This step needs 
+Extracting file level licencing data from Fossology is not currently possible by hash values.
