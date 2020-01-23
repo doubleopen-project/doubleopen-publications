@@ -24,6 +24,7 @@ Dwarfsrcfiles can be included in the build process by patching package.bbclass r
 
 Srclist file includes a list of all [ELF files](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) of the package in question and all source files for each ELF file, as determined by dwarfsrcfiles.
 
+##### acl.srclist
 ```json
 {
     "/home/yocto/poky/build/tmp/work/core2-64-poky-linux/acl/2.2.52-r0/package/lib/libacl.so.1.1.0": [
@@ -45,7 +46,17 @@ Our method for getting all of the source files in the build is to loop over all 
 
 This step of the process can be included in the build process by modifying the patches previously mentioned. For the Proof of Concept, we've decided to utilize standalone Python scripting for the benefit of development time.
 
-The end result of this step is a list of all source files in all packages of the build output in json format. An example of our current format is found below.
+The end result of this step is a list of all source files in all packages of the build output.
+
+#### SHA-256
+
+The next step is to convert the list of files into a list of unique hash values (SHA-256). This should be implemented to the previously mentioned patches to calculate the hash values during the build. For the Proof of Concept, we've decided to utilize standalone Python scripting. Current version of our script `hash_list.py` can be found in the Code folder.
+
+The script iterates over all of the srclist files in the build and calculates the hash (currenlty SHA256) for all source files of all ELF files in each list. The result is then printed to a json file, preserving names of the srclist files, paths of the ELF files and paths of the source files, as provided by dwarfsrcfiles. Finding the correct source file with the provided path proved to be a complicated matter. The script is currently configured to look for the files in four possible locations.
+
+An example of the output format can be found below.
+
+##### hash_list.json
 
 ```json
 {
@@ -71,10 +82,6 @@ The end result of this step is a list of all source files in all packages of the
 }
 ```
 
-#### SHA-256
-
-The next step is to convert the list of files into a list of unique hash values (SHA-256). This should be implemented to the previously mentioned patches to calculate the hash values during the build. For the Proof of Concept, we've decided to utilize standalone Python scripting.
-
-
-
 ### Extracting file level data from Fossology via REST query
+
+This step needs 
