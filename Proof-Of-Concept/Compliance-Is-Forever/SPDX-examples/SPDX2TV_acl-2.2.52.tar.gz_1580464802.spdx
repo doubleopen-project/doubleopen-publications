@@ -1,0 +1,2662 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+
+##-------------------------
+## Document Information
+##-------------------------
+
+DocumentNamespace: http://debian2.hhpartners.local/repo/SPDX2TV_acl-2.2.52.tar.gz_1580464802.spdx
+DocumentName: /srv/fossology/repository/report
+SPDXID: SPDXRef-DOCUMENT
+
+##-------------------------
+## Creation Information
+##-------------------------
+
+Creator: Tool: spdx2
+Creator: Person: toni (toni.paarni@hhpartners.fi)
+CreatorComment: <text>
+This document was created using license information and a generator from Fossology.
+</text>
+Created: 2020-01-31T05:00:02Z
+LicenseListVersion: 2.6
+
+##-------------------------
+## Package Information
+##-------------------------
+
+
+PackageName: acl-2.2.52.tar.gz
+PackageFileName: acl-2.2.52.tar.gz
+SPDXID: SPDXRef-upload93
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: f05916e2c422ba7710a836856db276c778c2dc79
+PackageChecksum: SHA1: 537dddc0ee7b6aa67960a3de2d36f1e2ff2059d9
+PackageChecksum: MD5: a61415312426e9c2212bd7dc7929abda
+PackageLicenseConcluded: GPL-2.0 AND LGPL-2.1
+PackageLicenseDeclared: GPL-2.0 AND LGPL-2.1
+PackageLicenseComments: <text> licenseInfoInFile determined by Scanners:
+ - nomos ("3.6.0-rc2-13-gfc1b3cef".fc1b3c)
+ - monk ("3.6.0-rc2-13-gfc1b3cef".fc1b3c) </text>
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-upload93
+
+##--------------------------
+## File Information
+##--------------------------
+
+##File
+
+FileName: acl-2.2.52/test/run
+SPDXID: SPDXRef-item93598
+FileChecksum: SHA1: be4e2faa1b063d184c329d0637a583b05bb864de
+FileChecksum: MD5: 43c48ebcd06e9b6aee0ecb22200a634f
+LicenseConcluded: BSD-Source-Code OR GPL-2.0+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/test/run AND NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-GPL
+LicenseInfoInFile: LicenseRef-Dual-license
+LicenseInfoInFile: LicenseRef-BSD-style
+LicenseInfoInFile: BSD-Source-Code
+FileCopyrightText: <text> Copyright (c) 2007, 2008 Andreas Gruenbacher. All rights reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/VERSION
+SPDXID: SPDXRef-item93704
+FileChecksum: SHA1: 006368f11c3a047fa7f3c4a9e875895e86ad8511
+FileChecksum: MD5: 9a18773f6898c80dd52056d37ed036aa
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/VERSION </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/README
+SPDXID: SPDXRef-item93686
+FileChecksum: SHA1: 817e5c584bafbef052674ba36e9da805e0eea5ad
+FileChecksum: MD5: 71009906f71f0c554714d693076bef73
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/README </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/setfacl.c
+SPDXID: SPDXRef-item93619
+FileChecksum: SHA1: c041478ca2b136b2158f5d57dbaed15956a52842
+FileChecksum: MD5: cc8da1d8fa245335b8027192086af6b4
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999-2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/sequence.h
+SPDXID: SPDXRef-item93625
+FileChecksum: SHA1: b28efbf817ea715fd712821738d0dc1f3e3727e7
+FileChecksum: MD5: fc02dca30fa3c81b2a5ac2beb2823323
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999 by Andreas Gruenbacher a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/sequence.c
+SPDXID: SPDXRef-item93623
+FileChecksum: SHA1: 087a1a5d78331aff33b0238efceb2a6e726c0378
+FileChecksum: MD5: 806a60628ca0c4ffffa99f51b67dc9fd
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/parse.h
+SPDXID: SPDXRef-item93624
+FileChecksum: SHA1: 742c74618c147944e9cd567f3e9efe01d2744db2
+FileChecksum: MD5: 0541fd82f29e72d6ac0273ab87719d7a
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999 by Andreas Gruenbacher a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/parse.c
+SPDXID: SPDXRef-item93621
+FileChecksum: SHA1: 1396bffe03ac19b39fe5405f5b6181a3f99425d9
+FileChecksum: MD5: 5cd086b2412dcacf221b51a5e0b9a68e
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/Makefile
+SPDXID: SPDXRef-item93618
+FileChecksum: SHA1: 9c9158482da7ba9873dbf3eb228788f6b6b866f2
+FileChecksum: MD5: 873e393867f3b7ba5aae3ab3544a912e
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000, 2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/do_set.h
+SPDXID: SPDXRef-item93620
+FileChecksum: SHA1: 1e531672f38006dfaeb8b399a8494a2537c28af5
+FileChecksum: MD5: 305b7c1945a2c6f657115c8dbf94916c
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2009 by Andreas Gruenbacher a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/setfacl/do_set.c
+SPDXID: SPDXRef-item93622
+FileChecksum: SHA1: c7a868cc49889881c53005f06d1b7eaf1ac73ce1
+FileChecksum: MD5: 762cf9f565f72f7878a1a4629be9d2c2
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/sv.po
+SPDXID: SPDXRef-item93630
+FileChecksum: SHA1: c1163c2bb5f389065d7a691893fbf5ad107404f8
+FileChecksum: MD5: 5101139c3535079d41a20ff4453d7416
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2006 Free Software Foundation, Inc. Daniel Nylander <po@danielnylander.se>, 2006. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/pl.po
+SPDXID: SPDXRef-item93628
+FileChecksum: SHA1: b67c4212c950c7ef3ea526d99388de55ea630c59
+FileChecksum: MD5: 337cc3cc30fd29e14c9615f9bad3aef5
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2004 Free Software Foundation, Inc. Jakub Bogusz <qboosh@pld-linux.org>, 2004. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/Makefile
+SPDXID: SPDXRef-item93627
+FileChecksum: SHA1: 0820c80bfb07238739950f0e605a6aad1ab02fee
+FileChecksum: MD5: 51c014364d51690ed4c39b3fff206903
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/gl.po
+SPDXID: SPDXRef-item93631
+FileChecksum: SHA1: 7acdbdec2aae6ccb652c123558b6bca8edbf84e8
+FileChecksum: MD5: 9d64ac7bef84ab3354522a50ef4ec3d7
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. Antonio Trueba <atrueba@users.sourceforge.net>, 2007. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/fr.po
+SPDXID: SPDXRef-item93632
+FileChecksum: SHA1: 804b2bba5ad95b2d57fbb7109768b1db8112252b
+FileChecksum: MD5: be7f357f279558c0fe16e35e9ae2e913
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2005 Free Software Foundation, Inc. Sylvain Archenault <sylvain.archenault@laposte.net>, 2005. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/es.po
+SPDXID: SPDXRef-item93634
+FileChecksum: SHA1: ab530bc4853fb88fd5482e0c811637c86deb49da
+FileChecksum: MD5: b3c4aa5ad1b4d9456c64f966d2845f76
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2007 Free Software Foundation, Inc. Antonio Trueba <atrueba@users.sourceforge.net>, 2007. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/de.po
+SPDXID: SPDXRef-item93633
+FileChecksum: SHA1: 2ef708426cddfeb17584b9c5277525c87d918375
+FileChecksum: MD5: 6d1ba91424a2ed6f13ec0ecc59997492
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2000 Free Software Foundation, Inc. Andreas Grünbacher <a.gruenbacher@computer.org>, 2000. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/po/acl.pot
+SPDXID: SPDXRef-item93629
+FileChecksum: SHA1: 14412b31722f5d44b4c7868aadba3f0a822ee8f1
+FileChecksum: MD5: dff93dcbd4b13edb0fe409dc91c2717a
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/po/acl.pot </text>
+LicenseInfoInFile: LicenseRef-Same-license-as
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/package/Makefile
+SPDXID: SPDXRef-item93688
+FileChecksum: SHA1: c4ebf83d00f4c350dd4dd94177c72d86d9430420
+FileChecksum: MD5: 11a2ae54c83f80fd1dc114a285f66339
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/package/tar/Makefile
+SPDXID: SPDXRef-item93690
+FileChecksum: SHA1: 7289c98713f5963c73ba3fad53e2fe911381ff78
+FileChecksum: MD5: 5c01077b523cc1cb2708fc073a6329d4
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2003 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/package/rpm/rpm-2.rc.template
+SPDXID: SPDXRef-item93694
+FileChecksum: SHA1: dcbfa283eefd48d1d961f049994f5cc807bffb1f
+FileChecksum: MD5: 88e83ff925d38dc19a2204b21598088f
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/package/rpm/rpm-2.rc.template </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/package/rpm/Makefile
+SPDXID: SPDXRef-item93692
+FileChecksum: SHA1: 61ef2acdf92386611836cd6d92a24be578ebf2eb
+FileChecksum: MD5: aaa11acb524fd3cf8ac39737aa153957
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2003 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/package/rpm/macros.template
+SPDXID: SPDXRef-item93693
+FileChecksum: SHA1: 77ddef7470d30af1578e11e97f6a2208dda0c68a
+FileChecksum: MD5: 01f874d2e7d38c91d301677013550a82
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/package/rpm/macros.template </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/package/rpm/acl.spec.in
+SPDXID: SPDXRef-item93695
+FileChecksum: SHA1: 5a185532c0ed86f8bd0c5f915b3b31777633a38d
+FileChecksum: MD5: df53dddb8484716be4b97730d4beebfa
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>LC8 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/package/rpm/acl.spec.in </text>
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/man/Makefile
+SPDXID: SPDXRef-item93636
+FileChecksum: SHA1: aa487bd3bb7f8ceff96c6e6689f842a1fb67dcca
+FileChecksum: MD5: f90e76132c1e63a703ed7bd39a467589
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man5/Makefile
+SPDXID: SPDXRef-item93684
+FileChecksum: SHA1: 6285a5563312849a8d68819fc88b19fad6556285
+FileChecksum: MD5: 680735731b45151a27b17af2498f799c
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man5/acl.5
+SPDXID: SPDXRef-item93685
+FileChecksum: SHA1: da51139d43ab5ae92e78407a9ab92143bc069a1c
+FileChecksum: MD5: 805192e7377a9e4b88a93c11085c3c99
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/Makefile
+SPDXID: SPDXRef-item93638
+FileChecksum: SHA1: d5645b156569b26a77fb140b57db46448285f505
+FileChecksum: MD5: 546f66e95acdf09ff1ab4dd204eb11ce
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_valid.3
+SPDXID: SPDXRef-item93676
+FileChecksum: SHA1: 879c44668a355b0f226fab450d2bd6fb58d5f258
+FileChecksum: MD5: 217ae90c24f9862f2fdc4537c04d1dcc
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_to_text.3
+SPDXID: SPDXRef-item93662
+FileChecksum: SHA1: ace566e7c279cf05acefd4aebf389ce81fbeda13
+FileChecksum: MD5: 8e18a87facfc53a838ccd29a8294f18c
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_to_any_text.3
+SPDXID: SPDXRef-item93671
+FileChecksum: SHA1: b04a67e01b24608f3f16f98a5cf4003f19c2ae78
+FileChecksum: MD5: 9c9a6500096c32be9286936ce9e03e51
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_size.3
+SPDXID: SPDXRef-item93670
+FileChecksum: SHA1: 13086924e2691fdd4c498a3a27722e7b6e15be7f
+FileChecksum: MD5: 70d0bf5ad81e71d3ad6d96b8d10b11ff
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_set_tag_type.3
+SPDXID: SPDXRef-item93657
+FileChecksum: SHA1: b65e4d82258cd5d4401ada909ebdd855b861e7b8
+FileChecksum: MD5: 78964d1aa5159225efad12208856eab3
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_set_qualifier.3
+SPDXID: SPDXRef-item93669
+FileChecksum: SHA1: bfc3e924132710c824123eb482a87c754b462f4f
+FileChecksum: MD5: 1575ff654de0be02d9f3fb0194774ffe
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_set_permset.3
+SPDXID: SPDXRef-item93643
+FileChecksum: SHA1: 74619bd6347c7dcd802bb76180751ecbad9bf97b
+FileChecksum: MD5: 75e241aad5c35330a20d6f1c4a7e6c88
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_set_file.3
+SPDXID: SPDXRef-item93646
+FileChecksum: SHA1: 6a720e7845520b22895ea99672c97e2667c0f14a
+FileChecksum: MD5: f03fb3d523d6f89a43e5761da32011d4
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_set_fd.3
+SPDXID: SPDXRef-item93651
+FileChecksum: SHA1: 492c45a916f740ccb28e8cde52a1cb6104452d6e
+FileChecksum: MD5: fc39d37665eadb8b3c0093d3ecc7a713
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_init.3
+SPDXID: SPDXRef-item93652
+FileChecksum: SHA1: db6ebe6074f8fb3d374906fb8887750f141b86fd
+FileChecksum: MD5: 05c331ddce74725125f780f5d47203c5
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_tag_type.3
+SPDXID: SPDXRef-item93655
+FileChecksum: SHA1: c274a2f4d088bd3b1feaeb22fef1c130f474e74f
+FileChecksum: MD5: 9cf0c0e51dfd867818c68c1f596254fb
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_qualifier.3
+SPDXID: SPDXRef-item93666
+FileChecksum: SHA1: d1b2db1ca78759c5d867c1f46dff284247143d28
+FileChecksum: MD5: abb5c0bac76cfa934505692b2c49f166
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_permset.3
+SPDXID: SPDXRef-item93644
+FileChecksum: SHA1: 18f326f72246838aab07e25abc566ce42d502dd1
+FileChecksum: MD5: ca797a7479c1348eb9d5fef6f71eb6df
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_perm.3
+SPDXID: SPDXRef-item93640
+FileChecksum: SHA1: 7d8fb126c1ac1500aff7e0cbfbd2f7951eeb1bbb
+FileChecksum: MD5: 456d83c982ca8115a77fa4631921ff6a
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_file.3
+SPDXID: SPDXRef-item93677
+FileChecksum: SHA1: 982695c384e7e96b7f66dc8251da053d8ed534d0
+FileChecksum: MD5: 315175d7d6e8186c3faef904cf9c143c
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_fd.3
+SPDXID: SPDXRef-item93659
+FileChecksum: SHA1: c324c91fa55780621cf83ddb577d2d7552d8b833
+FileChecksum: MD5: 504891ffbf6d4b0d4fe85471332890ad
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_get_entry.3
+SPDXID: SPDXRef-item93661
+FileChecksum: SHA1: 0433ebde5c119ffb5155206c927cf8883da6c343
+FileChecksum: MD5: 67def20fca24caa3f033cc918b989e26
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_from_text.3
+SPDXID: SPDXRef-item93668
+FileChecksum: SHA1: fb4d03c4fe14e52df3cae74d74372bd4a8aff611
+FileChecksum: MD5: 0bc70e613fbba9e5204ac14940a2ef74
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_from_mode.3
+SPDXID: SPDXRef-item93658
+FileChecksum: SHA1: 78bd43f6a758f26c4965f65792ada7fa5dd7128c
+FileChecksum: MD5: a233580513cc9e82207261ca18f75d72
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_free.3
+SPDXID: SPDXRef-item93649
+FileChecksum: SHA1: 177726a0306684a35eb156b1696d80958905c126
+FileChecksum: MD5: cafa1987655a6b38fd3959d903732221
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_extended_file_nofollow.3
+SPDXID: SPDXRef-item93675
+FileChecksum: SHA1: 5dc9145d0c48d96fa5d87eadfdae5b57712084fa
+FileChecksum: MD5: 8b4fb31dbe4ef3259c10d4c8c1852592
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/man/man3/acl_extended_file_nofollow.3 </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_extended_file.3
+SPDXID: SPDXRef-item93647
+FileChecksum: SHA1: 126371b87873fd53d30cd05f28bf2a582adab071
+FileChecksum: MD5: 3d8d41f366f979f4d4ceedaf2b9d8404
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_extended_fd.3
+SPDXID: SPDXRef-item93645
+FileChecksum: SHA1: 7bf143213d7498eee047f0dd70b0782b80c6fd44
+FileChecksum: MD5: 1f288f2cbd3b3953e08a4a6c3ad5b914
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_error.3
+SPDXID: SPDXRef-item93664
+FileChecksum: SHA1: 336e67714936be115069860331bd452d3f2f9414
+FileChecksum: MD5: ba615636312cca88a3f93f8f9cd3955a
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_equiv_mode.3
+SPDXID: SPDXRef-item93660
+FileChecksum: SHA1: 5dbb310e3914812ccbd99805f120f51ecb898da0
+FileChecksum: MD5: a772c22212d439493b8734ed4b9e452e
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_entries.3
+SPDXID: SPDXRef-item93672
+FileChecksum: SHA1: ca86d2b4a28554bc621745f9e5b251250b472752
+FileChecksum: MD5: 0dc033d1c851872fa1b3e0357472b45c
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man1/setfacl.1
+SPDXID: SPDXRef-item93681
+FileChecksum: SHA1: b0927d830844bf34c7aa75d9032d206f50de60a9
+FileChecksum: MD5: 468b7aca59c69d667169fab5b328faa3
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/perm_copy.h
+SPDXID: SPDXRef-item93775
+FileChecksum: SHA1: dd2ffdba5be9d8784a3e8963e5cfbb4e2ade17e6
+FileChecksum: MD5: cb6390ab1228f75f7bf39731f223f443
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2003 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/perm_copy_file.c
+SPDXID: SPDXRef-item93791
+FileChecksum: SHA1: b868e99cd50ae2f414aa9d64436e2ebd523619e9
+FileChecksum: MD5: 29d4bd2daeb32b3018139065306593a9
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2002 Andreas Gruenbacher <agruen@suse.de>, SuSE Linux AG. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/perm_copy_fd.c
+SPDXID: SPDXRef-item93792
+FileChecksum: SHA1: 83bb505fd483d3a835ab2948cc189c53d3553f95
+FileChecksum: MD5: 3bf14458588e8e414853ef8f2ee93408
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2002 Andreas Gruenbacher <agruen@suse.de>, SuSE Linux AG. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/Makefile
+SPDXID: SPDXRef-item93744
+FileChecksum: SHA1: 9055856c71c362330dd9ea86dac7167c9b49bb13
+FileChecksum: MD5: 75d1624ed1df5c53fa08f7aa9650e5a9
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/libobj.h
+SPDXID: SPDXRef-item93750
+FileChecksum: SHA1: 92d7f32ba5ea1886fb694292f455fc963049a739
+FileChecksum: MD5: 5d8e760782c8b80b69db0c3e01e231fd
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000, 2002, 2003 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__libobj.c
+SPDXID: SPDXRef-item93797
+FileChecksum: SHA1: 091aeb8e6bdbf4a9399dd271270efc2ea90d9553
+FileChecksum: MD5: 66dbc7c1555b5a7e79bf8af12c451f0f
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999-2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/libacl.h
+SPDXID: SPDXRef-item93769
+FileChecksum: SHA1: cc48133254ecfc0c0ff94dd74cf69af960eea4b2
+FileChecksum: MD5: c82399f34d88cccbd08c68aa9f4b8153
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000, 2002, 2003 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/byteorder.h
+SPDXID: SPDXRef-item93784
+FileChecksum: SHA1: 012ee4e7a0c31d7b33b0b03a6f3574d4eb6855b0
+FileChecksum: MD5: 575849e208ff2fc9179732dabc0e4a69
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000, 2002 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__apply_mask_to_mode.c
+SPDXID: SPDXRef-item93778
+FileChecksum: SHA1: d5e9e43a9649ace8edab0b2bf05db15161c7190a
+FileChecksum: MD5: e1ca5c5c33ac98215091872c147850ad
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999-2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_to_xattr.h
+SPDXID: SPDXRef-item93774
+FileChecksum: SHA1: d0c8f497bef29c2338deed51df333bd25dc273b2
+FileChecksum: MD5: 89e8bd7c33e7f2ab8a7bfaa8dc9530cc
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/libacl/__acl_to_xattr.h </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_valid.c
+SPDXID: SPDXRef-item93753
+FileChecksum: SHA1: 1b004ed5e4a3fc8ae0bf9b70daa3f69accfb1f99
+FileChecksum: MD5: 1ff017d18f11b6e6c492bf5fb99e3035
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_to_xattr.c
+SPDXID: SPDXRef-item93751
+FileChecksum: SHA1: 077bd0b2426df1d90f0e46c952c3e44b94e8bfab
+FileChecksum: MD5: 7ff11f7a8d2f333376be66787bfa6cd3
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_to_text.c
+SPDXID: SPDXRef-item93762
+FileChecksum: SHA1: 158da5ff8eb789ded1500348f804cbe70d4c1119
+FileChecksum: MD5: 967008c21446fd0dcca1ab09253b4ca0
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_to_any_text.c
+SPDXID: SPDXRef-item93781
+FileChecksum: SHA1: bdf422ad784437da7baae4496117ddda3db98443
+FileChecksum: MD5: 53dda33ba131458b08d1876a8e181e57
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_to_any_text.c
+SPDXID: SPDXRef-item93748
+FileChecksum: SHA1: b067957f1f7d5367f649b15b381fe593f519bf42
+FileChecksum: MD5: 28da8070ffaa831017636a98a95d809f
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_size.c
+SPDXID: SPDXRef-item93749
+FileChecksum: SHA1: 180c7fdc5fc970b3f79228cdbe57d0077c235fb3
+FileChecksum: MD5: d2b238d454a74d17dee5dd3f03ab7120
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_set_tag_type.c
+SPDXID: SPDXRef-item93777
+FileChecksum: SHA1: b4fb8bc309f19920b88b9e1d5df7ad60986cdcf0
+FileChecksum: MD5: e9158e2f9ab6a2401b7e3aac640942a3
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_set_qualifier.c
+SPDXID: SPDXRef-item93786
+FileChecksum: SHA1: 629cc5bf2cdc263d0ec328a9249ab9e15ad2c7fe
+FileChecksum: MD5: 328239a43e9e5cfe35c6d3b7c64a77d6
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_set_permset.c
+SPDXID: SPDXRef-item93754
+FileChecksum: SHA1: 687fcdd8f8be849821dfeacf37dc01094a35cac9
+FileChecksum: MD5: 97cea77935c3567e7e5144c78d0edc0d
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_set_file.c
+SPDXID: SPDXRef-item93782
+FileChecksum: SHA1: 6b38fda44dbc089dbd950d6b9ba2e2cbdb8848eb
+FileChecksum: MD5: 82f5a44f94205bee9e5dfb683b293d1a
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_set_fd.c
+SPDXID: SPDXRef-item93794
+FileChecksum: SHA1: 4cd12c84398593d2278a0d04d8cc331a24ec14a8
+FileChecksum: MD5: aab7e30d0f80b64fec18b4152e640e88
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_reorder_obj_p.c
+SPDXID: SPDXRef-item93747
+FileChecksum: SHA1: 2076be8a1da1aaf42184957c5bcd0cf93a7b63b1
+FileChecksum: MD5: 8ea7f892d0a0c84eb16273ec2ed246bc
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_init.c
+SPDXID: SPDXRef-item93798
+FileChecksum: SHA1: 85913528c6771f4f51c19969a07e1082a4161ed9
+FileChecksum: MD5: adedfb3a73d62961271a35e156e356c0
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_tag_type.c
+SPDXID: SPDXRef-item93790
+FileChecksum: SHA1: 2fd936373685aee0f0c5d52d0cc08fa5954732d2
+FileChecksum: MD5: 15e46e3c91827e8e52b4379a3b6bdd47
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_qualifier.c
+SPDXID: SPDXRef-item93770
+FileChecksum: SHA1: d78b897e142d82b4d4977cf8f7f609b7130e3130
+FileChecksum: MD5: ce30b18f85c050c5179831a28a8e0c39
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_permset.c
+SPDXID: SPDXRef-item93787
+FileChecksum: SHA1: 73ceb431c06e0f04e5a81f9fb02b11813cffe26c
+FileChecksum: MD5: 1c0ab7288d1e67aeb29a0b0081cb723a
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_perm.c
+SPDXID: SPDXRef-item93785
+FileChecksum: SHA1: e287bbeb7562d06053979d7f81b808f0d6a787ce
+FileChecksum: MD5: 315241e12b564f3f92fba47c3840d41c
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_file.c
+SPDXID: SPDXRef-item93771
+FileChecksum: SHA1: 58c3e62621753bb9db84eee3c34107bfa55e4455
+FileChecksum: MD5: a4e8f38b5fad11e6280dd8aa44c9a72c
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_fd.c
+SPDXID: SPDXRef-item93757
+FileChecksum: SHA1: 9784178d4cbea71e6a5876253dec85f36356b9e6
+FileChecksum: MD5: 9e65882feeb801972216bf576caebaa4
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_get_entry.c
+SPDXID: SPDXRef-item93746
+FileChecksum: SHA1: c5ede9cd9a7999814bbf9145e5e56a2d32212d4e
+FileChecksum: MD5: 5576ece69989e536cab09f6faca99f61
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_from_xattr.h
+SPDXID: SPDXRef-item93763
+FileChecksum: SHA1: bcfb371b917c4c97721d300266643437192452c1
+FileChecksum: MD5: b44c4ab38ffa2151165d5f8cae15c8a0
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/libacl/__acl_from_xattr.h </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_from_xattr.c
+SPDXID: SPDXRef-item93756
+FileChecksum: SHA1: 823e407d849aa7773dfcae6107706f7a020cdc08
+FileChecksum: MD5: ee4290c4a98ec3a164056138fd42d7d6
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_from_text.c
+SPDXID: SPDXRef-item93788
+FileChecksum: SHA1: 3d2804b1121f98a9d12f2f86f9ec2b7d8889e47a
+FileChecksum: MD5: 521f861f7188ba5b5e1bbc49eb79319d
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000, 2001 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_from_mode.c
+SPDXID: SPDXRef-item93759
+FileChecksum: SHA1: 1ca55f92fef862782707d0fec520dbb88b01bf9a
+FileChecksum: MD5: f068a1b6d710196d023a67fec3fcafab
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_free.c
+SPDXID: SPDXRef-item93796
+FileChecksum: SHA1: 009311edc26c437b62284f438f5311cd4edaddb6
+FileChecksum: MD5: 10d9a79b35e5966494dd93f0c601a2dd
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_extended_file_nofollow.c
+SPDXID: SPDXRef-item93764
+FileChecksum: SHA1: 1c196fd0638a72e3b0d77a6381e2700789aede1b
+FileChecksum: MD5: 390a184740eb89c951c8e1330ed35030
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2011 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_extended_file.h
+SPDXID: SPDXRef-item93768
+FileChecksum: SHA1: 6859e2642395a2918b3056f4fc49173c99c04156
+FileChecksum: MD5: 2aead5f39f8508ad40be1fa090eefde5
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/libacl/__acl_extended_file.h </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_extended_file.c
+SPDXID: SPDXRef-item93767
+FileChecksum: SHA1: e485333bdef51c0969802e78d7349b847c31c832
+FileChecksum: MD5: b5848f308e878add60f666b691416e29
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2011 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/__acl_extended_file.c
+SPDXID: SPDXRef-item93745
+FileChecksum: SHA1: 790263ab5ffcedc69c26276d8eda300ca3729f21
+FileChecksum: MD5: 67309da090330b051edf610e278e5136
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000, 2011 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_extended_fd.c
+SPDXID: SPDXRef-item93780
+FileChecksum: SHA1: 28d5b82b997a00150d2bf2a69340609317671d20
+FileChecksum: MD5: ce9e6c9418e5b4c2dd65027028a4e4a9
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_error.c
+SPDXID: SPDXRef-item93799
+FileChecksum: SHA1: 0a7163dbec30a6f91dd7d0594b14a5605e422248
+FileChecksum: MD5: f3aa208e090fa740783771114faf9fae
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_equiv_mode.c
+SPDXID: SPDXRef-item93766
+FileChecksum: SHA1: e2537ecac83eb8755ba1cc2ee3dadc7d1291bc83
+FileChecksum: MD5: 45c37e70f9fcf7def44fd555f666c035
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_entries.c
+SPDXID: SPDXRef-item93793
+FileChecksum: SHA1: e2fc4c3e776519f97382a1f822ecb92948a279df
+FileChecksum: MD5: 4f513129791ad9a746c3e8a972aed728
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_dup.c
+SPDXID: SPDXRef-item93773
+FileChecksum: SHA1: 4ab16977211b6b4aff22d4a0e0d448555a2ad68d
+FileChecksum: MD5: 594950d9b5e2df02a4278e4ba00b577c
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_delete_perm.c
+SPDXID: SPDXRef-item93760
+FileChecksum: SHA1: 8cec51fc59061907a20da9290fc5a9f62c14cb31
+FileChecksum: MD5: ed5578a702c2ac700a7f537d50425c19
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_delete_entry.c
+SPDXID: SPDXRef-item93776
+FileChecksum: SHA1: ca1f1fbc55c1e0e1e4c59e02b3c64d51f442ccec
+FileChecksum: MD5: cc6fb52534307f4bee571963151d10ca
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_delete_def_file.c
+SPDXID: SPDXRef-item93789
+FileChecksum: SHA1: 6ddb4eb929258f538ebe7814fabd5852af92edef
+FileChecksum: MD5: f660f3521feba7dfa86463d4fc10acb0
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_create_entry.c
+SPDXID: SPDXRef-item93795
+FileChecksum: SHA1: 89958d5c46566261f33b8dda7c36ee0681c46fed
+FileChecksum: MD5: 4dcae8677e1612f3a26137cb6574b69d
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_copy_int.c
+SPDXID: SPDXRef-item93783
+FileChecksum: SHA1: 837f2595d503a7aa63ff46621d9f64d460a93f33
+FileChecksum: MD5: 34a3732ca0ea9ef7ec85efa50fa4f416
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_copy_ext.c
+SPDXID: SPDXRef-item93765
+FileChecksum: SHA1: 40827ae0117b12bd0b396b4ced51fa03545bd137
+FileChecksum: MD5: 6e76e03bc6b5fadaa294f397801fd8c4
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_copy_entry.c
+SPDXID: SPDXRef-item93761
+FileChecksum: SHA1: 295cad42787422d0908446aa4bfac0fa5507b96a
+FileChecksum: MD5: 405c30a1a1cfb517181e0bbd6c1aac4d
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_cmp.c
+SPDXID: SPDXRef-item93772
+FileChecksum: SHA1: 1e8612292e3cbbb1b277630cdd6f0e186e4966ce
+FileChecksum: MD5: c5bb81d11ea29fdcde26905ce611b39f
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_clear_perms.c
+SPDXID: SPDXRef-item93752
+FileChecksum: SHA1: 842e2824d8817c90968553c69dc623a9f1369585
+FileChecksum: MD5: 57a078bf9de4de89b8b4212f92a85a47
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_check.c
+SPDXID: SPDXRef-item93779
+FileChecksum: SHA1: 524e8d2e45ce5d35c22439d7ca85d6cda7517eee
+FileChecksum: MD5: a67065f2de31318d163fe93846216d30
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_calc_mask.c
+SPDXID: SPDXRef-item93758
+FileChecksum: SHA1: f194df01e43e645fd604c6f492252ac8a03e250d
+FileChecksum: MD5: 393d447c2523dba5ad611963d688e8ba
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libacl/acl_add_perm.c
+SPDXID: SPDXRef-item93755
+FileChecksum: SHA1: bbdf0844abd95d3412db57e5373f0a149afd6dfc
+FileChecksum: MD5: 63cfd901ea22b8f6622c836c34aa29c9
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/walk_tree.h
+SPDXID: SPDXRef-item93712
+FileChecksum: SHA1: df73b9302d85c262519ecfe97742a95263e6253c
+FileChecksum: MD5: 3ede7f3ab56e2f2f348a1b067dd04270
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2007 Andreas Gruenbacher <a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/misc.h
+SPDXID: SPDXRef-item93711
+FileChecksum: SHA1: cfcf6e1213121c7df140807b6cdf70837f531bc8
+FileChecksum: MD5: 6bdf870330fda50d68a247021620e867
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/Makefile
+SPDXID: SPDXRef-item93707
+FileChecksum: SHA1: 2749e8d1e75262bc20af30984517a2cd2eaccb99
+FileChecksum: MD5: 76ae83c8c4f25d5808f5a1390f03c4ec
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/libacl.h
+SPDXID: SPDXRef-item93713
+FileChecksum: SHA1: 9f0e6130a3399b5c1860a62480224508f2fc4c41
+FileChecksum: MD5: 9cd8a73452e0cf899928b27b20b02d6e
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/install-sh
+SPDXID: SPDXRef-item93710
+FileChecksum: SHA1: 03c3ec90ef97f349f025afcf7567c4d5fae451b6
+FileChecksum: MD5: c6838abf7e4d3e8c9fadb24ee8021e05
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2001 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/config.h.in
+SPDXID: SPDXRef-item93715
+FileChecksum: SHA1: 795589fdeaffa8b0885264d3e8d73c3662b4d36b
+FileChecksum: MD5: a8287d7fb1e2cb053d018170ebc8b7d0
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/buildrules
+SPDXID: SPDXRef-item93716
+FileChecksum: SHA1: 0af9b7fcdb5f6216012b930f49535058147af0d9
+FileChecksum: MD5: 16bb5f2f3aab42d1a91af3140b05dcb8
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 1999, 2001-2003 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/buildmacros
+SPDXID: SPDXRef-item93717
+FileChecksum: SHA1: 6f786e16580ff5ab801defbb95fd7ea8135bc4bd
+FileChecksum: MD5: 4429f0121bc6fe8a4f28928b13ff8895
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2002-2003 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/builddefs.in
+SPDXID: SPDXRef-item93714
+FileChecksum: SHA1: 908b6a26a1e3f9dbf49ff1a556ee4c25aac11938
+FileChecksum: MD5: df672fa91f50e3b575305742a51f09f6
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/include/builddefs.in </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: <text> Copyright (c) 2002-2006 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/acl.h
+SPDXID: SPDXRef-item93709
+FileChecksum: SHA1: 382a529231629c0b730e90db7dc73d3028e817a2
+FileChecksum: MD5: 8ea51961753fc1da4cae7fd48d2068c0
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> (C) 1999 Andreas Gruenbacher, <a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/include/acl_ea.h
+SPDXID: SPDXRef-item93708
+FileChecksum: SHA1: 3afad815ab2641e376f2d6b9e1de89c94874d7fd
+FileChecksum: MD5: cb6663faf3b865d95f76d801921d549d
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2002 Andreas Gruenbacher, <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/getfacl/user_group.h
+SPDXID: SPDXRef-item93732
+FileChecksum: SHA1: 1c0efdff9de66fe9fbe991580151d252b40cce1e
+FileChecksum: MD5: c1eb9a1399dfe92059d86a3ec1261f78
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 1999 by Andreas Gruenbacher a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/getfacl/user_group.c
+SPDXID: SPDXRef-item93731
+FileChecksum: SHA1: 08f1e0f1a97c7dfa15a98800ace0d5e736a488ae
+FileChecksum: MD5: 35abda45ce1339f1050db72d729e24dd
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 1999, 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/getfacl/Makefile
+SPDXID: SPDXRef-item93730
+FileChecksum: SHA1: 000016980dc03e080aeb9f414b6e03f2e3308c6c
+FileChecksum: MD5: fa057958aa54c983660349731ceaa95e
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000, 2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/getfacl/getfacl.c
+SPDXID: SPDXRef-item93733
+FileChecksum: SHA1: a7244a11cb1d3d09c43dc10ac10243a8c33f9393
+FileChecksum: MD5: 5b74dd87e8486740e7956b538aaba736
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 1999-2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/set-acl.c
+SPDXID: SPDXRef-item93701
+FileChecksum: SHA1: dade04e05274809805b568f297638a077668e8a0
+FileChecksum: MD5: 32ec269fc33011031ddc7f5bd0f243fa
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/README
+SPDXID: SPDXRef-item93700
+FileChecksum: SHA1: 3a65add2e1f93ac6db9380b12eb82fb722e39613
+FileChecksum: MD5: ba9bf764459d21e9294fda2ecbc0f7ee
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/examples/README </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/Makefile.examples
+SPDXID: SPDXRef-item93702
+FileChecksum: SHA1: cd5db9d35813d5148e11bfa92cffdc37eb824818
+FileChecksum: MD5: 02a69ea4a8b46d2b8a54d04f64391ff9
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/examples/Makefile.examples </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/Makefile
+SPDXID: SPDXRef-item93697
+FileChecksum: SHA1: f625bc6cf2744f728a67124192c563113b1a8fb5
+FileChecksum: MD5: 139d58e3825717eabb0fc960afc3c916
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/get-acl.c
+SPDXID: SPDXRef-item93698
+FileChecksum: SHA1: b87522b99c11557f14b8cedf8309ee1d587e54d9
+FileChecksum: MD5: 5936e45b6627ceb001f669535da07012
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/copyperm.c
+SPDXID: SPDXRef-item93699
+FileChecksum: SHA1: 4d562e9cc19bedff53bfa176f2bf1f24c296cc7f
+FileChecksum: MD5: d62030a00f1b96f9ec5d1f7756343d74
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/examples/copy-acl.c
+SPDXID: SPDXRef-item93703
+FileChecksum: SHA1: ef5f1f3fc7b41f59a35b880cfdeab633da59bdd5
+FileChecksum: MD5: 8b141a1c43902108d8ca70354ee84c0f
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/PORTING
+SPDXID: SPDXRef-item93728
+FileChecksum: SHA1: 031702840ade640226f0fcdfd032c8fc03ea37c8
+FileChecksum: MD5: 0dac782f00a1e917495d6e636a5b532b
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/PORTING </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/old-acl.5
+SPDXID: SPDXRef-item93724
+FileChecksum: SHA1: 9505d1ba977d892a23e3bc32db3b8053d9012215
+FileChecksum: MD5: 7ba94218e506795788fb6b969c41db61
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/old-acl.5 </text>
+LicenseInfoInFile: LicenseRef-UnclassifiedLicense
+FileCopyrightText: <text> (C) Andreas Gruenbacher, 1999 </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/Makefile
+SPDXID: SPDXRef-item93719
+FileChecksum: SHA1: c889af44d6a19e8c2157c43d770c9dd91817d598
+FileChecksum: MD5: 21f74e5525949b239eb21ae4016ead47
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/libacl.txt
+SPDXID: SPDXRef-item93727
+FileChecksum: SHA1: 3b282ff3a72b75a07dfefd5870f33422ae9946f1
+FileChecksum: MD5: 7f2c9fc41d7cac5d67bb003fb644d78a
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/libacl.txt </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/INSTALL
+SPDXID: SPDXRef-item93721
+FileChecksum: SHA1: 0d5068a65d049a03c2f309b7d000d98879a78abf
+FileChecksum: MD5: bf217789d9d1fa326cc89ae29449f5d6
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/INSTALL </text>
+LicenseInfoInFile: LicenseRef-See-file.README
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/extensions.txt
+SPDXID: SPDXRef-item93723
+FileChecksum: SHA1: ce0a15a7c33309646b1e93245c823e403b2dbf2d
+FileChecksum: MD5: 3603fb56903c07f1a9915e301c0efee7
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/extensions.txt </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/COPYING.LGPL
+SPDXID: SPDXRef-item93722
+FileChecksum: SHA1: e101765734390d664b59325b2d644d80d9a6bd9a
+FileChecksum: MD5: 9e9a206917f8af112da634ce3ab41764
+LicenseConcluded: GPL-2.0 AND LGPL-2.1
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+LicenseInfoInFile: LGPL-2.1
+FileCopyrightText: <text> Copyright (C) 1991, 1999 Free Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/COPYING
+SPDXID: SPDXRef-item93726
+FileChecksum: SHA1: b0d007e44cc4ad116e706e639fe38bfdc15a00a3
+FileChecksum: MD5: c781d70ed2b4d48995b790403217a249
+LicenseConcluded: GPL-2.0 AND LGPL-2.1
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: AGPL-1.0
+LicenseInfoInFile: GPL-2.0
+LicenseInfoInFile: LGPL-2.1
+FileCopyrightText: <text> Copyright (C) 1989, 1991 Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/CHANGES
+SPDXID: SPDXRef-item93720
+FileChecksum: SHA1: 555274d31ba81f7c589ccb036cd8f9b65e7281db
+FileChecksum: MD5: 676e21b898a440348bccb904ebd38f38
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/doc/CHANGES </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/watch
+SPDXID: SPDXRef-item93741
+FileChecksum: SHA1: 339a1d02ddb9622baa53161167e58444cc285433
+FileChecksum: MD5: c80d956bf547c8c0878a7619b5d2021b
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/debian/watch </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/rules
+SPDXID: SPDXRef-item93737
+FileChecksum: SHA1: 4ebe5ba7ef8ac33fccb62fe92ca69dcade8531da
+FileChecksum: MD5: cec4ad37e2a145a5d5b1f466adf6f8f6
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/debian/rules </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/Makefile
+SPDXID: SPDXRef-item93736
+FileChecksum: SHA1: 2c50590d1544bfd42d0a08772d251c39b15b798e
+FileChecksum: MD5: c17d5ddc051dca80dacba05fbcc6c200
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2003 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/copyright
+SPDXID: SPDXRef-item93740
+FileChecksum: SHA1: bb7d9de7e741c02873d9952e24ee00e6d32778fe
+FileChecksum: MD5: 0ea955363470dc7d7ee278a11a0de7f6
+LicenseConcluded: GPL-2.0+ AND LGPL-2.1
+LicenseComments: <text>LC8 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/debian/copyright AND NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1
+LicenseInfoInFile: LicenseRef-GPL
+FileCopyrightText: <text> Copyright (C) 2001-2002 Silicon Graphics, Inc. All Rights Reserved.
+Copyright (C) 2001 Andreas Gruenbacher. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/control
+SPDXID: SPDXRef-item93739
+FileChecksum: SHA1: 93bedeb80b53c336c79688126bcd54110d42035d
+FileChecksum: MD5: 4a57cd6993d9569ad4015e1ff88a28bb
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/compat
+SPDXID: SPDXRef-item93738
+FileChecksum: SHA1: 5d9474c0309b7ca09a182d888f73b37a8fe1362c
+FileChecksum: MD5: 1dcca23355272056f04fe8bf20edfce0
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/debian/changelog </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/debian/changelog
+SPDXID: SPDXRef-item93742
+FileChecksum: SHA1: 092962c99f2bd4e1eb800ec5b5b3010460e70b40
+FileChecksum: MD5: 4a864f2090023718ea462bd56c2db5a2
+LicenseConcluded: LGPL-2.1
+LicenseComments: <text>LC1 (https://www.validos.org/page/compliance-data-creation/); acl-2.2.52/debian/changelog </text>
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/chacl/chacl.c
+SPDXID: SPDXRef-item93606
+FileChecksum: SHA1: cb8f472f096d818104cf59a71bc73b302e1c534f
+FileChecksum: MD5: ea44083943064d5bec1af40e52996a7c
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/Makepkgs
+SPDXID: SPDXRef-item93608
+FileChecksum: SHA1: 5cda85606f8f6d1b350e24f5e3234183a8b10343
+FileChecksum: MD5: 14cc11164ce0acef777c2ffdd78e4ac0
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2001, 2002, 2003 Silicon Graphics, Inc. All rights reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/Makefile
+SPDXID: SPDXRef-item93566
+FileChecksum: SHA1: b0deb361df84e334ef5d0b31fad2e56ac81c9b32
+FileChecksum: MD5: 59ced7e31bb75828e43ce7b0221363cc
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2006 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/ltmain.sh
+SPDXID: SPDXRef-item93609
+FileChecksum: SHA1: 1951c7cc2365881ffa2322c9d2a594a1e1bb65a7
+FileChecksum: MD5: fddd00ca15b3cc3caa3b3f6d367a2daf
+LicenseConcluded: GPL-2.0+ AND Libtool-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+LicenseInfoInFile: Libtool-exception
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/exports
+SPDXID: SPDXRef-item93567
+FileChecksum: SHA1: 0e137add4204c7496c9a75e99f255d2ca46525af
+FileChecksum: MD5: 7b987546a636e551b57535f7251c450c
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2003 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/configure
+SPDXID: SPDXRef-item93607
+FileChecksum: SHA1: 69e4002d2302e3cba94daa2f5149ff8a71183792
+FileChecksum: MD5: 682a6a05f041da6565f3a59b8e98ee1c
+LicenseConcluded: FSFUL AND GPL-2.0+ AND Libtool-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: FSFUL
+FileCopyrightText: <text> Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
+Copyright (C) 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/config.sub
+SPDXID: SPDXRef-item93582
+FileChecksum: SHA1: 25901259dd48b5a7be00138c498ed65adb6a8f7a
+FileChecksum: MD5: 0b96c40308f509ba2c0e132c1d2e70e7
+LicenseConcluded: GPL-2.0+ AND LicenseRef-Autoconf-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/config.guess
+SPDXID: SPDXRef-item93734
+FileChecksum: SHA1: 5042b8cef1feb971984c89c08f439792a36904b1
+FileChecksum: MD5: c3178bdc1506f569388eaebec2026003
+LicenseConcluded: GPL-2.0+ AND LicenseRef-Autoconf-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+FileCopyrightText: <text> Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/aclocal.m4
+SPDXID: SPDXRef-item93705
+FileChecksum: SHA1: 9b12538e1dd2c2db5a3cc1cc8ebf665463602420
+FileChecksum: MD5: d06abb6a02513082e7a90cff4801b0b7
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 1996-2012 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/walk_tree.c
+SPDXID: SPDXRef-item93612
+FileChecksum: SHA1: 4395fed95b12f32d011eae6549345c6de696477f
+FileChecksum: MD5: b745f833f5626f1a29bbcfa650257b2a
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2007 Andreas Gruenbacher <a.gruenbacher@computer.org> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/unquote.c
+SPDXID: SPDXRef-item93613
+FileChecksum: SHA1: be7782365289de01e611b40784215071a219e50c
+FileChecksum: MD5: b78da9ef7b623dc0eaa68a1c29e2b1e9
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2003 Andreas Gruenbacher <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/quote.c
+SPDXID: SPDXRef-item93615
+FileChecksum: SHA1: 82d6d09886e1e06d82b751ae08f112629200795f
+FileChecksum: MD5: a2fd75b9076ff9fbdaf637216318cfb4
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2003 Andreas Gruenbacher <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/next_line.c
+SPDXID: SPDXRef-item93616
+FileChecksum: SHA1: 0194b806b07e339bbceaaffb7efa2d138c4da861
+FileChecksum: MD5: 43ba50550687f82a1503fdd430c9d929
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/Makefile
+SPDXID: SPDXRef-item93611
+FileChecksum: SHA1: a386fea1348852dcbb58ecb5181847f183fd8e44
+FileChecksum: MD5: 51e0ae8f1598317b1cb2515fe1bdda13
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000, 2002 Silicon Graphics, Inc. All Rights Reserved.
+Copyright (C) 2009 Andreas Gruenbacher <agruen@suse.de> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/libmisc/high_water_alloc.c
+SPDXID: SPDXRef-item93614
+FileChecksum: SHA1: b1894501618245c83d03dfc93078807a73f337e1
+FileChecksum: MD5: 1db862595b5bde3cd368c69bdaf398d7
+LicenseConcluded: LGPL-2.1+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LGPL-2.1+
+FileCopyrightText: <text> Copyright (C) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/visibility_hidden.m4
+SPDXID: SPDXRef-item93579
+FileChecksum: SHA1: 3fd12ae0c512e78fc680b9032b9c98a4c4826006
+FileChecksum: MD5: e56b5ea1d3907931c94180aed8085547
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2003, 2008 Silicon Graphics, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/package_utilies.m4
+SPDXID: SPDXRef-item93580
+FileChecksum: SHA1: e8084f36dcc819ce47926a0c9a2fd2142dfde8c2
+FileChecksum: MD5: 7633606eb4f6dbc4b90b90a4a8afceb5
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2003, 2004, 2005, 2006, 2007 Silicon Graphics, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/package_globals.m4
+SPDXID: SPDXRef-item93571
+FileChecksum: SHA1: 1beee304d619edcf11f139096fc07bc7303c97b5
+FileChecksum: MD5: be966a00728499de6cec0934194d29d1
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2003, 2005, 2006, 2007 Silicon Graphics, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/package_attrdev.m4
+SPDXID: SPDXRef-item93573
+FileChecksum: SHA1: fd71e80a2c0820588cbb4c97ade506817ce09280
+FileChecksum: MD5: 99c0fe2988adef33d63f0139ecc1ab7b
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2003, 2004, 2006, 2007 Silicon Graphics, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/multilib.m4
+SPDXID: SPDXRef-item93578
+FileChecksum: SHA1: 84e007e7e3680c53cec8f1bffb6630782094de39
+FileChecksum: MD5: 6ff30e4f341d9d84e7dd2e9baa3a5884
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 2001-2005 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/manual_format.m4
+SPDXID: SPDXRef-item93575
+FileChecksum: SHA1: d65940d2e2a6503de21b91d908a09abe7d22c448
+FileChecksum: MD5: 81878108146da710e37ebe5881e61970
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2003 Silicon Graphics, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/Makefile
+SPDXID: SPDXRef-item93569
+FileChecksum: SHA1: d1bced9ce0d19fb5be343c0298661a8324c4c01d
+FileChecksum: MD5: b9b1e239fe1702066f3147f70f3b7a02
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2003-2006 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/ltversion.m4
+SPDXID: SPDXRef-item93574
+FileChecksum: SHA1: 25c2435fa4cb5dc86ffad28bf9b1a6a14dd53a68
+FileChecksum: MD5: 91dd5e1355d100dbdab7d71244ed2625
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004 Free Software Foundation, Inc. Written by Scott James Remnant, 2004 </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/ltsugar.m4
+SPDXID: SPDXRef-item93577
+FileChecksum: SHA1: d6d1ea1fd251ced66ba87ceb6f9e3846124691c1
+FileChecksum: MD5: bc2f6032c98896249eadb56177c7d357
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007, 2008 Free Software Foundation, Inc. Written by Gary V. Vaughan, 2004 </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/ltoptions.m4
+SPDXID: SPDXRef-item93572
+FileChecksum: SHA1: 05ec66892c8b30f20aa5278e1671ae4925a9c063
+FileChecksum: MD5: 67d5ebceaac562ddf0dde4e5cdffbe09
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc. Written by Gary V. Vaughan, 2004 </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/lt~obsolete.m4
+SPDXID: SPDXRef-item93576
+FileChecksum: SHA1: c0c6afe569131b4015d221bc853053cf884b2699
+FileChecksum: MD5: 47d420a13f9ba4e171772c3e3eee3e63
+LicenseConcluded: FSFULLR
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: FSFULLR
+FileCopyrightText: <text> Copyright (C) 2004, 2005, 2007, 2009 Free Software Foundation, Inc. Written by Scott James Remnant, 2004. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/m4/libtool.m4
+SPDXID: SPDXRef-item93570
+FileChecksum: SHA1: 0b1aaba81de0a6c6dbbbba6b65b2aa5abe173419
+FileChecksum: MD5: bf759a4dc60545c2c1d0751c431cf545
+LicenseConcluded: FSFULLR AND GPL-2.0+ AND Libtool-exception
+LicenseComments: <text>NOASSERTION AND NOASSERTION AND NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+LicenseInfoInFile: LicenseRef-FSF
+LicenseInfoInFile: Libtool-exception
+LicenseInfoInFile: FSFUL
+LicenseInfoInFile: FSFULLR
+LicenseInfoInFile: LicenseRef-Autoconf-exception
+FileCopyrightText: <text> Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc. Written by Gordon Matzigkeit, 1996
+Copyright (C) 2011 Free Software Foundation, Inc. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man1/Makefile
+SPDXID: SPDXRef-item93679
+FileChecksum: SHA1: c988cdca77ed9f76370a341d2f8c037aa9dec723
+FileChecksum: MD5: 2438d4b6a7ab45897accb3252a5d399b
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man1/getfacl.1
+SPDXID: SPDXRef-item93682
+FileChecksum: SHA1: 713793ee1668ea2c211d9137f24f7a9275f97507
+FileChecksum: MD5: 967fc205e325a4154408e78af295f0cc
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2000 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man1/chacl.1
+SPDXID: SPDXRef-item93680
+FileChecksum: SHA1: afc475161b116b668ef7e545d7f54b409f222d09
+FileChecksum: MD5: 4f4186ed5932c70a2d9bc606b59c279d
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (C) 2001, 2002, 2004 Silicon Graphics, Inc. All rights reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_dup.3
+SPDXID: SPDXRef-item93639
+FileChecksum: SHA1: 149713823e95c0f693c57c7d48ff3a7d549b42cf
+FileChecksum: MD5: 3d71641ad313c4dee7d043debc468d3b
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_delete_perm.3
+SPDXID: SPDXRef-item93667
+FileChecksum: SHA1: 9aeb61fac42ef2ac3ea74316ca7d8095e54c82a3
+FileChecksum: MD5: 245384cd464fbc8924b8bff860e6c886
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_delete_entry.3
+SPDXID: SPDXRef-item93663
+FileChecksum: SHA1: bff762dbef2627bd5eda4e164d64381d1c51867a
+FileChecksum: MD5: 28e8488288f1e1acabcc20c83261dcca
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_delete_def_file.3
+SPDXID: SPDXRef-item93654
+FileChecksum: SHA1: 802ffcb35786e62aa181e528b5eb35a6c0fbb1c1
+FileChecksum: MD5: 218fd7c0b1dec59084b5d23bf75c941b
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_create_entry.3
+SPDXID: SPDXRef-item93674
+FileChecksum: SHA1: 85d78a4bbee1bba6366a9ce0b0bfd1c6ca4ace23
+FileChecksum: MD5: 474717685800a0435ad137ba76c48467
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_copy_int.3
+SPDXID: SPDXRef-item93650
+FileChecksum: SHA1: b54507dedbbf6b9830b346b5f1736fc46fc3e1c7
+FileChecksum: MD5: 1098314ee83244a3d0d5957f2a1e7f2f
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_copy_ext.3
+SPDXID: SPDXRef-item93642
+FileChecksum: SHA1: 26ed8ae70b7fed31d2c83ffdfcdd131f54b11514
+FileChecksum: MD5: 7b52425427b990a0b09e3bf9ab68a28e
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_copy_entry.3
+SPDXID: SPDXRef-item93665
+FileChecksum: SHA1: c4548cf053844ae41526de87763bfb4f6764b701
+FileChecksum: MD5: 311ec52b3a3a3996951dfb0d87f66372
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_cmp.3
+SPDXID: SPDXRef-item93673
+FileChecksum: SHA1: 263ce3fee87a80f81b1464a42c7e9f36dd3a6574
+FileChecksum: MD5: 30b7aa8f61e4bb78cd8743cbc57bc17b
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_clear_perms.3
+SPDXID: SPDXRef-item93648
+FileChecksum: SHA1: 63f78ee3003238b764504692b31b9ec23bc47083
+FileChecksum: MD5: bc93bc2f0e7de595b9222e5556276176
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_check.3
+SPDXID: SPDXRef-item93656
+FileChecksum: SHA1: 6a2f7e385e410b3d50a767c94a04946612e152f2
+FileChecksum: MD5: d5da61f8a27cea8cd4a29525a35838a1
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_calc_mask.3
+SPDXID: SPDXRef-item93653
+FileChecksum: SHA1: 5f09401505c29cf76ed800e61bc92aa6d5d556fa
+FileChecksum: MD5: 8c3331e174ea00664815f12fafea1d37
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/man/man3/acl_add_perm.3
+SPDXID: SPDXRef-item93641
+FileChecksum: SHA1: 2a6f93f0e16ec8e128b28c091c6971e4a7c3c222
+FileChecksum: MD5: 8e0e0d50e04592398f6a3e2f7bc4fe64
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> (C) 2002 Andreas Gruenbacher, <a.gruenbacher@bestbits.at> </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/test/Makefile
+SPDXID: SPDXRef-item93584
+FileChecksum: SHA1: d0fd290b2d2b85aba20b9f2ec7c8c5f94993542e
+FileChecksum: MD5: 8e1bf2e5e518d0dd9ceef6f1b1510171
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2001-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/chacl/Makefile
+SPDXID: SPDXRef-item93605
+FileChecksum: SHA1: d7f8fb9cca0dbfd4b21a294db1978d3525d22b8d
+FileChecksum: MD5: 5b464107d8eb54508f15375e347628f1
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2002 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/install-sh
+SPDXID: SPDXRef-item93581
+FileChecksum: SHA1: 03c3ec90ef97f349f025afcf7567c4d5fae451b6
+FileChecksum: MD5: c6838abf7e4d3e8c9fadb24ee8021e05
+LicenseConcluded: GPL-2.0+
+LicenseComments: <text>NOASSERTION </text>
+LicenseInfoInFile: GPL-2.0+
+FileCopyrightText: <text> Copyright (c) 2000-2001 Silicon Graphics, Inc. All Rights Reserved. </text>
+ 
+
+##File
+
+FileName: acl-2.2.52/test/malformed-restore-double-owner.acl
+SPDXID: SPDXRef-item93585
+FileChecksum: SHA1: c2b2038bfedbe98aed5d6b015d07b313c5c39902
+FileChecksum: MD5: a49d479a6413901a941e23cc8f45b925
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/nfs/nfsacl.test
+SPDXID: SPDXRef-item93587
+FileChecksum: SHA1: 1d18d2565274cf6a06f603cfde1823e376e8579e
+FileChecksum: MD5: 28291fb47323da13ed996423a0a435f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/nfs/nfs-dir.test
+SPDXID: SPDXRef-item93588
+FileChecksum: SHA1: f98ed40abc8a0cc4b9bbf0823cac7feb44a20684
+FileChecksum: MD5: 4bd4a5aa14c92a74f19047bcdcf2b597
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/misc.test
+SPDXID: SPDXRef-item93589
+FileChecksum: SHA1: 6324e22de7212fe34b0d23febc00725a2a45a468
+FileChecksum: MD5: d54cffa215965c0862b76db1668e8c64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/setfacl-X.test
+SPDXID: SPDXRef-item93590
+FileChecksum: SHA1: 8ea8fe2a191cd09f815867ee7ce4fa04ac673741
+FileChecksum: MD5: d801ba9c50ccd3c604f1041172582e03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/make-tree
+SPDXID: SPDXRef-item93591
+FileChecksum: SHA1: f5c3cdcf0e9da58c897448d29f507ee87619bb77
+FileChecksum: MD5: 6cbee4b30a0a764e230085168afcbc77
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/sbits-restore.test
+SPDXID: SPDXRef-item93592
+FileChecksum: SHA1: eb711d52f5804cf548e7cdc688864dc7719c19d2
+FileChecksum: MD5: 2db317fc13a3284278ca776b74da015c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/root/restore.test
+SPDXID: SPDXRef-item93594
+FileChecksum: SHA1: 582eae61d257cc3bc9d25984438563853ae97619
+FileChecksum: MD5: 470cbd3d12914a2aea62c400a461ce5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/root/setfacl.test
+SPDXID: SPDXRef-item93595
+FileChecksum: SHA1: 7793fd3f86000f35faaea5c2eefc0e9f8d731956
+FileChecksum: MD5: 47160ab7d0522c021a953296e73e49ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/root/permissions.test
+SPDXID: SPDXRef-item93596
+FileChecksum: SHA1: 4fc0ddb5b3a8d3cec31fcaffa9ecdf864f0b035a
+FileChecksum: MD5: bf229ecfbf3c27d01668548cc8b383d6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/utf8-filenames.test
+SPDXID: SPDXRef-item93597
+FileChecksum: SHA1: 535b5690d474d589527e6970e0be0bb518c2c9f0
+FileChecksum: MD5: 6a0f41a98e44c5633cf218c4135b2016
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/getfacl-recursive.test
+SPDXID: SPDXRef-item93599
+FileChecksum: SHA1: 9f25127259da686d70c361107603f69b0bed7f5d
+FileChecksum: MD5: e9d3ed2774efe802e43f25e9924aa494
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/malformed-restore.test
+SPDXID: SPDXRef-item93600
+FileChecksum: SHA1: fcbf7a874e7121ebcf1d90b9218470084f0bb660
+FileChecksum: MD5: 8360cd74b0f7bb05e201e3310dfbcf11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/cp.test
+SPDXID: SPDXRef-item93601
+FileChecksum: SHA1: de4932d9eeabe82065ff116b70b5d9a314c0391b
+FileChecksum: MD5: 83b3e8e21d136ec5245aed09844fbc99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/getfacl-noacl.test
+SPDXID: SPDXRef-item93602
+FileChecksum: SHA1: b09bb50fa25616a67524493a2fdb74da4e8f163a
+FileChecksum: MD5: c390cd20187b23ab5606654a8010b765
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/test/sort-getfacl-output
+SPDXID: SPDXRef-item93603
+FileChecksum: SHA1: 7bcd46cfe3cefd4831b6496942f105ff7135405a
+FileChecksum: MD5: a1ef02a9aab833a9d56e5674c9eb8fdf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+##File
+
+FileName: acl-2.2.52/doc/TODO
+SPDXID: SPDXRef-item93725
+FileChecksum: SHA1: c49730bff2cc5505140f9fb6a72b906827a35f7e
+FileChecksum: MD5: 067c071772cc0d953b6905fbc8e4c6b4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+ 
+
+
+
+##-------------------------
+## License Information
+##-------------------------
+
+LicenseID: LicenseRef-Autoconf-exception
+LicenseName: Autoconf-exception
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-Same-license-as
+LicenseName: Same-license-as
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-See-file.README
+LicenseName: See-file.README
+ExtractedText: <text> License by Nomos. </text>
+
+LicenseID: LicenseRef-No_license_found
+LicenseName: No_license_found
+ExtractedText: <text> Not find any license in the scanned file </text>
+
+LicenseID: LicenseRef-Dual-license
+LicenseName: Dual-license
+ExtractedText: <text> Multi-licensing is the practice of distributing software under two or more different sets of terms and conditions. This may mean multiple different software licenses or sets of licenses. Prefixes may be used to indicate the number of licenses used, e.g. dual-licensed for software licensed under two different licenses.
+When software is multi-licensed, recipients can choose which terms under which they want to use or distribute the software. The distributor may or may not apply a fee to either option. The two usual motivations for multi-licensing are license compatibility and market segregation based business models. </text>
+
+LicenseID: LicenseRef-UnclassifiedLicense
+LicenseName: UnclassifiedLicense
+ExtractedText: <text> An unclassified license reference looks like a license (it contains common license terminology) but we don't recognize a specific license. </text>
+
+LicenseID: LicenseRef-BSD-style
+LicenseName: BSD-style
+ExtractedText: <text> According to BSD license, add some modifications </text>
+
+LicenseID: LicenseRef-FSF
+LicenseName: Free Software Foundation
+ExtractedText: <text> Copyright (C) 2003, 2006-2007 Free Software Foundation, Inc.
+This file is free software; the Free Software Foundation
+gives unlimited permission to copy and/or distribute it,
+with or without modifications, as long as this notice is preserved. </text>
+
+LicenseID: LicenseRef-GPL
+LicenseName: GNU General Public License
+ExtractedText: <text> GPL is referenced without a version number. Please look up GPL in the License Admin to view the different versions. </text>
+
