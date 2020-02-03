@@ -84,4 +84,14 @@ An example of the output format can be found below.
 
 ### Extracting file level data from Fossology via REST query
 
-Extracting file level licencing data from Fossology is not currently possible by hash values.
+Extracting file level licencing data from Fossology is not currently possible by hash values. Solution to this is to either develop Fossology's REST API, or to develop a third party API by querying the Fossology database.
+
+### Processing license information
+
+The license information of files should then be evaluated against machine readable open source policy. One option for the evaluation is to utilize the [Evaluator](https://github.com/heremaps/oss-review-toolkit#evaluator) of the [OSS Review Toolkit](https://github.com/heremaps/oss-review-toolkit).
+
+Using the ORT Evaluator presents two problems:
+
+1. The documentation of the Evaluator is sparse, especially on writing custom rules;
+2. The Evaluator expects ORT Scanner output as input. If using different tooling for license conclusions (e.g. Fossology), it's output has to be converted to the correct format.
+
