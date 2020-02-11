@@ -27,6 +27,7 @@ Srclist file includes a list of all [ELF files](https://en.wikipedia.org/wiki/Ex
 Filelics file includes a list of the SPDX headers found for each file that includes SPDX headers. The license lists in filelics files could be used as is, but for this feasibility study we've decided to use Fossology as a source for all license conclusions. Fossology's OJO scanner should provide us with the same information as filelics files, so we've decided to use Fossology for the sake of simplicity.
 
 ##### acl.srclist
+
 ```json
 {
     "/home/yocto/poky/build/tmp/work/core2-64-poky-linux/acl/2.2.52-r0/package/lib/libacl.so.1.1.0": [
@@ -96,4 +97,3 @@ Using the ORT Evaluator presents two problems:
 
 1. The documentation of the Evaluator is sparse, especially on writing custom rules;
 2. The Evaluator expects ORT Scanner output as input. If using different tooling for license conclusions (e.g. Fossology), it's output has to be converted to the correct format.
-
