@@ -24,6 +24,8 @@ Dwarfsrcfiles can be included in the build process by patching package.bbclass r
 
 Srclist file includes a list of all [ELF files](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) of the package in question and all source files for each ELF file, as determined by dwarfsrcfiles.
 
+Filelics file includes a list of the SPDX headers found for each file that includes SPDX headers. The license lists in filelics files could be used as is, but for this feasibility study we've decided to use Fossology as a source for all license conclusions. Fossology's OJO scanner should provide us with the same information as filelics files, so we've decided to use Fossology for the sake of simplicity.
+
 ##### acl.srclist
 ```json
 {
