@@ -12,21 +12,21 @@ An organization may freely create and name different contexts, which enables it 
 
 Contexts are specified, i.e. named and listed, in a universal policy document. To associate an individual codebase/deliverable with its relevant context, the relevant context is given in a repository-level document.
 
-### License whitelists
+### License allowlists
 
-License whitelists are lists of SPDX license expressions for licenses that upon discovery in license analysis, will not create a _rule violation_ and an ensuing error, warning or similar. License whitelists can but do not have to be context-specific, i.e. there can be whitelists applicable only to one or more contexts.
+License allowlists are lists of SPDX license expressions for licenses that upon discovery in license analysis, will not create a _rule violation_ and an ensuing error, warning or similar. License allowlists can but do not have to be context-specific, i.e. there can be allowlists applicable only to one or more contexts.
 
-Whitelists can be overridden on the repository level on a licence-by-license basis.
+allowlists can be overridden on the repository level on a licence-by-license basis.
 
-### License blacklists
+### License denylists
 
-License blaclists are lists of SPDX license expressions for licenses that upon discovery in license analysis, _will_ create an error, warning or similar. While the use of _whitelists_ should be encouraged as the basis of any policy element setup, blacklists may have their place when, for example, certain rule violations need to be emphasized or otherwise treated differently. For example, where a license whitelist violation may be defined to create a mere warning, a blacklist violation can be defined to create an error that immediately fails the build in a continuous integration context.
+License blaclists are lists of SPDX license expressions for licenses that upon discovery in license analysis, _will_ create an error, warning or similar. While the use of _allowlists_ should be encouraged as the basis of any policy element setup, denylists may have their place when, for example, certain rule violations need to be emphasized or otherwise treated differently. For example, where a license allowlist violation may be defined to create a mere warning, a denylist violation can be defined to create an error that immediately fails the build in a continuous integration context.
 
-Blacklists can be overridden on the repository level on a licence-by-license basis.
+denylists can be overridden on the repository level on a licence-by-license basis.
 
 ### Rule violation triggers
 
-Violations of license whitelists and blacklists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a whitelist and/or blacklist basis (i.e. applying the override to all whitelists and/or blacklists).
+Violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists).
 
 ## Repository-level policy elements
 
@@ -42,13 +42,13 @@ Files and file paths can be excluded from policy violation analysis by specifyin
 
 The concluded license information can be overridden for specified files or filepaths (specified as globs). A reason for this must also be supplied.
 
-### Whitelist / blacklist override
+### allowlist / denylist override
 
-Universally set whitelists and blacklists can be overridden on the repository level on a licence-by-license basis.
+Universally set allowlists and denylists can be overridden on the repository level on a licence-by-license basis.
 
 ### Rule violation trigger override
 
-In universal config, violations of license whitelists and blacklists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a whitelist and/or blacklist basis (i.e. applying the override to all whitelists and/or blacklists).
+In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists).
 
 ## Examples
 
@@ -59,16 +59,16 @@ contexts:
   - "service provision"
   - "distributed software"
   - "consumer device"
-whitelists:
-  - whitelisted:
+allowlists:
+  - allowlisted:
       - "Apache-2.0"
       - "BSD-3-Clause"
       - "GPL-2.0-only"
       - "..."
     trigger: "warning"
-blacklists:
+denylists:
   - context: "consumer device"
-    blacklisted:
+    denylisted:
       - "GPL-3.0-only"
       - "GPL-3.0-or-later"
       - "LGPL-3.0-only"
@@ -84,7 +84,7 @@ blacklists:
 ```yaml
 context: "consumer device"
 trigger_override:
-  scope: "whitelists"
+  scope: "allowlists"
   trigger: "error"
 excludes:
   - path: "test-utils/**"
