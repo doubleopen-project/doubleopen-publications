@@ -46,7 +46,7 @@ The concluded license information can be overridden for specified files or filep
 
 Universally set allowlists and denylists can be overridden on the repository level on a licence-by-license basis.
 
-### Rule violation trigger override
+### Rule violation emission override
 
 In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists).
 
@@ -56,18 +56,33 @@ In universal config, violations of license allowlists and denylists can be indiv
 
 ```yaml
 contexts:
-  - "service provision"
-  - "distributed software"
+  - "saas"
+  - "consumer software"
+  - "non-consumer software
   - "consumer device"
+  - "non-consumer device"
 allowlists:
   - allowlisted:
+      - "MIT"
+      - "ISC"
       - "Apache-2.0"
+      - "Apache-1.1"
       - "BSD-3-Clause"
-      - "GPL-2.0-only"
+      - "BSD-2-Clause"
+      - "BSD-1-Clause"
+      - "BSD-3-Clause-Clear"
+      - "BSD-4-Clause-UC"
+      - "0BSD"
+      - "BSL-1.0"
+      - "FSFAP"
+      - "FSFUL"
+      - "FSFULLR"
       - "..."
-    trigger: "warning"
+    emit: "warning"
 denylists:
-  - context: "consumer device"
+  - context:
+      -"consumer device"
+      -"consumer software"
     denylisted:
       - "GPL-3.0-only"
       - "GPL-3.0-or-later"
@@ -76,17 +91,35 @@ denylists:
       - "AGPL-3.0-only"
       - "AGPL-3.0-or-later"
       - "..."
-    trigger: "error"
+    emit: "error"
+global_excludes:
+  - path: "LICENSE*"
+  - path: "LICENSES/*"
+  - path: "license*"
+  - path: "licenses/*"
 ```
 
 ### Repository policy config
 
 ```yaml
-context: "consumer device"
-trigger_override:
-  scope: "allowlists"
-  trigger: "error"
-excludes:
-  - path: "test-utils/**"
-    reason: "Only used for testing. Not included in released artifacts in the context of this project."
+global:
+  excludes:
+    - path: "test-utils/**"
+      reason: "Only used for testing. Not included in released artifacts."
+    - path: "package-lock.json"
+      reason: "Auto-generated file"
+artifacts:
+  - name: "Software X"
+    context: "non-consumer software"
+    allowlisted:
+      - "GPL-2.0-only"
+      - "GPL-2.0-or-later"
+      - "GPL-2.0-with-bison-exception"
+      - "GPL-2.0-with-autoconf-exception"
+    emit_override:
+      scope: "allowlists"
+      emit: "error"
+    excludes:
+      - path: "plugins/**"
+        reason: "Not included in released artifact"
 ```
