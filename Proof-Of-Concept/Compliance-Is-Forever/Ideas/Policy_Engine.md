@@ -10,45 +10,41 @@ In the context of the PoC, policy elements can be both **repository-based** and 
 
 An organization may freely create and name different contexts, which enables it to apply different rulesets and exceptions to different use contexts. For example, an organization may want to differentiate rules based on contexts such as `distribution of code on device` and `provision of service over network` etc.
 
-Contexts are specified, i.e. named and listed, in a universal policy document. To associate an individual codebase/deliverable with its relevant context, the relevant context is given in a repository-level document.
+Contexts are specified, i.e. named and listed, in a universal policy document in YAML. To associate an individual codebase/deliverable with its relevant context, the relevant context is specified in a repository-level document for each defined application.
 
 ### License allowlists
 
-License allowlists are lists of SPDX license expressions for licenses that upon discovery in license analysis, will not create a _rule violation_ and an ensuing error, warning or similar. License allowlists can but do not have to be context-specific, i.e. there can be allowlists applicable only to one or more contexts.
+License allowlists are lists of SPDX license expressions for licenses that upon discovery in license analysis, will not create a _rule violation_ and an ensuing error or warning. License allowlists can but do not have to be context-specific, i.e. there can be allowlists applicable only to one or more contexts.
 
-allowlists can be overridden on the repository level on a licence-by-license basis.
+Allowlists can be overridden on the repository level on a licence-by-license basis per application.
 
 ### License denylists
 
-License blaclists are lists of SPDX license expressions for licenses that upon discovery in license analysis, _will_ create an error, warning or similar. While the use of _allowlists_ should be encouraged as the basis of any policy element setup, denylists may have their place when, for example, certain rule violations need to be emphasized or otherwise treated differently. For example, where a license allowlist violation may be defined to create a mere warning, a denylist violation can be defined to create an error that immediately fails the build in a continuous integration context.
+License denylists are lists of SPDX license expressions for licenses that upon discovery in license analysis, _will_ create an error or warning. While the use of _allowlists_ should be encouraged as the basis of any policy element setup, denylists may have their place when, for example, certain rule violations need to be emphasized or otherwise treated differently. For example, where a license allowlist violation may be defined to create a mere warning, a denylist violation can be defined to create an error that immediately fails the build in a continuous integration context.
 
-denylists can be overridden on the repository level on a licence-by-license basis.
+Denylists can be overridden on the repository level on a licence-by-license basis per application.
 
 ### Rule violation triggers
 
-Violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists).
+Violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists) per application.
 
 ## Repository-level policy elements
 
 ### Context choice
 
-The context relevant for the repository can be specified in the repository level config document.
+The context relevant for each defined application can be specified in the repository level config document.
 
 ### Excluded files and paths
 
-Files and file paths can be excluded from policy violation analysis by specifying them with globs and also supplying a reason for doing so (e.g. "Files only used for testing and not included in released artifacts in the context of this project.").
+Files and file paths can be excluded from policy violation analysis by specifying them with globs and also supplying a reason for doing so (e.g. "Files only used for testing and not included in released applications in the context of this project.").
 
 ### Supplementary license information
 
 The concluded license information can be overridden for specified files or filepaths (specified as globs). A reason for this must also be supplied.
 
-### allowlist / denylist override
-
-Universally set allowlists and denylists can be overridden on the repository level on a licence-by-license basis.
-
 ### Rule violation emission override
 
-In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists).
+In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists) per application.
 
 ## Examples
 
@@ -105,11 +101,11 @@ global_excludes:
 global:
   excludes:
     - path: "test-utils/**"
-      reason: "Only used for testing. Not included in released artifacts."
+      reason: "Only used for testing. Not included in released applications."
     - path: "package-lock.json"
       reason: "Auto-generated file"
-artifacts:
-  - name: "Software X"
+applications:
+  - name: "Alpha"
     context: "non-consumer software"
     allowlisted:
       - "GPL-2.0-only"
@@ -121,5 +117,15 @@ artifacts:
         emit: "error"
     excludes:
       - path: "plugins/**"
-        reason: "Not included in released artifact"
+        reason: "Not included in released application"
+  - name: "Beta"
+    context: "non-consumer device"
+    allowlisted:
+      - "GPL-2.0-only"
+      - "GPL-2.0-or-later"
+      - "GPL-2.0-with-bison-exception"
+      - "GPL-2.0-with-autoconf-exception"
+    excludes:
+      - path: ["plugins/**", "!plugins/boom/**"]
+      - reason: "Not included in released application"
 ```
