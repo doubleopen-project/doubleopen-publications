@@ -117,8 +117,8 @@ artifacts:
       - "GPL-2.0-with-bison-exception"
       - "GPL-2.0-with-autoconf-exception"
     emit_override:
-      scope: "allowlists"
-      emit: "error"
+      - scope: "allowlists"
+        emit: "error"
     excludes:
       - path: "plugins/**"
         reason: "Not included in released artifact"
