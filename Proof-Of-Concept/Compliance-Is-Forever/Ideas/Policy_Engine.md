@@ -16,13 +16,13 @@ Contexts are specified, i.e. named and listed, in a universal policy document in
 
 License allowlists are lists of SPDX license expressions for licenses that upon discovery in license analysis, will not create a _rule violation_ and an ensuing error or warning. License allowlists can but do not have to be context-specific, i.e. there can be allowlists applicable only to one or more contexts.
 
-Allowlists can be overridden on the repository level on a licence-by-license basis per application.
+Allowlists can be amended on the repository level on a licence-by-license basis per application.
 
 ### License denylists
 
 License denylists are lists of SPDX license expressions for licenses that upon discovery in license analysis, _will_ create an error or warning. While the use of _allowlists_ should be encouraged as the basis of any policy element setup, denylists may have their place when, for example, certain rule violations need to be emphasized or otherwise treated differently. For example, where a license allowlist violation may be defined to create a mere warning, a denylist violation can be defined to create an error that immediately fails the build in a continuous integration context.
 
-Denylists can be overridden on the repository level on a licence-by-license basis per application.
+Denylists can be amended on the repository level on a licence-by-license basis per application.
 
 ### Rule violation triggers
 
@@ -44,39 +44,54 @@ The concluded license information can be overridden for specified files or filep
 
 ### Rule violation emission override
 
-In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on a allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists) per application.
+In universal config, violations of license allowlists and denylists can be individually set to either merely output warnings or exit with an error code. This behavior can be overridden on the repository level on an allowlist and/or denylist basis (i.e. applying the override to all allowlists and/or denylists) per application.
 
 ## Examples
+
+In the following examples, we see examples for global and repository-level configurations. On the repository level, we can see that two non-consumer applications are built from the code in the repository, one for software-only distribution and one for distribution on device.
 
 ### Universal policy config
 
 ```yaml
+# Definition of contexts available for repo-level conf
 contexts:
   - "saas"
   - "consumer software"
-  - "non-consumer software
+  - "non-consumer software"
   - "consumer device"
   - "non-consumer device"
+# More expressions can be added to allow/denylists on repo-level
 allowlists:
-  - allowlisted:
-      - "MIT"
-      - "ISC"
-      - "Apache-2.0"
+  - allowlisted: # List of allowed SPDX expressions (global context by default)
+      - "0BSD"
       - "Apache-1.1"
-      - "BSD-3-Clause"
-      - "BSD-2-Clause"
+      - "Apache-2.0"
       - "BSD-1-Clause"
+      - "BSD-2-Clause"
+      - "BSD-3-Clause"
       - "BSD-3-Clause-Clear"
       - "BSD-4-Clause-UC"
-      - "0BSD"
+      - "BSD-Source-Code"
       - "BSL-1.0"
       - "FSFAP"
       - "FSFUL"
       - "FSFULLR"
+      - "GPL-2.0-only"
+      - "GPL-2.0-or-later"
+      - "GPL-3.0-only"
+      - "GPL-3.0-or-later"
+      - "ISC"
+      - "LGPL-2.0-only"
+      - "LGPL-2.0-or-later"
+      - "LGPL-2.1-only"
+      - "LGPL-2.1-or-later"
+      - "LGPL-3.0-only"
+      - "LGPL-3.0-or-later"
+      - "MIT"
       - "..."
-    emit: "warning"
-denylists:
-  - context:
+    emit: "warning" # Warning or error
+denylists: # List of rejected SPDX expressions
+  - context: # Applied only in defined contexts
       -"consumer device"
       -"consumer software"
     denylisted:
@@ -88,36 +103,33 @@ denylists:
       - "AGPL-3.0-or-later"
       - "..."
     emit: "error"
-global_excludes:
+global_exclude: # Files excluded from review globally
   - path: "LICENSE*"
-  - path: "LICENSES/*"
-  - path: "license*"
-  - path: "licenses/*"
 ```
 
 ### Repository policy config
 
 ```yaml
-global:
-  excludes:
+global: # Applied for any application
+  exclude:
     - path: "test-utils/**"
       reason: "Only used for testing. Not included in released applications."
-    - path: "package-lock.json"
-      reason: "Auto-generated file"
-applications:
+applications: # Application-level conf
   - name: "Alpha"
-    context: "non-consumer software"
-    allowlisted:
+    context: "non-consumer software" # Selected context
+    allowlisted: # Expressions *added* to global allowlist
       - "GPL-2.0-only"
       - "GPL-2.0-or-later"
       - "GPL-2.0-with-bison-exception"
       - "GPL-2.0-with-autoconf-exception"
-    emit_override:
-      - scope: "allowlists"
+    emit_override: # Override global emit option
+      - scope: "allowlisted" # allowlisted or denylisted
         emit: "error"
-    excludes:
-      - path: "plugins/**"
+    exclude:
+      - path: ["plugins/**", "!plugins/alpha/**"] # Exclude folder except for one subfolder
         reason: "Not included in released application"
+      - path: "LICENSES/*"
+        reason: "License files"
   - name: "Beta"
     context: "non-consumer device"
     allowlisted:
@@ -125,7 +137,10 @@ applications:
       - "GPL-2.0-or-later"
       - "GPL-2.0-with-bison-exception"
       - "GPL-2.0-with-autoconf-exception"
-    excludes:
-      - path: ["plugins/**", "!plugins/boom/**"]
-      - reason: "Not included in released application"
+    include_only: # Review only specified files/folders
+      - path: "beta/**"
+      - path: "beta_plugins/**"
+    exclude:
+      - path: "beta/tests"
+        reason: "Only used for testing. Not included in released application"
 ```
