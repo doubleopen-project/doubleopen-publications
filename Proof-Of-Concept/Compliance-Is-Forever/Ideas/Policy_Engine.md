@@ -48,7 +48,7 @@ In universal config, violations of license allowlists and denylists can be indiv
 
 ## Examples
 
-In the following examples, we see examples for global and repository-level configurations. On the repository level, we can see that two non-consumer applications are built from the code in the repository, one for software-only distribution and one for distribution on device.
+Below you can see examples for global and repository-level configurations. On the repository level, you can see that two non-consumer applications are built from the code in the repository, one for software-only distribution and one for distribution on device.
 
 ### Universal policy config
 
